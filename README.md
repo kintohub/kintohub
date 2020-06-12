@@ -1,17 +1,33 @@
-# KintoHub Docs
+# Website
 
-Welcome to KintoHub's official documentation repository.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-## Setup
+### Installation
 
-1) Download this repository
-2) Go into the website folder using `cd /website`
-3) Run `npm install && npm start` to install and run the server
+```
+$ yarn
+```
 
-A window will open up and refresh when any changes to the code have been made
+### Local Development
 
-## Contribution 
+```
+$ yarn start
+```
 
-Feel free to contribute to the documentation by forking this repository and making any changes.
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-If you plan to make a substantial amount of changes and are not sure if they would be accepted, please contact us in [Discord Support](https://discord.com/invite/jqDHRxD) to discuss!
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
