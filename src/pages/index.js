@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>All Docs</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -18,7 +18,7 @@ const features = [
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Examples</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -28,7 +28,7 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Discord Support</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -71,7 +71,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('getting-started/introduction')}>
               Get Started
             </Link>
           </div>

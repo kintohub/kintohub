@@ -39,6 +39,11 @@ module.exports = {
           label: 'Need help?',
           to: 'https://www.kintohub.com/contact-us',
           position: 'right'
+        },
+          {
+          label: 'Signup/Signin',
+          to: 'https://beta.kintohub.com/sign-up',
+          position: 'right'
         }
       ]
     },
@@ -72,16 +77,44 @@ module.exports = {
             {
               label: 'Discord Community',
               href: 'https://discordapp.com/invite/E2CMjKP'
+            },
+              {
+              label: 'Roadmap',
+              href: '#'
+            },
+              {
+              label: 'Request Features',
+              href: '#'
+            },
+              {
+              label: 'Report a Bug',
+              href: '#'
             }
           ]
         },
         {
-          title: 'More',
+          title: 'Connect',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/kintohub/'
             },
+              {
+              label: 'Twitter',
+              href: '#'
+            },
+              {
+              label: 'Facebook',
+              href: '#'
+            },
+              {
+              label: 'YouTube',
+              href: '#'
+            },
+              {
+              label: 'LinkedIn',
+              href: '#'
+            }
           ]
         }
       ],
