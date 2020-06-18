@@ -1,6 +1,6 @@
 ---
-id: getting-started
-title: Getting Started
+id: quick-example-flow
+title: Quick Example Flow
 
 ---
 
