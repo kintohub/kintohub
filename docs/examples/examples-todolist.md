@@ -1,6 +1,7 @@
 ---
-id: website
-title: Static Website
+id: todolist
+title: TODO List
+sidebar_label: TODO List
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

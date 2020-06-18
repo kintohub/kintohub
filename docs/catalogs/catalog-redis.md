@@ -1,6 +1,6 @@
 ---
-id: website
-title: Static Website
+id: redis
+title: Redis
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

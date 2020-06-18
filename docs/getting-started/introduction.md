@@ -1,6 +1,7 @@
 ---
-id: website
-title: Static Website
+id: introduction
+title: Introduction
+
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
