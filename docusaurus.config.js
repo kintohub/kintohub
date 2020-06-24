@@ -12,7 +12,7 @@ module.exports = {
       theme: require('./src/js/monokaiTheme.js')
     },
     navbar: {
-      title: 'KintoHub',
+      title: 'KintoHub Docs',
       image: 'img/redux-logo-landscape.png',
       logo: {
         alt: 'Kinto Logo',
@@ -21,28 +21,28 @@ module.exports = {
       links: [
         {
           label: 'Getting Started',
-          to: 'mdx',
+          to: 'getting-started/introduction',
           position: 'right'
         },
         {
-          label: 'Docs',
-          to: 'doc1',
+          label: 'Anatomy',
+          to: 'anatomy/environment',
           position: 'right'
         },
         {
-          label: 'Quickstarts',
-          to: 'doc2',
+          label: 'Examples',
+          to: 'examples/todolist',
           position: 'right'
         },
-        {
-          label: 'Guides',
-          to: 'doc2',
-          position: 'right'
-        },
-        { label: 'FAQ', to: 'faq', position: 'right' },
+        { label: 'FAQ', to: 'getting-started/faq', position: 'right' },
         {
           label: 'Need help?',
           to: 'https://www.kintohub.com/contact-us',
+          position: 'right'
+        },
+          {
+          label: 'Signup/Signin',
+          to: 'https://beta.kintohub.com/sign-up',
           position: 'right'
         }
       ]
@@ -51,19 +51,23 @@ module.exports = {
       style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'KintoHub',
           items: [
             {
-              label: 'Guides',
-              to: 'introduction/getting-started'
+              label: 'Sign In / Sign Up',
+              to: 'https://beta.kintohub.com/sign-up'
+            },
+              {
+              label: 'Pricing',
+              to: 'https://www.kintohub.com/pricing'
             },
             {
               label: 'FAQ',
-              to: 'faq'
+              to: 'getting-started/faq'
             },
             {
-              label: 'Video Tutorials',
-              to: 'https://www.youtube.com/channel/UCpJJc0zcfzdHPw64BSP3GyQ'
+              label: 'Contact Us',
+              to: 'https://www.kintohub.com/contact-us'
             }
           ]
         },
@@ -73,16 +77,44 @@ module.exports = {
             {
               label: 'Discord Community',
               href: 'https://discordapp.com/invite/E2CMjKP'
+            },
+              {
+              label: 'Roadmap',
+              href: '#'
+            },
+              {
+              label: 'Request Features',
+              href: '#'
+            },
+              {
+              label: 'Report a Bug',
+              href: '#'
             }
           ]
         },
         {
-          title: 'More',
+          title: 'Connect',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/kintohub/'
             },
+              {
+              label: 'Twitter',
+              href: '#'
+            },
+              {
+              label: 'Facebook',
+              href: '#'
+            },
+              {
+              label: 'YouTube',
+              href: '#'
+            },
+              {
+              label: 'LinkedIn',
+              href: '#'
+            }
           ]
         }
       ],
