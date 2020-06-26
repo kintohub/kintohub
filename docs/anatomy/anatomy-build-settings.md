@@ -3,12 +3,99 @@ id: build-settings
 title: Build Settings
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Overview
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Build Settings allow you to customize the steps and configuration of your service.
+Each **service type** has unique set of build settings.
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+Catalog based services do not have any Build Settings.
+To read more about configuring a Catalog, click the specific Catalog service of interest in the side bar on the left.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+## Build Settings Tab
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+Build settings can be found on new, live and historically deployed services.
+
+### New Service Build Settings
+
+1. Login to KintoHub
+2. Click on `Create Service` at the top right
+3. Enter in your repository information
+4. By default, you will be placed on the **Build Settings** tab.
+
+### Editing Live Service Build Settings
+
+1. Login to KintoHub
+2. Choose your environment you are interested in editing at the top left.
+3. Choose the service from the services list you are interested in editing.
+4. Click `Edit Service` at the top right.
+5. By default, you will be placed on the **Build Settings** tab
+
+### Viewing Historical Build Settings
+
+1. Login to KintoHub
+2. Choose your environment you are interested in editing at the top left.
+3. Choose the service from the services list you are interested in editing.
+4. Click on the `Releases` tab
+5. Click the `...` on the right of the row to the specific release you are interested in viewing
+6. Click **Edit Release** from the dropdown menu.
+7. By default,you will be placed on the **Build Settings** tab
+
+## General Build Settings
+
+* **Language** - A managed or custom runtime for your application
+    * **Dockerfile** - Allows you to specify a custom docker file be it multi-stage or single-stage.
+        * **Dockerfile Name** - the name of your dockerfile in your repository *(defaults to Dockerfile)*
+    * **Ruby** - Managed ruby environment 
+        * **Language Version** the version of ruby you want to use
+        * **BuildCommand** Build commands is ran during `Deploy` to compile your application into an app
+        * **Start Command** Is the command that starts your application during the last stage of `Deploy`
+    * **Python** - Managed python environment 
+        * **Language Version** the version of python you want to use
+        * **BuildCommand** Build commands is ran during `Deploy` to compile your application into an app
+        * **Start Command** Is the command that starts your application during the last stage of `Deploy`
+    * **PHP** - Managed PHP environment 
+        * **Language Version** the version of PHP you want to use
+        * **BuildCommand** Build commands is ran during `Deploy` to compile your application into an app
+        * **Start Command** Is the command that starts your application during the last stage of `Deploy`
+    * **Java** - Managed PHP environment 
+        * **Language Version** the version of Java you want to use
+        * **BuildCommand** Build commands is ran during `Deploy` to compile your application into an app
+        * **Start Command** Is the command that starts your application during the last stage of `Deploy`
+    * **NodeJS** - Managed Node environment 
+        * **Language Version** the version of Node you want to use
+        * **BuildCommand** Build commands is ran during `Deploy` to compile your application into an app
+        * **Start Command** Is the command that starts your application during the last stage of `Deploy`
+* **Subfolder Path** - Specify a specific subfolder you wish to use for your service. 
+    * Defaults to `.` 
+    * Example specific folder to use: `./backend-api`.
+    
+:::tip
+* You can run multiple build or start commands by grouping them with **&&**.
+    * Example: `npm install && npm run build`
+* Subfolder paths are useful for mono repos.
+* Don't see your favorite language? Request for it [here](https://feedback.kintohub.com/feature-requests)
+::: 
+
+## Web App and Backend API Build Settings
+
+Aside from **General Build Settings** Web Apps and Backend APIs introduce the following:
+
+* **Port** - The port which your app will service your API.
+
+## Background Workers Build Settings
+
+Background workers have no special build settings aside from the ones described in **General Build settings**
+
+## Jobs Build Settings
+
+Aside from **General Build Settings** Jobs introduce the following:
+
+* **Run Timeout** - if your job takes longer than this specified time, it will fail with a timeout.
+* **Schedule Cron Job** - When enabled, your job will run on a schedule.
+If you do not enable a schedule, you will need to manually trigger your job via a CI/CD event or `Trigger Deploy` button at the top right of your service.
+
+:::tip
+Set the **Run Timeout** to a value that you know should never happen.
+If your job runs longer than the time you specify, KintoHub will cancel the job as a Timeout.
+This protects your job from running up your bill when an infinite loop / never-ending code problem occurs
+:::

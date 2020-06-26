@@ -4,197 +4,44 @@ title: Introduction
 
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+## KintoHub Mission
 
-## Markdown Syntax
+The Kinto Team is working hard to create a powerful, yet intuitive **Cloud Interface** for `developers`.
+Deploying, debugging and managing code from **Idea** to `prod` is not easy, specially for the teams writing the software.
 
-To serve as an example page when styling markdown based Docusaurus sites.
+Developers are expected to **Ship FAST**, but the time it takes to get code safely into the cloud is too complex...
+Using KintoHub, teams should be able to rapidly prototype new ideas, debug issues **in the cloud** and manage mission critical services all in one centralized place.
 
-## Headers
+If your app or idea requires:
 
-# H1 - Create the best documentation
+* A **Static Website** for users to interact with,
+* A **Backend API** that needs to scale to `100k+` requests
+* A **Job** which scrapes data periodically from 3rd parties to provide information to your users,
+* A **Web App** which generate server side rendered (SSR) content for your users,
+* A **Database** such as `MongoDB` for storing stateful information such as emails and password for signing up,
+* A **S3 Cloud Storage** to store images or data uploaded by your users,
+* A **Memcache Key/Value Store** such as `Redis` to improve performance with cached queries or guarantee mission-critical tasks through a **queue**.
 
-## H2 - Create the best documentation
+**KintoHub** makes it easy to manage, debug and scale all of the above through a simple Dashboard across multiple **Cloud Environments**.
+And soon, a nifty command line interface (CLI).
 
-### H3 - Create the best documentation
+Quickly get started with our [example flow](quick-example-flow.md).
 
-#### H4 - Create the best documentation
+### What is a Cloud Interface?
 
-##### H5 - Create the best documentation
+In 2020, cloud now have exposed themselves to be completely abstracted by KintoHub.
+KintoHub is introducing the first multi-cloud, multi-region management platform where you can deploy your services alongside your existing workloads on your private cloud.
+Starting with **Google** you can deploy any service in `3` regions around the world! **Amazon**, **Azure** and **Digital Ocean** are coming next!
 
-###### H6 - Create the best documentation
+Paying and managing your services is done 100% through **KintoHub**. Once place and one dashboard.
 
----
+In the future, you will also be able to deploy **Cloud Services** such as **Amazon RDS**, **Google Cloud SQL** and **Amazon Lambda**.
+It makes sense to still use the powerful data sensitive technologies that the Cloud Giants have built... Especially in `prod`
 
-## Emphasis
+### What About Serverless?
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+KintoHub currently does not support Lambda or Functions, but we do have a **Sleep Mode**.
+[Sleep Mode](anatomy/anatomy-advanced.md) can be found under the advanced settings of your services and will give you control on when your services shut down.
+While they sleep, if an API request comes in, they will wake up within a few seconds.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+Combining full control over your resources with being able to deploy a `32 Mb` instance and **Sleep Mode**, you can build a fleet of serverless services.

@@ -34,7 +34,7 @@ module.exports = {
           to: 'examples/todolist',
           position: 'right'
         },
-        { label: 'FAQ', to: 'getting-started/faq', position: 'right' },
+        //{ label: 'FAQ', to: 'getting-started/faq', position: 'right' },
         {
           label: 'Need help?',
           to: 'https://www.kintohub.com/contact-us',

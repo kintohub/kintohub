@@ -3,12 +3,50 @@ id: console-logs
 title: Console Logs
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Overview
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Get realtime visibility on your service's instance logs to debug your app.
+As long as your app is writing logs to the **Console** or **Tail**, KintoHub will pickup the text and display it here.
+Console **does not** read logs files.
+Once your service restarts, your logs will be gone forever!
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+:::note
+We are looking into storing historic logs for you. Vote for the feature [here](https://feedback.kintohub.com/feature-requests/p/historic-console-logs)
+:::
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+:::tip
+Use 3rd party services like Datadog to capture your logs for long term storage and analysis
+:::
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## Console Tab
+
+1. Login to KintoHub
+2. Choose your environment you are interested in viewing at the top left.
+3. Choose the service from the services list you are interested in editing.
+4. Click on `Console` tab in the upper center of the screen
+
+## Console Log Format
+
+KintoHub displays logs in the following format in the console tab of your service.
+
+```
+07:06:27 PM  backend-vwq7k  Hello World
+```
+
+KintoHub Manages the **time stamp** on the far left and the inserts the **instance id** prior to displaying your app's message.
+Timestamps are translated to your local browser time.
+
+## Console Instance Selection
+
+An instance is a running version of your app.
+Many versions or many of the same version of your app may be running simultaneously due to **Auto Scale** or **Deploying** a new service.
+
+By default, **Console** will select **All Instances** and aggregate all your app's logs into a single view.
+When you wish to drill down to a specific instance of your app, you may select it at the top left.
+
+## Console log search
+
+You may search your logs by typing in the **Search** bar at the top right of the console view.
+The search will highlight and inform you on how many successful search results have been found.
+If you wish too see only the lines that contain the text you have input into the **Search** bar, you may click to toggle the `lines` icon to the right of the **Search** bar.
+The `lines` toggle will filter your logs to only show you what you ahve searched for.

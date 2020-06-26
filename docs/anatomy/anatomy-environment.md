@@ -3,12 +3,62 @@ id: environment
 title: Environment Overview
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Overview
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+The KintoHub Platform starts all users at the Environment Overview page.
+This page provides a holistic view of your services in a single **Cloud Environment**
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+The power of KintoHub lies in the ability to **Combine** services within an Environment.
+Add all the services required that make up your app be it a website frontend, backend API, database or job - a **Cloud Environment** is the overarching group of your services.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+:::note
+In the near future, creating preview environments, promoting environments and cloning environments are at our highest priority
+::: 
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## Environment Overview Page
+
+To get to the environment overview, you need to login to KintoHub and you will automatically be placed on the last Environment Overview page
+If you have not created an Environment yet, you will be prompted to creating one.
+
+## Create New Environment
+
+This feature is only available for `pay-as-you-go` users. Free users are limited to `1` environment.
+
+1. Login to your accoutn
+2. Click on the `dropdown name` of your environment at the top left
+3. Click `Create Environment`
+4. Enter in your **region** of choice
+5. Create a name for your environment.
+6. Start adding services to your environment!
+
+## Regions
+
+Every **Cloud Environment** is assigned to a specific region. 
+In the future, an environment *may* have [Multi-Region Management](https://feedback.kintohub.com/feature-requests/p/multi-region-environments).
+Regions are specific to the cloud host provider and their regions.
+No matter the region you choose, you will be charged the same price as specified in [Billing](anatomy-billing.md)
+
+### Google Cloud Regions
+
+* **Google Cloud NA** - is hosted in `us-central1` or Iowa, USA
+* **Google Cloud EU** - is hosted in  `europe-west3` or Frankfurt, Germany
+* **Google Cloud ASIA** - is hosted in `asia-east2` or Hong Kong
+
+### Amazon Cloud Regions
+
+Coming Soon - Vote For Amazon [here](https://feedback.kintohub.com/feature-requests/p/amazon-cloud-regions)
+
+### Azure Cloud Regions
+
+Coming soon - Vote for Azure [here](https://feedback.kintohub.com/feature-requests/p/azure-cloud-regions)
+
+## Service List
+
+Under the services tab, you will be able to see all of your services and their information.
+
+* **Service Type** - Displayed on the top left with an icon identifier on the far left.
+* **Service Name** - Name of your service, defaults to your repository name.
+* **Service Sub-Type** - Relevant information such as `Dockerfile` or `Database` type information of your service
+* **Last Updated** - Shows a time of when your service was last updated.
+* **Status** - A service can be Healthy or Unhealthy at any given time.
+    * When your service is unhealthy, it means that it is currently not accessible and needs your attention!
