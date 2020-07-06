@@ -1,6 +1,6 @@
-# Node Sample App
+# Go Sample App
 
-A sample node microservice block for [KintoHub](https://kintohub.com)
+A sample Gol app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub v1
 
