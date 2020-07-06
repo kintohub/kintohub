@@ -35,7 +35,7 @@ $ npm install
 - To start the app
 
 ```
-$ npm run prod
+$ npm run start
 ```
 
 ## :ambulance: Support
