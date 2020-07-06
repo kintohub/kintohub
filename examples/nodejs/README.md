@@ -5,13 +5,13 @@ A sample node microservice block for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub v1
 
 - **Service Type:** Web App
-- **Repo:** https://github.com/kintohub/node-examples
+- **Repo:** https://github.com/kintohub/kintohub
 - **Branch:** master
 - **Language:** NodeJS
 - **Language version:** 14
 - **Build Command:** `npm install`
 - **Start Command:** `npm run prod`
-- **Subfolder Path:** `.`
+- **Subfolder Path:** `./examples/nodejs`
 - **Port:** 80
 
 ## :hammer: Running locally
@@ -21,9 +21,9 @@ A sample node microservice block for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/node-examples
+$ git clone https://github.com/kintohub/kintohub
 
-$ cd node-examples
+$ cd kintohub/examples/nodejs
 ```
 
 - Install the dependencies
