@@ -5,7 +5,7 @@ A sample node microservice block for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub v1
 
 - **Service Type:** Web App
-- **Repo:** https://github.com/kintohub/kintohub/example/nodejs
+- **Repo:** https://github.com/kintohub/node-examples
 - **Branch:** master
 - **Language:** NodeJS
 - **Language version:** 14
@@ -21,7 +21,7 @@ A sample node microservice block for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub/node-examples
 
 $ cd kintohub/examples/nodejs
 ```
