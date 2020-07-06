@@ -23,7 +23,7 @@ A sample node microservice block for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/node-examples
 
-$ cd kintohub/examples/nodejs
+$ cd node-examples
 ```
 
 - Install the dependencies
