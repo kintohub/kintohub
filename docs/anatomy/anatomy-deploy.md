@@ -5,12 +5,12 @@ title: Deploy
 
 ## Overview
 
-The **Deploy** operation is the main and more critical operation on KintoHub.
-This functionality is responsible for safely deploying changes to your service's environment.
+The **Deploy** operation is the most critical operation on KintoHub.
+This functionality is responsible for safely deploying changes to your service's environment with no downtime.
 
 ## How To Deploy
 
-There are several ways you can deploy something on KintoHub.
+There are several ways you can deploy. something new, update something existing or roll back to previous versions on KintoHub.
 
 ### Deploy New Service
 
@@ -54,9 +54,9 @@ This feature is currently in development and can be read under [Service Settings
 
 After clicking deploy, you will see a realtime view of the [Release Logs](anatomy-releases.md).
 
-## Deploy Operation Details
+## How Does Deploy Work?
 
-When you deploy a service many things happen.
+When you deploy a service many things occur under the hood.
 
 1. Your deploy request is queued for deployment
 2. KintoHub starts the deployment and updates its state to **Deploying**
@@ -64,7 +64,7 @@ When you deploy a service many things happen.
 4. KintoHub executes your **Build Command** from your [Build Settings](anatomy-build-settings.md)
 5. Once your build is successful. KintoHub stores your build artifact for historical use
 6. KintoHub attempts to deploy your service using a **Rolling Update**
-7. KintoHub streams the live **Console** logs the deploy logs view to review for errors
+7. KintoHub streams the live **Console** logs of the new services for review and easy access to potential errors
 8. Once KintoHub detects your service is live on the specified **Port** in your [Build Settings](anatomy-build-settings.md). Your service is marked as deployed and your API traffic is switched to your new **Release**.
 9. If this is not your 1st deployment, KintoHub then shuts down your previous **Release**.
 
