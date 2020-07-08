@@ -4,8 +4,8 @@
   <ShortName>Kinto Docs</ShortName>
   <Description>Search Kinto Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://docs.kintohub.com/img/favicon/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://docs.kintohub.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.kintohub.com/opensearch.xml" />
-  <moz:SearchForm>https://docs.kintohub.com</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://kintohub.github.io/img/favicon/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://kintohub.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://kintohub.github.io/opensearch.xml" />
+  <moz:SearchForm>https://kintohub.github.io</moz:SearchForm>
 </OpenSearchDescription>
