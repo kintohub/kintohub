@@ -1,0 +1,14 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "An Express example for kintohub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

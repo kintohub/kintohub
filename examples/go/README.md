@@ -1,8 +1,8 @@
 # Go Sample App
 
-A sample Gol app for [KintoHub](https://kintohub.com)
+A sample Go app for [KintoHub](https://kintohub.com)
 
-## :rocket: Deploying on KintoHub v1
+## :rocket: Deploying on KintoHub
 
 - **Service Type:** Web App
 - **Repo:** https://github.com/kintohub/kintohub
@@ -41,6 +41,6 @@ $ ./main
 
 ## :ambulance: Support
 
-**Contact us:** http://www.kintohub.com/contact-us
+**Contact us:** https://www.kintohub.com/contact-us
 
 **Discord:** https://discordapp.com/invite/E2CMjKP

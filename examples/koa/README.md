@@ -1,29 +1,29 @@
-# Node Sample App
+# Koa Sample App
 
-A sample node service for [KintoHub](https://kintohub.com)
+A sample Koa app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub
 
-- **Service Type:** Web App
+- **Service Type:** Backend API
 - **Repo:** https://github.com/kintohub/kintohub
 - **Branch:** master
 - **Language:** NodeJS
-- **Language version:** 14
+- **Language version:** 12
 - **Build Command:** `npm install`
-- **Start Command:** `npm run prod`
-- **Subfolder Path:** `./examples/nodejs`
+- **Start Command:** `npm start`
+- **Subfolder Path:** `./examples/koa`
 - **Port:** 80
 
 ## :hammer: Running locally
 
-**Pre-requisites:** Nodejs v12+
+**Pre-requisites:** NodeJS v12+
 
 - Clone the repository to a folder of choice.
 
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/nodejs
+$ cd kintohub/examples/koa
 ```
 
 - Install the dependencies
@@ -32,11 +32,29 @@ $ cd kintohub/examples/nodejs
 $ npm install
 ```
 
-- To start the app
+- To start the app 
 
 ```
-$ npm run start
+$ npm start
 ```
+## :zap: API Call
+
+**Local:**
+```
+curl -X GET http://localhost/hello/world
+```
+
+**On KintoHub:**
+```
+curl -X GET http://<KintohubHostURL>/hello/world
+```
+
+#### Response
+```json
+{
+  "message": "Hello world"
+}
+``` 
 
 ## :ambulance: Support
 
