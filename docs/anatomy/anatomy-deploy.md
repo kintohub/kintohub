@@ -3,14 +3,12 @@ id: deploy
 title: Deploy
 ---
 
-## Overview
-
 The **Deploy** operation is the most critical operation on KintoHub.
 This functionality is responsible for safely deploying changes to your service's environment with no downtime.
 
 ## How To Deploy
 
-There are several ways you can deploy. something new, update something existing or roll back to previous versions on KintoHub.
+There are several ways you can deploy updates to a new or existing service.
 
 ### Deploy New Service
 
@@ -26,25 +24,25 @@ There are several ways you can deploy. something new, update something existing 
 1. Login to KintoHub
 2. Choose your environment you are interested in deploying into at the top left.
 3. Choose the service you are interested in editing under the services list.
-4. Click `Edit Service` at the top right
+4. Click **Edit Service** at the top right
 5. Make the changes within the various tabs you wish to edit.
-6. Click `Deploy` at the top right.
+6. Click **Deploy** at the top right.
 
 ### Deploy A Previous Release
 
 1. Login to KintoHub
 2. Choose your environment you are interested in deploying into at the top left.
 3. Choose the service you are interested in editing under the services list.
-4. Click the `Releases` tab at near the top left.
-5. Click the `...` within the row of the release you wish to deploy
-6. Click `Rollback` option.
+4. Click the **Releases** tab near the top left.
+5. Click the **...** within the row of the release you wish to deploy
+6. Click **Rollback** option.
 
 ### Deploy Updated Code From Your Branch
 
 1. Login to KintoHub
 2. Choose your environment you are interested in deploying into at the top left.
 3. Choose the service you are interested in editing under the services list.
-4. Click `Trigger Deploy` at the top right of the service
+4. Click **Trigger Deploy** at the top right of the service
 
 ### Automatically Deploy New Code (CI/CD)
 
@@ -73,18 +71,14 @@ If any of the above steps fail, KintoHub will try its best to highlight the issu
 :::note
 All deployments are known as **Rolling Updates**.
 When you have a new version of your Service going out, KintoHub will ensure the new version of your service is 100% working and ready to receive traffic before shutting down the previous version of your release.
-During this time, you will be paying for two instances of your service running, which usually last less than 30 seconds.
+During this time, you will be paying for two instances of your service running, which usually lasts less than 30 seconds.
 :::
 
 :::tip
 `pay-as-you-go` users have priority over `free` users in the KintoHub platform deployment queue.
-Every **region** has its own deployment queue.
+Every **region** has its deployment queue.
 :::
  
 ## Abort Deploy Action
 
-There are two ways you can abort a deployment.
-
-* In the **Deployment Logs** view after clicking `Deploy` you can click the `Abort` button at the top right.
-* Under the **Releases** Tab of your service, you can click the `...` dots a **Deploying** release and then click `Abort`
-
+Under the **Releases** Tab of your service, you can click the **...** dots a release that is actively deploying and then click **Abort**

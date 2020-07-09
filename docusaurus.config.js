@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Kinto Docs',
+  title: 'KintoHub',
   tagline: 'Deploy Apps In Clicks, Not Weeks',
-  url: 'https://kintohub.com',
+  url: 'https://docz.kintohub.com',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
-  organizationName: 'KintoHub Inc.',
-  projectName: 'KintoHub',
+  organizationName: 'kintohub',
+  projectName: 'kintohub',
   themeConfig: {
     disableDarkMode: false,
     prism: {
@@ -80,15 +80,15 @@ module.exports = {
             },
               {
               label: 'Roadmap',
-              href: '#'
+              href: 'https://feedback.kintohub.com/'
             },
               {
               label: 'Request Features',
-              href: '#'
+              href: 'https://feedback.kintohub.com/feature-requests'
             },
               {
               label: 'Report a Bug',
-              href: '#'
+              href: 'https://feedback.kintohub.com/bugs'
             }
           ]
         },
@@ -101,19 +101,19 @@ module.exports = {
             },
               {
               label: 'Twitter',
-              href: '#'
+              href: 'http://twitter.com/kintohub'
             },
               {
               label: 'Facebook',
-              href: '#'
+              href: 'https://www.facebook.com/KintoHub/'
             },
               {
               label: 'YouTube',
-              href: '#'
+              href: 'https://www.youtube.com/channel/UCpJJc0zcfzdHPw64BSP3GyQ'
             },
               {
               label: 'LinkedIn',
-              href: '#'
+              href: 'https://www.linkedin.com/company/kintohub/'
             }
           ]
         }
