@@ -2,7 +2,6 @@ module.exports = {
   someSidebar: {
     "Getting Started": [
       'getting-started/introduction',
-      'getting-started/quick-example-flow',
     ],
     "Anatomy by Feature": [
       'anatomy/environment',
@@ -25,13 +24,6 @@ module.exports = {
       'service-types/backend-api',
       'service-types/backend-worker',
       'service-types/job',
-      'service-types/helm'
-    ],
-    "Catalogs": [
-      'catalogs/postgresql',
-    ],
-    "Examples": [
-      `examples/go/beego`
     ],
   },
 };

@@ -3,40 +3,35 @@ id: environment
 title: Environment Overview
 ---
 
-## Overview
-
-The KintoHub Platform starts all users at the Environment Overview page.
-This page provides a holistic view of your services in a single **Cloud Environment**
-
-The power of KintoHub lies in the ability to **Combine** services within an Environment.
-Add all the services required that make up your app be it a website frontend, backend API, database or job - a **Cloud Environment** is the overarching group of your services.
-
-:::note
-In the near future, creating preview environments, promoting environments and cloning environments are at our highest priority
-::: 
+After logging into KintoHub, all users begin at the Environment Overview page.
+This page provides a holistic view of your services in a single environment.
+You can imagine combining your web, backend APIs, jobs, databases, and all the other services that make up your app within a single environment.
 
 ## Environment Overview Page
 
-To get to the environment overview, you need to login to KintoHub and you will automatically be placed on the last Environment Overview page
-If you have not created an Environment yet, you will be prompted to creating one.
+To get to the environment overview, you need to login to KintoHub and you will automatically be placed on the last Environment page you visited.
+If you have not created an environment yet, you will be prompted to create one.
 
 ## Create New Environment
 
-This feature is only available for `pay-as-you-go` users. Free users are limited to `1` environment.
+This feature is only available for **Pay-As-You-Go** users. Free users are limited to **1** environment.
 
-1. Login to your accoutn
-2. Click on the `dropdown name` of your environment at the top left
-3. Click `Create Environment`
-4. Enter in your **region** of choice
+1. Login to your account
+2. Click on the dropdown at the top left next to your **environment name**
+3. Click **Create Environment**
+4. Select in your region of choice
 5. Create a name for your environment.
-6. Start adding services to your environment!
+6. Start adding services to your environment
 
 ## Regions
 
-Every **Cloud Environment** is assigned to a specific region. 
-In the future, an environment *may* have [Multi-Region Management](https://feedback.kintohub.com/feature-requests/p/multi-region-environments).
-Regions are specific to the cloud host provider and their regions.
+Every environment is assigned to a specific region. 
+Regions are specific to the cloud host provider and its regions.
 No matter the region you choose, you will be charged the same price as specified in [Billing](anatomy-billing.md)
+
+:::note
+We are exploring multi-region environments. If interested, please vote for the feature [here](https://feedback.kintohub.com/feature-requests/p/multi-region-environments)
+:::
 
 ### Google Cloud Regions
 

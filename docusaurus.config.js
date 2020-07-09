@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Kinto Docs',
+  title: 'KintoHub',
   tagline: 'Deploy Apps In Clicks, Not Weeks',
-  url: 'https://kintohub.com',
+  url: 'https://docz.kintohub.com',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
-  organizationName: 'KintoHub Inc.',
-  projectName: 'KintoHub',
+  organizationName: 'kintohub',
+  projectName: 'kintohub',
   themeConfig: {
     disableDarkMode: false,
     prism: {

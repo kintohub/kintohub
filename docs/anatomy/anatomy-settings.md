@@ -3,8 +3,6 @@ id: settings
 title: Settings
 ---
 
-## Overview
-
 Settings allow you modify the way your service behaves and/or critical operations such as **Deleting** or **Suspending** your service.
 
 ## Viewing Service Settings
@@ -22,13 +20,15 @@ It's coming soon! Hang tight.
 
 This is an irreversible action and your service will be shutdown immediately.
 
-1. Follow the instructions above on getting to the **Settings** tab and then click `Delete Service`
+1. Follow the instructions above on getting to the **Settings** tab and then click **Delete Service**
 2. Type in the service name in the prompt and again click `Delete`
 
 ## Suspend a service
 
-This is another feature coming soon where we will turn off your service, but not delete its resources and history.
-While your service is **Suspended** it will cost you nothing.
+This is a feature that is coming soon! Hang tight.
+It will allow you to turn off your service, but not delete its configuration and history.
+
+While your service is suspended, billing will be paused.
 
 ## Public & Private Access Settings
 
