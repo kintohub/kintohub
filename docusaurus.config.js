@@ -80,15 +80,15 @@ module.exports = {
             },
               {
               label: 'Roadmap',
-              href: '#'
+              href: 'https://feedback.kintohub.com/'
             },
               {
               label: 'Request Features',
-              href: '#'
+              href: 'https://feedback.kintohub.com/feature-requests'
             },
               {
               label: 'Report a Bug',
-              href: '#'
+              href: 'https://feedback.kintohub.com/bugs'
             }
           ]
         },
@@ -101,19 +101,19 @@ module.exports = {
             },
               {
               label: 'Twitter',
-              href: '#'
+              href: 'http://twitter.com/kintohub'
             },
               {
               label: 'Facebook',
-              href: '#'
+              href: 'https://www.facebook.com/KintoHub/'
             },
               {
               label: 'YouTube',
-              href: '#'
+              href: 'https://www.youtube.com/channel/UCpJJc0zcfzdHPw64BSP3GyQ'
             },
               {
               label: 'LinkedIn',
-              href: '#'
+              href: 'https://www.linkedin.com/company/kintohub/'
             }
           ]
         }

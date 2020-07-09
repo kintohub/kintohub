@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>All Docs</>,
+    title: <>Our Mission</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Deploy any git repository to any cloud with ease and confidence in cost.
       </>
     ),
   },
   {
-    title: <>Examples</>,
+    title: <>Next-Gen Cloud Interface</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Build, Deploy, Debug and Scale your Full Stack app on multiple clouds, in multiple regions.
       </>
     ),
   },
   {
-    title: <>Discord Support</>,
+    title: <>We're Here For You</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        KintoHub's community is young but thriving in Discord. Join us and we'll answer any question.
       </>
     ),
   },
