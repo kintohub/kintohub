@@ -1,6 +1,6 @@
 # Fasthttp Sample App
 
-A sample Fasthhtp app for [KintoHub](https://kintohub.com)
+A sample Fasthttp app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub
 
@@ -8,7 +8,7 @@ A sample Fasthhtp app for [KintoHub](https://kintohub.com)
 - **Repo:** https://github.com/kintohub/kintohub
 - **Branch:** master
 - **Language:** Go
-- **Language version:** 1.12
+- **Language version:** 1.13
 - **Build Command:** `go build -o main .`
 - **Start Command:** `./main`
 - **Subfolder Path:** `./examples/fasthttp`
@@ -16,7 +16,7 @@ A sample Fasthhtp app for [KintoHub](https://kintohub.com)
 
 ## :hammer: Running locally
 
-**Pre-requisites:** Go v1.12+
+**Pre-requisites:** Go v1.13
 
 - Clone the repository to a folder of choice.
 

@@ -1,6 +1,6 @@
 # NextJS with Apollo Sample App
 
-A sample Nextjs with Apollo app for [KintoHub](https://kintohub.com)
+A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub
 
