@@ -1,0 +1,23 @@
+{
+  "name": "node-example",
+  "version": "0.1.0",
+  "description": "A Sample node microservice for kintohub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prod": "PORT=80 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kintohub/node-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kintohub/node-example/issues"
+  },
+  "homepage": "https://github.com/kintohub/node-example#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
