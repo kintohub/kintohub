@@ -1,7 +1,7 @@
 module.exports = {
   title: 'KintoHub',
   tagline: 'Deploy Apps In Clicks, Not Weeks',
-  url: 'https://docz.kintohub.com',
+  url: 'https://docs.kintohub.com',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
   organizationName: 'kintohub',
@@ -29,11 +29,6 @@ module.exports = {
           to: 'anatomy/environment',
           position: 'right'
         },
-        {
-          label: 'Examples',
-          to: 'examples/todolist',
-          position: 'right'
-        },
         //{ label: 'FAQ', to: 'getting-started/faq', position: 'right' },
         {
           label: 'Need help?',
@@ -41,8 +36,8 @@ module.exports = {
           position: 'right'
         },
           {
-          label: 'Signup/Signin',
-          to: 'https://beta.kintohub.com/sign-up',
+          label: 'Login',
+          to: 'https://kintocloud.com/login',
           position: 'right'
         }
       ]
@@ -54,8 +49,8 @@ module.exports = {
           title: 'KintoHub',
           items: [
             {
-              label: 'Sign In / Sign Up',
-              to: 'https://beta.kintohub.com/sign-up'
+              label: 'Create Account',
+              to: 'https://kintocloud.com/sign-up'
             },
               {
               label: 'Pricing',
