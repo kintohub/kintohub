@@ -36,8 +36,8 @@ module.exports = {
           position: 'right'
         },
           {
-          label: 'Signup/Signin',
-          to: 'https://beta.kintohub.com/sign-up',
+          label: 'Login',
+          to: 'https://kintocloud.com/login',
           position: 'right'
         }
       ]
@@ -49,8 +49,8 @@ module.exports = {
           title: 'KintoHub',
           items: [
             {
-              label: 'Sign In / Sign Up',
-              to: 'https://beta.kintohub.com/sign-up'
+              label: 'Create Account',
+              to: 'https://kintocloud.com/sign-up'
             },
               {
               label: 'Pricing',
