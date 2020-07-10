@@ -1,7 +1,7 @@
 module.exports = {
   title: 'KintoHub',
   tagline: 'Deploy Apps In Clicks, Not Weeks',
-  url: 'https://docz.kintohub.com',
+  url: 'https://docs.kintohub.com',
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
   organizationName: 'kintohub',
@@ -27,11 +27,6 @@ module.exports = {
         {
           label: 'Anatomy',
           to: 'anatomy/environment',
-          position: 'right'
-        },
-        {
-          label: 'Examples',
-          to: 'examples/todolist',
           position: 'right'
         },
         //{ label: 'FAQ', to: 'getting-started/faq', position: 'right' },
