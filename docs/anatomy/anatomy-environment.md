@@ -25,19 +25,19 @@ This feature is only available for **Pay-As-You-Go** users. Free users are limit
 
 ## Regions
 
-Every environment is assigned to a specific region. 
+Every KintoHub environment is hosted in a single cloud region. 
 Regions are specific to the cloud host provider and its regions.
 No matter the region you choose, you will be charged the same price as specified in [Billing](anatomy-billing.md)
 
 :::note
-We are exploring multi-region environments. If interested, please vote for the feature [here](https://feedback.kintohub.com/feature-requests/p/multi-region-environments)
+We are exploring environments that host services in multiple-regions. If interested, please vote for the feature [here](https://feedback.kintohub.com/feature-requests/p/multi-region-environments)
 :::
 
 ### Google Cloud Regions
 
-* **Google Cloud NA** - is hosted in `us-central1` or Iowa, USA
-* **Google Cloud EU** - is hosted in  `europe-west3` or Frankfurt, Germany
-* **Google Cloud ASIA** - is hosted in `asia-east2` or Hong Kong
+* **Google Cloud - North America** - is hosted in `us-west1` or The Dalles, Oregon, USA
+* **Google Cloud Europe** - is hosted in  `europe-west1` or St. Ghislain, Belgium
+* **Google Cloud Asia** - is hosted in `asia-east1` Changhua County, Taiwan
 
 ### Amazon Cloud Regions
 
