@@ -99,21 +99,21 @@ Depending on the type of resources you are being charged for, you are also pro-r
 Learn how to estimate your costs, visit the [Advanced Settings](anatomy-advanced.md#max-monthly-cost-estimation) tab.
 :::
 
-### CPU Pricing
+### vCPU Pricing
 
 CPU cost are broken down into three catgories and is charged per second:
 
-* **Shared CPU** - $1 USD /month
-* **Dedicated CPU with Optimization Enabled** - $15 USD /month 
-* **Dedicated CPU with Optimization Disabled** - $30 USD /month
+* **Shared vCPU** - $1 USD /month
+* **Dedicated vCPU with Optimization Enabled** - $15 USD /month 
+* **Dedicated vCPU with Optimization Disabled** - $30 USD /month
 
-The smallest amount of **Dedicated CPU** available is `0.1` or `10%` of a CPU core which costs $1.50 USD per month.
+The smallest amount of **Optimized Dedicated vCPU** available is `0.1` or `10%` of a vCPU core which costs $1.50 USD per month.
 
 ### Memory Pricing
 
-Memory cost are broken down into two categories and is charged per second:
+Memory costs are broken down into 2 categories and are charged per second:
 
-* **1 Gb Memory with Optimization Enabled** - $2 USD /month
+* **1 Gb Memory with Optimization Enabled** - $3 USD /month
 * **1 Gb Memory with Optimization Disabled** - $7 USD /month
 
 ## Storage Pricing
@@ -137,8 +137,8 @@ Build and Deploy tasks are usually heavy operations and are broken down into two
 
 ## Bandwidth Pricing
 
-Bandwidth cost is broken down into 3 categories
+Bandwidth costs are broken down into 3 categories
 
-* **Static Websites** - have unlimited bandwidth.
+* **Static Websites** - have no bandwidth limit
 * **First 100 GB Bandwidth** - FREE!
-* **1 Gb bandwidth** - $0.12 or 12 cents pro-rated to the megabyte.
+* **1 Gb bandwidth** - $0.12 or 12 cents pro-rated per megabyte.

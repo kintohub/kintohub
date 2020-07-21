@@ -22,15 +22,15 @@ A **Restart** is when your service has crashed and KintoHub has automatically br
 Shows the total amount of resources that your entire service is taking up.
 
 * **Memory** - The total memory and memory usage our service is using
-* **CPU** - The total CPU and CPU usage your service is using and 
-    * When CPU is shared, the value will be shown as **SHARED** and you will not be able to monitor usage.
+* **vCPU** - The total vCPU and vCPU usage your service is using 
+    * When vCPU is shared, the value will be shown as **SHARED** and you will not be able to monitor usage.
 
 ### Instances
 
 Instances are individual live and running apps that make up your service.
 
 * **Name/Instance** - The unique name and instance identifier
-* **CPU** - Usage and dedicated vCPU allocated to your instance.
+* **vCPU** - Usage and dedicated vCPU allocated to your instance.
     * When vCPU is shared, the value will be shown as **SHARED** and you will not be able to monitor usage.
 * **Memory** -  Usage and dedicated memory allocated to your instance
 * **Restarts** - Number of times your service has crashed and recovered

@@ -34,3 +34,4 @@ The following protocols have not been tested.
 * [Metrics](../anatomy/anatomy-metrics.md)
 * [Custom Domains](../anatomy/anatomy-domains.md)
 * [Environment Variables](../anatomy/anatomy-environment-variables.md)
+* [Public API Toggle](../anatomy/anatomy-settings.md#public-api) protects your service to be accessed internally only or enables external access.

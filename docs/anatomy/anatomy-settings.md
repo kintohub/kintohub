@@ -16,22 +16,22 @@ Settings allow you modify the way your service behaves and/or critical operation
 
 It's coming soon! Hang tight.
 
+## Public API
+
+Public APIs are available only for [Backend Services](../service-types/types-backend-api.md).
+This toggle allows you to enable or disable a secure public hostname for your service to be accessed.
+**Backend Services** by default are public.
+
+When disabled, you may only access your service from another service within the same [Enivornment](anatomy-environment.md) on KintoHub using its [internal hostname](anatomy-access.md#how-it-works).
+For example:
+
+* Service A is a **Backend Service** which is only used for internal operations.
+* Service B is a **Job** service can access it using its [internal hostname](anatomy-access.md#how-it-works).
+* Service C is a **Web App** and runs on customers' browsers **cannot** access Service A since it does not have an [external hostname](anatomy-access.md#how-it-works).
+
 ## Delete a service
 
 This is an irreversible action and your service will be shutdown immediately.
 
 1. Follow the instructions above on getting to the **Settings** tab and then click **Delete Service**
 2. Type in the service name in the prompt and again click `Delete`
-
-## Suspend a service
-
-This is a feature that is coming soon! Hang tight.
-It will allow you to turn off your service, but not delete its configuration and history.
-
-While your service is suspended, billing will be paused.
-
-## Public & Private Access Settings
-
-This is a feature that is coming soon! Hang tight.
-It will allow you to enable and disable the public hostname, making your service accessible only internally.
-This is otherwise known as **Private Services**

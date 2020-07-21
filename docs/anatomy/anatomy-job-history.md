@@ -21,4 +21,4 @@ Within job history you will be able to find the following:
 * **Job Result** - Shows you if its completed, running, or failed.
 * **Job Logs** - Click on the `...` to view Job Logs
 * **Start Time** - The time the job ran
-* **End Time** - the time that the job completed
+* **Finished Time** - the time that the job completed

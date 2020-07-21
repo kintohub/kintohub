@@ -27,20 +27,20 @@ The lowest value of memory you may use is **32 Mb** and the highest value is **4
 
 If you require more memory, you may [contact support](https://www.kintohub.com/contact-us).
 
-### Dedicated CPU
+### Dedicated vCPU
 
-By default and when toggled off, the CPU of your service is shared between KintoHub community.
-Shared CPU **is not guaranteed** and may randomly affect the performance of your service.
+By default and when toggled off, the vCPU of your service is shared between KintoHub community.
+Shared vCPU may randomly affect the performance of your service and is only recommended for `dev` environments.
 
-When togged on, you will have the option to specify a guaranteed dedicated amount of CPU for your service.
-The lowest amount of CPU you may use is **0.1 cores** which is 10% of a dedicated vCPU.
-The highest amount of CPU available is **2** which guarantees **2** dedicated vCPU cores.
+When togged on, you will have the option to specify a guaranteed dedicated amount of vCPU for your service.
+The lowest amount of vCPU you may use is **0.1 cores** which is 10% of a dedicated vCPU.
+The highest amount of vCPU available is **2** which guarantees **2** dedicated vCPU cores.
 
-If you require more CPU, you may [contact support](https://www.kintohub.com/contact-us).
+If you require more vCPU, you may [contact support](https://www.kintohub.com/contact-us).
 
 ### Auto Scaling
 
-The auto-scaling feature is only available when your service has **Dedicated CPU** enabled.
+The auto-scaling feature is only available when your service has **Dedicated vCPU** enabled.
 When enabled, you will be able to set the **Min Instances** and **Max Instances** that your service may scale up to.
 This is known as **Horizontal Scaling** and is best used for **Stateless** services.
 The maximum number of instances you may scale to is **10**.
@@ -54,14 +54,10 @@ An **instance** is a single running version of your application or service. When
 
 ### Cost Optimization
 
-When enabled, KintoHub will utilize deploy your service's instances on discounted vCPU and Memory group.
-Discount Instances **are not** guaranteed and you may incur some downtime if you do not set up at least **2 Min Instances** for your service.
-It is not recommended to use **Cost Optimization** for Production environments, but the team is working on building more confidence in providing a cost-effective non-mission critical production version of **Cost Optimization** in the future.
-Price differences between Cost Optimization being enabled and disabled are described under [Billing](anatomy-billing.md)
-
-:::note
-This feature is expected to launch in Mid-Late July 2020 and is currently available only to a few select users.
-:::
+When enabled, KintoHub will deploy your service instances on discounted vCPU and Memory resources.
+Discount instance update **is not** guaranteed and you may incur some downtime if you do not set up at least **2 min instances** for your service.
+Today, it is not recommended to use **Cost Optimization** for Production environments, but the team is working hard on building more confidence in providing a cost-effective production version of **Cost Optimization** in the future.
+Price differences between Cost Optimization versus Standard pricing are described in [Billing](anatomy-billing.md).
 
 ### Storage (Persistence)
     
