@@ -18,7 +18,7 @@ jobs:
       - name: Test Build
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          ALGOLIA_INDEX: prod_kintodocs
+          ALGOLIA_INDEX: kintohub
         run: |
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
@@ -54,7 +54,7 @@ jobs:
           USE_SSH: true
           GIT_USER: git
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          ALGOLIA_INDEX: prod_kintodocs
+          ALGOLIA_INDEX: kintohub
         run: |
           git config --global user.email "actions@gihub.com"
           git config --global user.name "gh-actions"
