@@ -13,7 +13,7 @@ A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 - **Language version:** 13
 - **Build Command:** `npm install && npm run build`
 - **Start Command:** `npm start`
-- **Subfolder Path:** `./examples/nextjs-apollo`
+- **Subfolder Path:** `./docs/examples/nextjs-apollo`
 - **Port:** 3000
 
 ## :hammer: Running locally

@@ -14,7 +14,7 @@ A sample Flask app for [KintoHub](https://kintohub.com)
 - **Language version:** 3.7
 - **Build Command:** `pip install -r requirements.txt`
 - **Start Command:** `python app.py`
-- **Subfolder Path:** `./examples/flask`
+- **Subfolder Path:** `./docs/examples/flask`
 - **Port:** 80
 
 ## :hammer: Running locally

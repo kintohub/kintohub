@@ -14,7 +14,7 @@ A sample Django app for [KintoHub](https://kintohub.com)
 - **Language version:** 3.7
 - **Build Command:** `pip install -r requirements.txt`
 - **Start Command:** `python manage.py runserver 0.0.0.0:80`
-- **Subfolder Path:** `./examples/django`
+- **Subfolder Path:** `./docs/examples/django`
 - **Port:** 80
 
 ## :hammer: Running locally
