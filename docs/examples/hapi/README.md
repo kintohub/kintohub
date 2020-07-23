@@ -15,7 +15,7 @@ A sample Hapi app for [KintoHub](https://kintohub.com)
 - **Language version:** 12
 - **Build Command:** `npm install`
 - **Start Command:** `npm start`
-- **Subfolder Path:** `./examples/hapi`
+- **Subfolder Path:** `./docs/examples/hapi`
 - **Port:** 80
 
 ## :hammer: Running locally

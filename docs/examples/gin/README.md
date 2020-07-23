@@ -14,7 +14,7 @@ A sample Gin app for [KintoHub](https://kintohub.com)
 - **Language version:** 1.12
 - **Build Command:** `go build -o main .`
 - **Start Command:** `./main`
-- **Subfolder Path:** `./examples/gin`
+- **Subfolder Path:** `./docs/examples/gin`
 - **Port:** 80
 
 ## :hammer: Running locally

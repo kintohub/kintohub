@@ -15,7 +15,7 @@ A sample ruby app for [KintoHub](https://kintohub.com)
 - **Language version:** 2.5
 - **Build Command:** `gem install bundler && bundle install`
 - **Start Command:** `bundle exec ruby app.rb`
-- **Subfolder Path:** `./examples/ruby`
+- **Subfolder Path:** `./docs/examples/ruby`
 - **Port:** 8000
 
 ## :hammer: Running locally

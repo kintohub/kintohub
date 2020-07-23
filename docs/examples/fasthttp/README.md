@@ -14,7 +14,7 @@ A sample Fasthttp app for [KintoHub](https://kintohub.com)
 - **Language version:** 1.13
 - **Build Command:** `go build -o main .`
 - **Start Command:** `./main`
-- **Subfolder Path:** `./examples/fasthttp`
+- **Subfolder Path:** `./docs/examples/fasthttp`
 - **Port:** 80
 
 ## :hammer: Running locally

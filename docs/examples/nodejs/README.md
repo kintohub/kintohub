@@ -15,7 +15,7 @@ A sample node service for [KintoHub](https://kintohub.com)
 - **Language version:** 14
 - **Build Command:** `npm install`
 - **Start Command:** `npm run prod`
-- **Subfolder Path:** `./examples/nodejs`
+- **Subfolder Path:** `./docs/examples/nodejs`
 - **Port:** 80
 
 ## :hammer: Running locally

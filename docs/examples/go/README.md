@@ -15,7 +15,7 @@ A sample Go app for [KintoHub](https://kintohub.com)
 - **Language version:** 1.10.0
 - **Build Command:** `go build main.go`
 - **Start Command:** `./main`
-- **Subfolder Path:** `./examples/go`
+- **Subfolder Path:** `./docs/examples/go`
 - **Port:** 80
 
 ## :hammer: Running locally

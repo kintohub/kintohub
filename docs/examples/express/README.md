@@ -14,7 +14,7 @@ A sample Express app for [KintoHub](https://kintohub.com)
 - **Language version:** 12
 - **Build Command:** `npm install`
 - **Start Command:** `npm start`
-- **Subfolder Path:** `./examples/express`
+- **Subfolder Path:** `./docs/examples/express`
 - **Port:** 80
 
 ## :hammer: Running locally
