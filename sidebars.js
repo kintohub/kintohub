@@ -33,7 +33,9 @@ module.exports = {
         items: [
           'examples/nodejs/nodejs-example',
           'examples/nextjs/nextjs-example',
-          'examples/express/express-example'
+          'examples/express/express-example',
+          'examples/hapi/hapi-example',
+          'examples/koa/koa-example',
         ],
       },
       {
@@ -43,8 +45,6 @@ module.exports = {
         items: [
           'examples/go/go-example',
           'examples/gin/gin-example',
-          'examples/hapi/hapi-example',
-          'examples/koa/koa-example',
           'examples/fasthttp/fasthttp-example',
           'examples/beego/beego-example',
         ],
