@@ -31,7 +31,7 @@ Additionally, a feature to run commands directly to your mysql instance via a [S
 
 ### Replica Count 
 
-Increasing your replicas will create Highly Available MongoDB instance.
+Increasing your replicas will create Highly Available MongoDB instances.
 You can increase or decrease your replicas under the **Configurations** tab when creating a MongoDB service.
 It's recommended to have at least **3** replicas in `production` environments or any environments you wish to decrease the chances of downtime. 
 Read more about replicas [here](https://docs.mongodb.com/manual/replication/).
