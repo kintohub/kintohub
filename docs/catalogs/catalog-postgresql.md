@@ -7,7 +7,7 @@ title: PostgreSQL
                                          
 ## Create a Postgres Database
 
-All Minio servers are 100% dedicated to your environment.
+All Postgres servers are 100% dedicated to your environment.
 
 1. Login to your KintoHub account
 2. Click **Create Service** at the top right of your environment
