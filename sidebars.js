@@ -25,6 +25,13 @@ module.exports = {
       'service-types/backend-worker',
       'service-types/job',
     ],
+    "Catalog": [
+      'catalogs/mongodb',
+      'catalogs/postgresql',
+      'catalogs/minio',
+      'catalogs/redis',
+      'catalogs/mysql',
+    ],
     "Examples": [
       {
         type: 'category',
