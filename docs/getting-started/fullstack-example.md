@@ -7,7 +7,7 @@ title: Full Stack Example
 This example will walk through putting together a full stack app on KintoHub from the ground up and will take about 15 minutes.
 If you are interested in a quick single service, check out our list of [examples](examples/nodejs/nodejs-example).
 
-This example will deploy a **Todo List App** using `React`, `Hasura` and `Postgres` all on KintoHu's free tier.
+This example will deploy a **Todo List App** using `React`, `Hasura` and `Postgres` all within KintoHub's free tier.
 
 ## Create a KintoHub Account
 
