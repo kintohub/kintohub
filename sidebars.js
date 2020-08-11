@@ -2,6 +2,7 @@ module.exports = {
   someSidebar: {
     "Getting Started": [
       'getting-started/introduction',
+      'getting-started/fullstack-example',
     ],
     "Anatomy by Feature": [
       'anatomy/environment',
