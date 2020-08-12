@@ -24,7 +24,7 @@ KintoHub provides a dedicated Postgres server with 1 Gb of storage.
 4. Enter or generate your `Username`, `Password`, and `Root Password`.
 5. Click **Deploy** At the top right.
 
-This process will take around **1 Minute** to deploy.
+This process will take around **1 Minute** to complete.
 Once the **Status** has changed from `Deploying` to `Live Version`, click on the **Access** tab at the top center of the page.
 
 Copy the **Connection String (Admin)** and paste it in a notepad to use for the next step.
