@@ -4,6 +4,8 @@ title: Full Stack Example
 
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 This example will walk through putting together a full stack app on KintoHub from the ground up and will take about 15 minutes.
 If you are interested in a quick single service, check out our list of [examples](examples/nodejs/nodejs-example).
 
@@ -44,14 +46,15 @@ You can deploy it with the following steps:
 8. Add the **key** `HASURA_GRAPHQL_DATABASE_URL` and paste in the **Connection String (Admin)** from the previous step as the **value**
 9. Click **Deploy** at the top right
 
-![hasura-env-vars](images/hasura-env-vars.png)
+<img alt="Hasura Environment Variables" src={useBaseUrl('img/fullstack-example/hasura-env-vars.png')} />
+
 
 
 This will take around **30 Seconds** to complete.
 Once complete, you can click the link to the right of **Public API access via**
 You will now see Hasura's dashboard and can copy the **GraphQL Endpoint URL**
 
-![hasura-console](images/hasura-console.png)
+<img alt="Hasura Console" src={useBaseUrl('img/fullstack-example/hasura-console.png')} />
 
 
 ## Setup React Web App
@@ -69,7 +72,7 @@ You can deploy it with the following steps:
 6. Add the **key** `REACT_APP_SERVER_URL` and paste the **GraphQL Endpoint URL** from the previous step as the **value**
 7. Click **Deploy**
 
-![react-webapp-env-vars](images/react-webapp-env-vars.png)
+<img alt="React Webapp Environment Variables" src={useBaseUrl('img/fullstack-example/react-webapp-env-vars.png')} />
 
 This will take around **3 Minutes** to complete.
 Once complete, you can click the link to the right of **Public API access via**
