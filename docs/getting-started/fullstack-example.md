@@ -44,14 +44,14 @@ You can deploy it with the following steps:
 8. Add the **key** `HASURA_GRAPHQL_DATABASE_URL` and paste in the **Connection String (Admin)** from the previous step as the **value**
 9. Click **Deploy** at the top right
 
-![hasura-env-vars](../../static/img/fullstack-example/hasura-env-vars.png)
+![hasura-env-vars](images/hasura-env-vars.png)
 
 
 This will take around **30 Seconds** to complete.
 Once complete, you can click the link to the right of **Public API access via**
 You will now see Hasura's dashboard and can copy the **GraphQL Endpoint URL**
 
-![hasura-console](../../static/img/fullstack-example/hasura-console.png)
+![hasura-console](images/hasura-console.png)
 
 
 ## Setup React Web App
@@ -69,7 +69,7 @@ You can deploy it with the following steps:
 6. Add the **key** `REACT_APP_SERVER_URL` and paste the **GraphQL Endpoint URL** from the previous step as the **value**
 7. Click **Deploy**
 
-![react-webapp-env-vars](../../static/img/fullstack-example/react-webapp-env-vars.png)
+![react-webapp-env-vars](images/react-webapp-env-vars.png)
 
 This will take around **3 Minutes** to complete.
 Once complete, you can click the link to the right of **Public API access via**
