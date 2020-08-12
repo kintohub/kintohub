@@ -24,10 +24,10 @@ KintoHub provides a dedicated Postgres server with 1 Gb of storage.
 4. Enter or generate your `Username`, `Password`, and `Root Password`.
 5. Click **Deploy** At the top right.
 
-This process will take about **1 Minute** to deploy.
+This process will take around **1 Minute** to deploy.
 Once the **Status** has changed from `Deploying` to `Live Version`, click on the **Access** tab at the top center of the page.
 
-Copy the **Connection String (Admin)** and paste it somewhere for setting up Hasura.
+Copy the **Connection String (Admin)** and paste it in a notepad to use for the next step.
 
 ## Deploy a Hasura Service
 
@@ -44,14 +44,20 @@ You can deploy it with the following steps:
 8. Add the **key** `HASURA_GRAPHQL_DATABASE_URL` and paste in the **Connection String (Admin)** from the previous step as the **value**
 9. Click **Deploy** at the top right
 
+![hasura-env-vars](../../static/img/fullstack-example/hasura-env-vars.png)
+
+
 This will take around **30 Seconds** to complete.
 Once complete, you can click the link to the right of **Public API access via**
 You will now see Hasura's dashboard and can copy the **GraphQL Endpoint URL**
 
+![hasura-console](../../static/img/fullstack-example/hasura-console.png)
+
+
 ## Setup React Web App
 
 This tutorial has a premade React Todo List App that works with Hasura.
-You can deploy it with the following stpes:
+You can deploy it with the following steps:
 
 1. Click on **Create Service** at the top right
 2. Click **Web App**
@@ -62,6 +68,8 @@ You can deploy it with the following stpes:
 5. Click on **Environment Variables** Tab
 6. Add the **key** `REACT_APP_SERVER_URL` and paste the **GraphQL Endpoint URL** from the previous step as the **value**
 7. Click **Deploy**
+
+![react-webapp-env-vars](../../static/img/fullstack-example/react-webapp-env-vars.png)
 
 This will take around **3 Minutes** to complete.
 Once complete, you can click the link to the right of **Public API access via**
