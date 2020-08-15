@@ -55,7 +55,7 @@ An **instance** is a single running version of your application or service. When
 ### Cost Optimization
 
 When enabled, KintoHub will deploy your service instances on discounted vCPU and Memory resources.
-Discount instance update **is not** guaranteed and you may incur some downtime if you do not set up at least **2 min instances** for your service.
+Discounted instances uptime **are not** guaranteed, and you may incur some downtime if you do not set up at least **2 min instances** for your service.
 Today, it is not recommended to use **Cost Optimization** for Production environments, but the team is working hard on building more confidence in providing a cost-effective production version of **Cost Optimization** in the future.
 Price differences between Cost Optimization versus Standard pricing are described in [Billing](anatomy-billing.md).
 
