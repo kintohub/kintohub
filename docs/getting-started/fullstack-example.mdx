@@ -44,7 +44,8 @@ You can deploy it with the following steps:
 6. Type `8080` in the **Port** field
 7. Click the **Environment Variables** Tab
 8. Add the **key** `HASURA_GRAPHQL_DATABASE_URL` and paste in the **Connection String (Admin)** from the previous step as the **value**
-9. Click **Deploy** at the top right
+9. Add the **key** `HASURA_GRAPHQL_ENABLE_CONSOLE` and enter the value `true`
+10. Click **Deploy** at the top right
 
 <img alt="Hasura Environment Variables" src={useBaseUrl('img/fullstack-example/hasura-env-vars.png')} />
 
@@ -67,7 +68,7 @@ You can deploy it with the following steps:
 3. Copy and paste the following into the **Repository URL** `https://github.com/kintohub/todo-react`
 4. Click **Connect**
 5. Type `Dockerfile` in the **Dockerfile Name** field
-6. Type `8080` in the **Port** field
+6. Type `3000` in the **Port** field
 5. Click on **Environment Variables** Tab
 6. Add the **key** `REACT_APP_SERVER_URL` and paste the **GraphQL Endpoint URL** from the previous step as the **value**
 7. Click **Deploy**
