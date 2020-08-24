@@ -3,11 +3,12 @@ module.exports = {
   tagline: 'Deploy Apps In Clicks, Not Weeks',
   url: 'https://docs.kintohub.com',
   baseUrl: '/',
-  favicon: 'img/favicon/favicon.ico',
   organizationName: 'kintohub',
   projectName: 'kintohub',
+  favicon: 'img/favicon.ico',
   themeConfig: {
     disableDarkMode: false,
+    image: 'img/kintohub-og.png',
     prism: {
       theme: require('./src/js/monokaiTheme.js')
     },

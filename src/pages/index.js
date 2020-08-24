@@ -56,8 +56,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Deploy apps in Clicks, Not Weeks. <head />">
+      title={`${siteConfig.title}`}
+      description="Deploy apps in Clicks, Not Weeks.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
