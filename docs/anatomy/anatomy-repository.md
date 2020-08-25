@@ -15,9 +15,9 @@ Repositories do not have any requirements to be compatible with KintoHub. You ca
 1. Login to KintoHub
 2. Click on the **Create Service** button at the top right
 3. Click on the **Import URL** tab
-3. Enter in your **Git Repository URL**
-4. Enter in your **Branch** you wish to build and deploy
-5. Optionally add an **Access Token** to your repository if it is private.
+4. Enter in your **Git Repository URL**
+5. Enter in your **Branch** you wish to build and deploy
+6. Optionally add an **Access Token** to your repository if it is private.
 
 ## Edit Existing Repo
 
