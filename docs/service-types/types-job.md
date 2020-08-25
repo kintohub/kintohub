@@ -7,7 +7,7 @@ KintoHub can host manually triggered jobs or time based triggered cron jobs.
 Jobs are usually used to do period tasks such as caching data, downloading data from 3rd party APIs or running end to end tests.
 In some cases, people use jobs to automatically or manually backup databases as well.
 
-## When to use a backend worker service?
+## When to use a Job service?
 
 If your app requires manual invocation or to run on a scheduled time and does not expose any ports, you should consider using Jobs.
 
