@@ -6,6 +6,7 @@ module.exports = {
     ],
     "Anatomy by Feature": [
       'anatomy/environment',
+      'anatomy/github-apps',
       `anatomy/deploy`,
       'anatomy/metrics',
       'anatomy/releases',
