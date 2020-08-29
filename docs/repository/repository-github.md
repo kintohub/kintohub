@@ -1,5 +1,5 @@
 ---
-id: github-apps
+id: github
 title: GitHub Apps
 ---
 
@@ -18,7 +18,7 @@ The GitHub Apps feature enables integration of repositories in GitHub with Kinto
 If your GitHub account has multiple organisations linked to it, you will be provided with an option to choose the appropriate organisation and access the repositories under that organisation on KintoHub.
 :::
 5. To select only preferred repositories, enable the option **Only select repositories** and then make your selection
-6. Click on he **Install & Autorize** button
+6. Click on he **Install & Authorize** button
 
 Your Github account is connected to KintoHub. Now, **Create and Deploy** services easily by accessing your repositories.
 
@@ -64,6 +64,10 @@ Uninstalling the KintoHub App from GitHub account will block all access to the *
 7. Click on the **Uninstall** button
 
 ![Uninstall](/img/anatomy/Uninstall.png)
+
+:::note
+Your deployed services will remain saved on KintoHub. However, you will no longer be able to build and deploy new releases.
+:::
 
 The repositories in your Github account will no longer be accessible on KintoHub.
 

@@ -6,7 +6,6 @@ module.exports = {
     ],
     "Anatomy by Feature": [
       'anatomy/environment',
-      'anatomy/github-apps',
       `anatomy/deploy`,
       'anatomy/metrics',
       'anatomy/releases',
@@ -16,11 +15,17 @@ module.exports = {
       'anatomy/domains',
       'anatomy/settings',
       'anatomy/build-settings',
-      'anatomy/repository',
       'anatomy/environment-variables',
       'anatomy/advanced',
       'anatomy/billing'
     ],
+
+    "Repository": [
+          'repository/import url',
+          'repository/github',
+
+    ],
+    
     "Service Types": [
       'service-types/web-app',
       'service-types/backend-api',
