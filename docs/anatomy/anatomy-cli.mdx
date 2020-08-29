@@ -1,0 +1,129 @@
+---
+id: cli
+title: Command Line Interface (CLI)
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+KintoHub has as command line interface (CLI) which can be used to debug and interact with your services.a
+
+The CLI is currently an open source **ALPHA** utility that we are working on.
+Contributions are welcomed at [kintohub/kinto-cli](https://github.com/kintohub/kinto-cli)
+
+## Install
+
+<Tabs
+  defaultValue="mac"
+  values={[
+    {label: 'Mac', value: 'mac'},
+    {label: 'Windows', value: 'windows'},
+    {label: 'Linux', value: 'linux'},
+  ]}>
+  <TabItem value="mac">
+    You can install kinto-cli with the following command within your terminal:
+
+    curl -L https://cli.kinto.io/install.sh | bash
+  </TabItem>
+  <TabItem value="windows">
+    You can install kinto-cli with the following command within your Powershell terminal:
+
+    iwr -useb https://cli.kinto.io/win-install | iex
+  </TabItem>
+  <TabItem value="linux">
+    You can install kinto-cli with the following command within your terminal:
+
+    curl -L https://cli.kinto.io/install.sh | bash
+  </TabItem>
+</Tabs>
+
+## Commands
+
+### kinto login
+
+This will allow you to login to your KintoHub account
+
+### kinto env
+
+Lists all environments on your account
+
+```
+➜  backend-api-template git:(master) ✗ kinto env
+SUCCESS:  Available environments:
++--------------------------+-----------------+---------------+
+|          ENV ID          |      NAME       |    REGION     |
++--------------------------+-----------------+---------------+
+| 5f043ec54101fe821c26d7bf | dev             | North America |
++--------------------------+-----------------+---------------+
+| 5f066e8a85baef4fb0ae8b55 | asdf            | Europe        |
++--------------------------+-----------------+---------------+
+| 5f07c44074d9403badce5685 | test            | Asia          |
++--------------------------+-----------------+---------------+
+| 5f081aaa6b3d7dd0cb612885 | dev2            | Asia          |
++--------------------------+-----------------+---------------+
+| 5f0d759f16f0e82d6cf777dc | coolexample     | Asia          |
++--------------------------+-----------------+---------------+
+```
+
+**Requirements**
+* This command requires you to be logged in.
+
+
+### kinto status
+
+Lists all environments that the `.git` repository has ebeen deployed to.
+
+```
+➜  backend-api-template git:(master) ✗ kinto status
+SUCCESS:  Repo is deployed to these environments:
++----------+-----------------------------+
+| ENV  NAME |        SERVICE NAME        |
++----------+-----------------------------+
+| dev       | backendapitemplate         |
++----------+-----------------------------+
+| dev2      | backendapitemplate-4a5638b |
++----------+-----------------------------+
+| dev3      | backendapitemplate-7beb0ce |
++----------+-----------------------------+
+| dev4      | backendapitemplate-e1747df |
++----------+-----------------------------+
+| dev5      | backendapitemplate-fc8a681 |
++----------+-----------------------------+
+```
+
+**Requirements**
+* This command requires you to be logged in.
+* Command must be ran within a `.git` repository
+
+### kinto svs [environmentId]
+
+You will be prompted to choose an environment if the optional **[environmentId]** argument was not supplied.
+This command will list all services within the chosen environment.
+
+**Requirements**
+* This command requires you to be logged in.
+
+### kinto teleport
+
+This command will port-forward all of your remote services from the chosen environment to your local machine.
+You will be prompted to choose an environment.
+
+```
+➜  backend-api-template git:(master) ✗ kinto teleport
+? Select environment: dev
+INFO:     Starting Tunnel
+INFO:     > Forwarding: localhost:5360 => elixirexamples:80
+INFO:     > Forwarding: localhost:5361 => kintohub:80
+INFO:     > Forwarding: localhost:5362 => kintohub-2a5f0f2:80
+SUCCESS:  Connected!
+
+Press any key to close the tunnel
+```
+
+### kinto version
+
+Displays the CLI version
+
+### kinto help
+
+Displays a list of available commands
