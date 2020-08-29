@@ -15,11 +15,17 @@ module.exports = {
       'anatomy/domains',
       'anatomy/settings',
       'anatomy/build-settings',
-      'anatomy/repository',
       'anatomy/environment-variables',
       'anatomy/advanced',
       'anatomy/billing'
     ],
+
+    "Repository": [
+          'repository/import url',
+          'repository/github-apps',
+
+    ],
+    
     "Service Types": [
       'service-types/web-app',
       'service-types/backend-api',
