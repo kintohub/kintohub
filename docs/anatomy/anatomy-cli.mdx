@@ -28,7 +28,7 @@ Contributions are welcomed at [kintohub/kinto-cli](https://github.com/kintohub/k
   <TabItem value="windows">
     You can install kinto-cli with the following command within your Powershell terminal:
 
-    iwr -useb https://cli.kinto.io/win-install | iex
+    iex (new-object net.webclient).downloadstring('https://cli.kinto.io/install.ps1')
   </TabItem>
   <TabItem value="linux">
     You can install kinto-cli with the following command within your terminal:
@@ -127,3 +127,13 @@ Displays the CLI version
 ### kinto help
 
 Displays a list of available commands
+
+### kinto init {hostName}
+
+**Recommended for enterprise users only**
+
+Switches the target **KintoHub** cluster for future CLI commands.
+
+#### Reset to default settings
+`kinto init default` will reset your CLI to the default settings
+
