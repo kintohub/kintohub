@@ -6,7 +6,7 @@ title: Import URL
 All KintoHub services start from a repository.
 Today, you can deploy code from **any** public or private repository on **GitHub**, **BitBucket** and **GitLab** using a valid git URL and access token if your git repository is private.
 
-Looking to connect your repositories via GitHub Apps. Read more [here](../repository/repository-github.md#import-repository)
+Looking to connect your repositories via GitHub Apps. Read more [here](../repository/repository-github-apps.md#import-repository)
 
 :::note
 Repositories do not have any requirements to be compatible with KintoHub. You can deploy an existing repository with zero changes to your code and no configuration required!

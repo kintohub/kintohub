@@ -1,5 +1,5 @@
 ---
-id: github
+id: github-apps
 title: GitHub Apps
 ---
 
@@ -60,7 +60,7 @@ Uninstalling the KintoHub App from GitHub account will block all access to the *
 3. Click on the **Create Service** button
 4. Choose a service from the list of services provided
 5. Click on the **Edit Configuration** link displayed in the `GitHub` tab
-6. Sroll down to the **Danger Zone** section
+6. Scroll down to the **Danger Zone** section
 7. Click on the **Uninstall** button
 
 ![Uninstall](/img/anatomy/Uninstall.png)

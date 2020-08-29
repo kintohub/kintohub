@@ -22,7 +22,7 @@ module.exports = {
 
     "Repository": [
           'repository/import url',
-          'repository/github',
+          'repository/github-apps',
 
     ],
     
