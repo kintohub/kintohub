@@ -45,7 +45,7 @@ Once the GitHub Apps connection is suspended, KintoHub will lose access to the r
 6. Scroll down to the **Danger Zone** section
 7. Click on the **Suspend** button
 
-![Suspend](/img/anatomy/suspend-me-please.png)
+![Suspend](/img/anatomy/suspend.png)
 
 The repositories in your Github account will no longer be accessible on KintoHub.
 To revoke the suspension click on the **Unsuspend** button.
