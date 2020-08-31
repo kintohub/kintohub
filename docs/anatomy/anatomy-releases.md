@@ -14,7 +14,7 @@ Releases show the historic changes and previous change history and results of yo
 
 ## Release Information
 
-Release history will show you all of the previous releases have ever made in your app.
+Release history will show you all of the previous releases ever made in your app.
 
 * **Status** - Shows what is the current result of the release
     * **Failed** - An build or deployment issue occurred and must be debugged by viewing the logs.
@@ -24,6 +24,8 @@ Release history will show you all of the previous releases have ever made in you
 * **Time** - The time that the release completed
 * **Branch** - The branch of code that was deployed on the repository
 
+![Release-Information](/img/anatomy/release-info.png)
+
 :::note
 * We are exploring how to [tag releases](https://feedback.kintohub.com/feature-requests/p/tag-service-releases) so you can keep them forever. If interested, please vote for the feature.
 :::
@@ -32,24 +34,36 @@ Release history will show you all of the previous releases have ever made in you
 
 When you wish to edit and **deploy** a failed or previous release you can do the following:
 
-1. Click the **...** in the row of the release you wish to edit.
-2. Click **Edit Release**
+1. Click on the `...` in the row of the release you wish to edit.
+2. Click on the **Edit Release** option
+
+![Edit Release](/img/anatomy/edit-release.png)
 
 ### View logs of a release
 
-When you click the **Deploy** button you will be able to watch the realtime logs of a release.
+When you click on the **Deploy** button you will be able to watch the real time logs of a release.
 Once the release is completed, we store the logs for future analysis.
 
 You can do the following to view historic deploy logs:
 
-1. Click the **...** in the row of the release you wish to edit.
-2. Click **View Logs**
+1. Click on the `...` in the row of the release you wish to edit.
+2. Click on the **View Logs** option
 
-### Abort A Release
+![View-Logs](/img/anatomy/view-logs.png)
 
-If you know something is wrong and you want to cancel it immediately, you have the option to **Abort**.
+### Abort a Release
 
-1. Click the **...** in the row of the release that has the status **Deploying** or **Queued**
-    * *NOTE - You cannot abort a release that has been completed. It must be deploying.
-2. Click **Abort**
-3. Click the red **Abort** button in the confirmation popup
+If you know something is wrong and you want to cancel it immediately, you have an option to **Abort**.
+
+1. Click on the `...` in the row of the release that has the status **Deploying** or **Queued**
+2. Click on the **Abort** option
+
+:::important
+You cannot abort a release that has been completed. It must be deploying.
+:::
+
+![Abort](/img/anatomy/abort.png)
+
+3. Click on the red **Abort** button in the confirmation popup
+
+  ![Abort](/img/anatomy/abort-now-btn.png)

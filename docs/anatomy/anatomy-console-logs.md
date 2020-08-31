@@ -3,7 +3,7 @@ id: console-logs
 title: Console Logs
 ---
 
-Get realtime visibility on your service's instance logs to debug your app.
+Get real time visibility on your service's instance logs to debug your app.
 As long as your app is writing logs to the console or tail, KintoHub will pick up the text and display it here.
 Console **does not** read logs files.
 Once your service restarts, your logs will be gone forever.
@@ -21,7 +21,9 @@ Use 3rd party services like Datadog to capture your logs for long term storage a
 1. Login to KintoHub
 2. Choose your environment you are interested in viewing at the top left.
 3. Choose the service from the services list you are interested in editing.
-4. Click on **Console** tab in the upper center of the screen
+4. Click on the **Console** tab in the upper center of the screen.
+
+![console](/img/anatomy/console.png)
 
 ## Console Log Format
 
