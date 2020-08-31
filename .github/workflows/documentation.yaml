@@ -68,7 +68,7 @@ jobs:
           fi
           npx docusaurus deploy
       - name: Broken Link Check
-          uses: technote-space/broken-link-checker-action@v1
-          env:
-            TARGET: https://docs.kintohub.com/
+        uses: technote-space/broken-link-checker-action@v1
+        env:
+          TARGET: https://docs.kintohub.com/
 
