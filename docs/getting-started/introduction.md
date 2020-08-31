@@ -37,8 +37,11 @@ Starting with **Google** you can deploy any service in **3** regions around the 
 
 ## What About Serverless?
 
-KintoHub currently does not support Lambda or Functions, but we do have a **Sleep Mode**.
-[Sleep Mode](anatomy/anatomy-advanced.md) can be found under the advanced settings of your services and will give you control over when your services shut down.
+KintoHub currently does not support Lambda or Functions, but we do have a **Sleep Mode** coming soon. It will give you control over when your services shut down.
 While they sleep, if an API request comes in, they will wake up within a few seconds.
 
 Combining full control over your resources with being able to deploy a **32 Mb** instance and **Sleep Mode**, you can build a fleet of reliable serverless services. Not to mention, running a **32 Mb** service on KintoHub 24/7 only costs **$1.09 USD** per month!
+
+:::note
+Vote on the **Sleep mode** feature [here](https://feedback.kintohub.com/feature-requests/p/sleep-mode).
+:::
