@@ -29,7 +29,7 @@ Kinto is the short form of **Kinto'Un**, inspired from Journey to the West and t
 
 ## What is a Cloud Interface?
 
-In 2020, cloud providers are slowly being abstracted by a technology called [Kubernetes](www.kubernetes.io).
+In 2020, cloud providers are slowly being abstracted by a technology called [Kubernetes](https://www.kubernetes.io).
 KintoHub utilizes Kubernetes to build the first multi-cloud, multi-region management platform where you can deploy your services alongside existing workloads on a cloud account.
 Starting with **Google** you can deploy any service in **3** regions around the world! **Amazon**, **Azure**, and **Digital Ocean** are coming next!
 
@@ -38,7 +38,7 @@ Starting with **Google** you can deploy any service in **3** regions around the 
 ## What About Serverless?
 
 KintoHub currently does not support Lambda or Functions, but we do have a **Sleep Mode**.
-[Sleep Mode](anatomy/anatomy-advanced.md) can be found under the advanced settings of your services and will give you control over when your services shut down.
+[Sleep Mode](../anatomy/anatomy-advanced.md) can be found under the advanced settings of your services and will give you control over when your services shut down.
 While they sleep, if an API request comes in, they will wake up within a few seconds.
 
 Combining full control over your resources with being able to deploy a **32 Mb** instance and **Sleep Mode**, you can build a fleet of reliable serverless services. Not to mention, running a **32 Mb** service on KintoHub 24/7 only costs **$1.09 USD** per month!
