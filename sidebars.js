@@ -5,6 +5,7 @@ module.exports = {
       'getting-started/fullstack-example',
     ],
     "Anatomy by Feature": [
+      'anatomy/cli',
       'anatomy/environment',
       `anatomy/deploy`,
       'anatomy/metrics',
