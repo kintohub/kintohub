@@ -81,6 +81,7 @@ module.exports = {
           'examples/flask/flask-example',
         ],
       },
+      'examples/laravel',
     ]
   },
 };
