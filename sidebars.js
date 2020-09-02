@@ -81,6 +81,14 @@ module.exports = {
           'examples/flask/flask-example',
         ],
       },
-    ]
+      {
+          type: 'category',
+          label: 'Laravel',
+          collapsed: false,
+          items: [
+            'examples/laravel/laravel-example',
+          ],
+      },
+    ],
   },
 };

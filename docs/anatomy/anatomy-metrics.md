@@ -25,6 +25,8 @@ Shows the total amount of resources that your entire service is taking up.
 * **vCPU** - The total vCPU and vCPU usage your service is using 
     * When vCPU is shared, the value will be shown as **SHARED** and you will not be able to monitor usage.
 
+![Summary](/img/anatomy/summary.png)    
+
 ### Instances
 
 Instances are individual live and running apps that make up your service.
@@ -40,4 +42,6 @@ Instances are individual live and running apps that make up your service.
     * **Completed** - Service has been terminated due to a `Deploy` or `Restart` action
 * **Actions** - `...` Provides actions you can execute on your instance
     * **Restart Instance** - If there is an issue, you can force an instance restart
-    * **View Console** - Takes you to your **Console** tab and filters the logs with the instance you specified. 
+    * **View Console** - Takes you to your **Console** tab and filters the logs with the instance you specified
+
+![Instance](/img/anatomy/instance.png)    

@@ -13,36 +13,51 @@ There are several ways you can deploy updates to a new or existing service.
 ### Deploy New Service
 
 1. Login to KintoHub
-2. Choose your environment you are interested in deploying into at the top left.
-3. Click `Create Service`
-4. Fill the **Repository** information
-5. Fill the **Build Settings** information
-6. Click `Deploy` at the top right
+2. Choose your environment you are interested in deploying into at the top left
+3. Click on the `Create Service` button
+4. Choose a service from the list of services provided
+4. Connect your repositories via __Github Apps__ in `Github` tab or Fill in the **Repository** information in `Import URL` tab
+5. Fill in the **Build Settings** information
+6. Click on the `Deploy` at the top right
 
-### Deploy A Configuration Update
-
-1. Login to KintoHub
-2. Choose your environment you are interested in deploying into at the top left.
-3. Choose the service you are interested in editing under the services list.
-4. Click **Edit Service** at the top right
-5. Make the changes within the various tabs you wish to edit.
-6. Click **Deploy** at the top right.
-
-### Deploy A Previous Release
+### Deploy a Configuration Update
 
 1. Login to KintoHub
-2. Choose your environment you are interested in deploying into at the top left.
-3. Choose the service you are interested in editing under the services list.
-4. Click the **Releases** tab near the top left.
-5. Click the **...** within the row of the release you wish to deploy
-6. Click **Rollback** option.
+2. Choose your environment you are interested in deploying into at the top left
+3. Choose the service you are interested in editing under the services list
+4. Click on the **Edit Service** at the top right
+
+![Edit Service](/img/anatomy/edit-service.png)
+
+5. Make the changes within the various tabs you wish to edit
+6. Click on the **Deploy** at the top right
+
+### Deploy a Previous Release
+
+1. Login to KintoHub
+2. Choose your environment you are interested in deploying into at the top left
+3. Choose the service you are interested in editing under the services list
+4. Click on the **Releases** tab near the top left
+
+![Release tab](/img/anatomy/Releases.png)
+
+5. Click on the **...** within the row of the release you wish to deploy
+6. Click on the **Rollback** option
+
+![Rollback](/img/anatomy/rollback.png)
+
+:::important
+The __Rollback__ option is available for __any__ service which has atleast 2 successfully deployed releases. However, releases with the status `Aborted` and `Failed` cannot be rolled back.
+:::
 
 ### Deploy Updated Code From Your Branch
 
 1. Login to KintoHub
-2. Choose your environment you are interested in deploying into at the top left.
-3. Choose the service you are interested in editing under the services list.
-4. Click **Trigger Deploy** at the top right of the service
+2. Choose your environment you are interested in deploying into at the top left
+3. Choose the service you are interested in editing under the services list
+4. Click on the **Trigger Deploy** at the top right of the service
+
+![Trigger](/img/anatomy/trigger-deploy.png)
 
 ### Automatically Deploy New Code (CI/CD)
 
@@ -50,7 +65,7 @@ This feature is currently in development and can be read under [Service Settings
 
 ## Deploy Logs
 
-After clicking deploy, you will see a realtime view of the [Release Logs](anatomy-releases.md).
+After clicking deploy, you will see a real time view of the [Release Logs](anatomy-releases.md).
 
 ## How Does Deploy Work?
 
@@ -82,3 +97,5 @@ Every **region** has its deployment queue.
 ## Abort Deploy Action
 
 Under the **Releases** Tab of your service, you can click the **...** dots a release that is actively deploying and then click **Abort**
+
+![Abort](/img/anatomy/abort.png)

@@ -1,0 +1,42 @@
+version: '3'
+
+networks:
+  laravel:
+
+services:
+  site:
+    build:
+      context: .
+      dockerfile: nginx.dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - laravel
+      - mysql
+    networks:
+      - laravel
+  mysql:
+    image: mysql:5.7.29
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: forge
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: abcd1234
+      MYSQL_ROOT_PASSWORD: supersecret1234
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - laravel
+  laravel:
+    build:
+      context: .
+      dockerfile: laravel.dockerfile
+    environment:
+      DATABASE_URL: mysql://root:supersecret1234@mysql/forge?charset=UTF-8
+    ports:
+      - "9000:9000"
+    networks:
+      - laravel

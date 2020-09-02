@@ -18,8 +18,10 @@ This feature is only available for **Pay-As-You-Go** users. Free users are limit
 
 1. Login to your account
 2. Click on the dropdown at the top left next to your **environment name**
-3. Click **Create Environment**
-4. Select in your region of choice
+3. Click on the  **Create Environment** button in your region of choice
+
+![Environment](/img/anatomy/create-environment.png)
+
 5. Create a name for your environment.
 6. Start adding services to your environment
 
