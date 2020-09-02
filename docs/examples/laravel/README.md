@@ -1,6 +1,6 @@
 ---
 id: laravel-example
-title: Laravel
+title: Laravel Example
 ---
 
 This example has been referenced and rebuilt from [Aschmelyun/docker-compose-laravel](https://github.com/aschmelyun/docker-compose-laravel).
