@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@hapi/hapi": "^18.4.0",
+    "@hapi/hapi": "^19.1.1",
     "dotenv": "^8.2.0"
   }
 }
