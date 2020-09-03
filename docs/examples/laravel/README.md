@@ -56,11 +56,12 @@ This will take several minutes to complete
 4. Enter the repository URL as `https://github.com/kintohub/kintohub.git`
 5. Click on the **Connect** button
 6. Change the **Service Name/Hostname** to `laravel`
-7. Change the **Dockerfile Name** to `laravel.dockerfile`
-8. Change the **Subfolder Path** to `./docs/example/laravel`
-9. Change the **Port** to `9000`
-10. Open the **Environment Variables** tab and enter the key `DATABASE_URL` and paste the connection string value you copied in the **Deploy a MySQL Server Step**
-11. Additionally, paste the following into the **key** textbox:
+7. Select the language as **Dockerfile**
+8. Change the **Dockerfile Name** to `laravel.dockerfile`
+9. Change the **Subfolder Path** to `./docs/examples/laravel`
+10. Change the **Port** to `9000`
+11. Open the **Environment Variables** tab and enter the key `DATABASE_URL` and paste the connection string value you copied in the **Deploy a MySQL Server Step**
+12. Additionally, paste the following into the **key** textbox:
 
 ```
 APP_NAME=Laravel
@@ -89,8 +90,9 @@ We need to deploy a web host proxy to serve the php app on KintoHub.
 3. Click on the **Import URL** tab
 4. Enter the repository URL as `https://github.com/kintohub/kintohub.git`
 5. Click on the **Connect** button
+6. Select the language as **Dockerfile**
 6. Change the **Dockerfile Name** to `nginx.dockerfile`
-7. Change the **Subfolder Path** to `./docs/example/laravel`
+7. Change the **Subfolder Path** to `./docs/examples/laravel`
 8. Change the **Port** to `80`
 9. Click on the **Deploy** button at the top right
 
