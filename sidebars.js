@@ -82,6 +82,14 @@ module.exports = {
         ],
       },
       {
+        type: 'category',
+        label: 'Rust',
+        collapsed: false,
+        items: [
+          'examples/rust/rust-example',
+        ],
+    },
+      {
           type: 'category',
           label: 'Laravel',
           collapsed: false,
