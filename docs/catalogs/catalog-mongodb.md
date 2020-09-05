@@ -3,13 +3,15 @@ id: mongodb
 title: MongoDB
 ---
 
+![Deploy MongoDB](/img/catalogs/deploy-mongodb.gif)
+
 [MongoDB](https://www.mongodb.com/) is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 
 ## Create a MongoDB Database
 
 All MongoDb servers are 100% dedicated to your environment.
 
-1. Login to your KintoHub account
+1. [Login](https://app.kintohub.com/login) or [Create](https://app.kintohub.com/sign-up) a KintoHub account
 2. Click **Create Service** at the top right of your environment
 3. Click the **From Catalog** tab at the top right
 4. Click the **MongoDB** option in the list
@@ -19,13 +21,18 @@ All MongoDb servers are 100% dedicated to your environment.
 
 ## Access Your MongoDB Instances
 
+### Access from service running on KintoHub
 You may only access your MongoDB Instance from services running in the **same** environment.
-Learn more about how to connect to your MongoDB Instance under the [Access Tab](../anatomy/anatomy-access.md#mongodb).
+Learn more about how to connect to your MongoDB Instance under the [Access Tab](../anatomy/anatomy-access.md).
 
-::note
-In the near future you will be able to [Tunnel](https://feedback.kintohub.com/feature-requests/p/port-forwarding-for-debugging) from your machine to your service for easy access.
-Additionally, a feature to run commands directly to your mysql instance via a [Shell](https://feedback.kintohub.com/feature-requests/p/shell-access) terminal will be available as well.
-::
+### Access from local machine
+
+You can install the [Kinto CLI](../anatomy/anatomy-cli.mdx) and run `kinto teleport ` from a `.git` folder that has been deployed on KintoHub with a MongoDB database.
+Using the tunnel that is created with this command, you can use any 3rd party mongo client to connect or the mongo cli.
+
+:::note
+In the very near future: `kinto teleport --all` will allow you to access MongoDb without having previously deployed another service with it
+:::
 
 ## MongoDB Advanced Options
 
