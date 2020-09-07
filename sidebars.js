@@ -88,7 +88,15 @@ module.exports = {
         items: [
           'examples/rust/rust-example',
         ],
-    },
+      },
+      {
+        type: 'category',
+        label: 'Elixir',
+        collapsed: false,
+        items: [
+          'examples/elixir/elixir-example',
+        ],
+      },
       {
           type: 'category',
           label: 'Laravel',
