@@ -86,7 +86,7 @@ module.exports = {
           label: 'Laravel',
           collapsed: false,
           items: [
-            'examples/laravel/laravel-example',
+            'examples/laravel/laravel',
           ],
       },
     ],

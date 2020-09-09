@@ -1,5 +1,5 @@
 ---
-id: laravel-example
+id: laravel
 title: Laravel Example
 ---
 
