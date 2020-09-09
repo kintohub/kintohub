@@ -42,7 +42,7 @@ If you do not have an account, first [signup](https://www.kintohub.com)
 
 Once complete, go to the **Access** tab and copy the **Root User Connection String**
 
-![My SQL](/img/anatomy/my-sql.png)
+![PostgreSQL Connection String](/img/examples/laravel/postgres-connection-string.png)
 
 This will take several minutes to complete
 
@@ -75,8 +75,8 @@ CACHE_DRIVER=file
 QUEUE_CONNECTION=sync
 SESSION_DRIVER=file
 SESSION_LIFETIME=120
-
 ```
+
 This will take about 6 minutes to complete
 
 ### Deploy Nginx Php Proxy
@@ -88,11 +88,12 @@ We need to deploy a web host proxy to serve the php app on KintoHub.
 3. Click on the **Import URL** tab
 4. Enter the repository URL as `https://github.com/kintohub/kintohub.git`
 5. Click on the **Connect** button
-6. Select the language as **Dockerfile**
-6. Change the **Dockerfile Name** to `nginx.dockerfile`
-7. Change the **Subfolder Path** to `./docs/examples/laravel`
-8. Change the **Port** to `80`
-9. Click on the **Deploy** button at the top right
+6. Change the **Service Name/Hostname** to `nginx`
+7. Select the language as **Dockerfile**
+8. Change the **Dockerfile Name** to `nginx.dockerfile`
+9. Change the **Subfolder Path** to `./docs/examples/laravel`
+10. Change the **Port** to `80`
+11. Click on the **Deploy** button at the top right
 
 When complete, open the **Access** tab and open the external URL to see your Laravel app!
 
