@@ -12,31 +12,38 @@ services:
       - "8080:80"
     depends_on:
       - laravel
-      - mysql
+      - postgres
     networks:
       - laravel
-  mysql:
-    image: mysql:5.7.29
-    restart: unless-stopped
-    tty: true
-    ports:
-      - "3306:3306"
+  postgres:
+    image: postgres
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - laravel
     environment:
-      MYSQL_DATABASE: forge
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: abcd1234
-      MYSQL_ROOT_PASSWORD: supersecret1234
-      SERVICE_TAGS: dev
-      SERVICE_NAME: mysql
-    networks:
-      - laravel
+      POSTGRES_DB: forge
   laravel:
     build:
       context: .
       dockerfile: laravel.dockerfile
     environment:
-      DATABASE_URL: mysql://root:supersecret1234@mysql/forge?charset=UTF-8
+      DATABASE_URL: postgres://postgres:@postgres:5432/forge
+      APP_NAME: Laravel
+      APP_ENV: local
+      APP_KEY: base64:PoStwuoIPBnH+W2znwpmQbZvCJZPdou1DedUu+3F7mI=
+      APP_DEBUG: "true"
+      APP_URL: http://localhost
+      LOG_CHANNEL: stack
+      BROADCAST_DRIVER: log
+      CACHE_DRIVER: file
+      QUEUE_CONNECTION: sync
+      SESSION_DRIVER: file
+      SESSION_LIFETIME: 120
     ports:
       - "9000:9000"
     networks:
       - laravel
+volumes:
+  db_data:

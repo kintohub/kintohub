@@ -5,7 +5,7 @@ title: Laravel Example
 
 This example has been referenced and rebuilt from [Aschmelyun/docker-compose-laravel](https://github.com/aschmelyun/docker-compose-laravel).
 You can use this repository to deploy a Laravel app on KintoHub.
-Additionally, it can be used to quickly set up Laravel locally on your machine.
+Additionally, this guide can be used to quickly set up Laravel locally on your machine.
 
 ## Directory Structure
 
@@ -13,7 +13,7 @@ Additionally, it can be used to quickly set up Laravel locally on your machine.
 * `/nginx` - Configuration files for nginx to serve PHP
 * `laravel.dockerfile` - Dockerfile to bootstrap Laravel app
 * `nginx.dockerfile` - Dockerfile to serve nginx website
-* `docker-compose.yaml` - Composition of nginx + laravel + mysql to work together
+* `docker-compose.yaml` - Composition of nginx + laravel + postgres to work together
 
 ## Running locally
 
@@ -22,7 +22,6 @@ Additionally, it can be used to quickly set up Laravel locally on your machine.
 In the root of this repository use `docker-compose up -d`
 
 Once complete, go to `localhost:8080` to access the website!
-If you are interested in using MySQL, find the database credentials in the `docker-compose.yaml` file.
 
 ## Setup a new project
 
@@ -33,18 +32,17 @@ Begin to modify the files as you please!
 ## :rocket: Deploying on KintoHub
 
 If you do not have an account, first [signup](https://www.kintohub.com)
-This example requires a MySQL server which requires you to activate [pay-as-you-go](https://docs.kintohub.com/anatomy/billing#activate-pay-as-you-go-billing) billing on KintoHub.
 
-### Deploy a MySQL Server
+### Deploy a Postgres Server
 
 1. Click on the **Create Service** button at the top right of your environment
-2. Click on the **From Catalog** tab and then select **MySQL** Service
+2. Click on the **From Catalog** tab and then select **PostgreSQL** Service
 3. Fill or generate your `username`, `password` and `root password` for your database
 4. Click on the **Deploy** button at the top right.
 
 Once complete, go to the **Access** tab and copy the **Root User Connection String**
 
-![My SQL](/img/anatomy/my-sql.png)
+![PostgreSQL Connection String](/img/examples/laravel/postgres-connection-string.png)
 
 This will take several minutes to complete
 
@@ -60,7 +58,7 @@ This will take several minutes to complete
 8. Change the **Dockerfile Name** to `laravel.dockerfile`
 9. Change the **Subfolder Path** to `./docs/examples/laravel`
 10. Change the **Port** to `9000`
-11. Open the **Environment Variables** tab and enter the key `DATABASE_URL` and paste the connection string value you copied in the **Deploy a MySQL Server Step**
+11. Open the **Environment Variables** tab and enter the key `DATABASE_URL` and paste the connection string value you copied in the **Deploy a Postgres Server Step**
 12. Additionally, paste the following into the **key** textbox:
 
 ```
@@ -77,8 +75,8 @@ CACHE_DRIVER=file
 QUEUE_CONNECTION=sync
 SESSION_DRIVER=file
 SESSION_LIFETIME=120
-
 ```
+
 This will take about 6 minutes to complete
 
 ### Deploy Nginx Php Proxy
@@ -90,11 +88,12 @@ We need to deploy a web host proxy to serve the php app on KintoHub.
 3. Click on the **Import URL** tab
 4. Enter the repository URL as `https://github.com/kintohub/kintohub.git`
 5. Click on the **Connect** button
-6. Select the language as **Dockerfile**
-6. Change the **Dockerfile Name** to `nginx.dockerfile`
-7. Change the **Subfolder Path** to `./docs/examples/laravel`
-8. Change the **Port** to `80`
-9. Click on the **Deploy** button at the top right
+6. Change the **Service Name/Hostname** to `nginx`
+7. Select the language as **Dockerfile**
+8. Change the **Dockerfile Name** to `nginx.dockerfile`
+9. Change the **Subfolder Path** to `./docs/examples/laravel`
+10. Change the **Port** to `80`
+11. Click on the **Deploy** button at the top right
 
 When complete, open the **Access** tab and open the external URL to see your Laravel app!
 
