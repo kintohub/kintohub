@@ -28,6 +28,7 @@ module.exports = {
     ],
     
     "Service Types": [
+      'service-types/static-site',
       'service-types/web-app',
       'service-types/backend-api',
       'service-types/backend-worker',
