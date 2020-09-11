@@ -14,11 +14,9 @@ Very soon KintoHub will provide a feature to allow users to integrate and deploy
 
 ## When to use a static site?
 
-Static websites are a good choice if performance and security are critical to you. 
+Static website are a good choice when you want to couple them with content delivery networks (CDN) or have a website that does not require a port. 
 
-Static websites load extremely fast because they do not have bottlenecks caused by SSL, database or dynamic rendering.
-
-Static sites are also more secure as they have no CMS, server-side platform or database to breach.
+If your website requires a port, checkout for Web Apps [here](../service-types/types-web-app.md#static-site)
 
 :::note
 Static site service is provided with **Build Output Path** field. The HTML files required by the site are fetched from the output path specified. 
