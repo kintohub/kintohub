@@ -14,7 +14,7 @@ Very soon KintoHub will provide a feature to allow users to integrate and deploy
 
 ## When to use a static site?
 
-Static website are a good choice when you want to couple them with content delivery networks (CDN) or have a website that does not require a port. 
+Static websites are a good choice when you want to couple them with content delivery networks (CDN) or have a website that does not require a port. 
 
 If your website requires a port, checkout for Web Apps [here](../service-types/types-web-app.md#static-site)
 
