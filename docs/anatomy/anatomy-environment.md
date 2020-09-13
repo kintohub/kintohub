@@ -25,6 +25,43 @@ This feature is only available for **Pay-As-You-Go** users. Free users are limit
 5. Create a name for your environment.
 6. Start adding services to your environment
 
+## Edit Environment
+
+1. Login to your account
+2. Click on the **Cogwheel** icon displayed at the top-right corner.
+
+![Edit Environment](/img/anatomy/edit-environment.png)
+
+3. Edit your **Environment name** in the slide panel displayed.
+4. Click on the **Save** button
+
+On clicking `Save` button, your edited `Environment Name` will be saved.
+
+![Save Environment](/img/anatomy/edit-save.png)
+
+:::note
+1. The **Region** field is locked and cannot be edited. 
+2. The **Environment ID** is a unique ID generated for each environment created and can be copied.
+:::
+
+## Delete Environment
+
+1. Login to your account
+2. Click on the **Cogwheel** icon displayed at the top-right corner.
+3. Click on the **Delete Environment** button displayed in a slide panel.
+
+![Delete environment](/img/anatomy/delete-env.png)
+
+4. Click on the **Delete** button in the prompt displayed to delete your `Environment`.
+
+![Confirm Delete](/img/anatomy/confirm-del-env.png)
+
+:::important
+1. Environments cannot be deleted if you have your `services` running in it, all your services in a environment should be deleted before deleting a environment.
+2. The `Default` and `last` environment cannot be deleted.
+:::
+
+
 ## Regions
 
 Every KintoHub environment is hosted in a single cloud region. 
