@@ -28,26 +28,26 @@ This feature is only available for **Pay-As-You-Go** users. Free users are limit
 ## Edit Environment
 
 1. Login to your account
-2. Click on the **Cogwheel** icon displayed at the top-right corner.
+2. Click on the **Settings** icon displayed at the top-right corner.
 
 ![Edit Environment](/img/anatomy/edit-environment.png)
 
 3. Edit your **Environment name** in the slide panel displayed.
 4. Click on the **Save** button
 
-On clicking `Save` button, your edited `Environment Name` will be saved.
+On clicking the `Save` button, your edited `Environment Name` will be saved.
 
 ![Save Environment](/img/anatomy/edit-save.png)
 
 :::note
-1. The **Region** field is locked and cannot be edited. 
-2. The **Environment ID** is a unique ID generated for each environment created and can be copied.
+* The **Region** field is locked and cannot be edited. 
+* The **Environment ID** is a unique ID generated for your environment and may be requested by the support team when aiding you with an issue.
 :::
 
 ## Delete Environment
 
 1. Login to your account
-2. Click on the **Cogwheel** icon displayed at the top-right corner.
+2. Click on the **Settings** icon displayed at the top-right corner.
 3. Click on the **Delete Environment** button displayed in a slide panel.
 
 ![Delete environment](/img/anatomy/delete-env.png)
@@ -57,8 +57,8 @@ On clicking `Save` button, your edited `Environment Name` will be saved.
 ![Confirm Delete](/img/anatomy/confirm-del-env.png)
 
 :::important
-1. Environments cannot be deleted if you have your `services` running in it, all your services in a environment should be deleted before deleting a environment.
-2. The `Default` and `last` environment cannot be deleted.
+* Environments cannot be deleted if you have your services running in it, All services in your environment must be deleted before you can delete your environment.
+* You must have `at least 1 environment` on your account. The deletion functionality is disabled if you only have 1 environment.
 :::
 
 
