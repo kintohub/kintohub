@@ -19,7 +19,9 @@ The service access tab is located in the **Service View**.
 
 1. Login to your KintoHub account
 2. Create a new service or click on a Service in your [Environment](anatomy-environment.md)
-3. Click on the tab *Access*
+3. Click on the tab **Access**
+
+![Access](/img/anatomy/access-tab.png)
 
 ## How It Works?
 
@@ -40,6 +42,8 @@ Postgres has additional access information that is generated for usage.
 * **Root Password** - the password for the root user **postgres**.
 * **Username** - the username specified when creating the service
 * **Password** - the password for **username** specified when creating the service
+
+![Connections](/img/anatomy/connections.png)
 
 :::note
 If you programmatically change the Postgres user or password data, the information on KintoHub will be **out of sync** and unuseable.
