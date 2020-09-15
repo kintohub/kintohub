@@ -67,3 +67,12 @@ You cannot abort a release that has been completed. It must be deploying.
 3. Click on the red **Abort** button in the confirmation popup
 
   ![Abort](/img/anatomy/abort-now-btn.png)
+
+### Resume a Release
+
+If you want to **Resume** your suspended services follow the instructions below.
+
+1. Click on the `...` in the row of the release that has the status **Suspended**
+2. Click on the **Resume** option
+
+![Resume from Release](/img/anatomy/resume-from-release.png)

@@ -44,11 +44,11 @@ The Suspend service option will allow you to temporarily stop your services runn
 
 Once you confirm, the services will stop running and status will change to `Suspended`.
 
-:::note
-To revoke the suspension, all you need to do is click on the __Resume__ button. Once you resume, the suspended services will be redeployed on KintoHub.
-:::
+ To resume your services, click on the **Resume** button. 
 
 ![Resume](/img/anatomy/resume.png)
+
+>You can also resume your services from the [Releases](anatomy-releases.md#resume-a-release) tab.
 
 ## Delete a service
 
