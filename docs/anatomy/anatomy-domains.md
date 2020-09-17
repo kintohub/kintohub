@@ -37,4 +37,10 @@ Your Let's Encrypt certificate status is displayed under **SSL Status**
 
 ## Remove Domain
 
-Under the **Domains** tab click the **Delete** button in the row of the domain you wish to remove.
+1. Under the **Domains** tab click on the **Remove** button in the row of the domain you wish to remove.
+
+![Remove Domain](/img/anatomy/remove-domain.png)
+
+2. Click on the **Remove** button in the prompt displayed.
+
+![Cofirm remove domain](/img/anatomy/confirm-remove.png)

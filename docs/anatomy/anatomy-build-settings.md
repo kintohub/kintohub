@@ -26,6 +26,9 @@ Build settings can be found on new, live, and historically deployed services.
 2. Choose your environment you are interested in editing at the top left.
 3. Choose the service from the services list you are interested in editing.
 4. Click `Edit Service` at the top right.
+
+![Edit Service](/img/anatomy/edit-service.png)
+
 5. By default, you will be placed on the **Build Settings** tab
 
 ### Viewing Historical Build Settings
@@ -36,6 +39,9 @@ Build settings can be found on new, live, and historically deployed services.
 4. Click on the **Releases** tab
 5. Click the **...** on the right of the row to the specific release you are interested in viewing
 6. Click **Edit Release** from the dropdown menu.
+
+![Edit Release](/img/anatomy/edit-release.png)
+
 7. By default, you will be placed on the **Build Settings** tab
 
 ## General Build Settings
@@ -55,7 +61,7 @@ Build settings can be found on new, live, and historically deployed services.
         * **Language Version** the version of PHP you want to use
         * **Build Command** Build commands run as the 1st stage of Deploy to compile your build your code into an app
         * **Start Command** Is the command that starts your application during the last stage of `Deploy`
-    * **Java** - Managed PHP environment 
+    * **Java** - Managed Java environment 
         * **Language Version** the version of Java you want to use
         * **Build Command** Build commands run as the 1st stage of Deploy to compile your build your code into an app
         * **Start Command** Is the command that starts your application during the last stage of `Deploy`
