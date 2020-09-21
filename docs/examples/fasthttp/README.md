@@ -26,7 +26,7 @@ A sample Fasthttp app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/fasthttp
+$ cd kintohub/docs/examples/fasthttp
 ```
 
 - Build the app

@@ -26,7 +26,7 @@ A sample Gin app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/gin
+$ cd kintohub/docs/examples/gin
 ```
 
 - Build the app

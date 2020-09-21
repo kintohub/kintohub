@@ -49,8 +49,14 @@ Here are some examples that can be deployed for **FREE** after becoming a **Pay-
 
 1. Login to your account
 2. Click on your **Account Icon** at the bottom left of the screen
-3. Click **View Plan**
-4. Click **Upgrade** under the `pay-as-you-go` plan.
+3. Click on the **View Plan** option
+
+![View Plan](/img/anatomy/view-plan.png)
+
+4. Click on the **Select Plan** button under the `pay-as-you-go` plan.
+
+![Plan](/img/anatomy/pay-as-you-go.png)
+
 5. Enter your `name` and `credit card` information
 6. Enjoy KintoHub!
 
@@ -63,8 +69,10 @@ Please [contact us](https://www.kintohub.com/contact-us) to cancel your subscrip
 
 1. Login to your account
 2. Click on your **Account Icon** at the bottom left of the screen
-3. Click **Billing**
+3. Click on the **Billing** option
 4. Under **Billing History** select the `arrow` next to the invoice date
+
+![Billing History](/img/anatomy/arrow-icon.png)
 
 ### Add or Remove Cards
 
@@ -74,8 +82,11 @@ If you wish to update your subscription with a new card, you may follow these st
 
 1. Login to your account
 2. Click on your **Account Icon** at the bottom left of the screen
-3. Select Billing
-4. Under **Payment Method** click `Add payment method`
+3. Select **Billing** option
+4. Under **Payment Method** click on the `Add payment method` option
+
+![Add Payment Method](/img/anatomy/add-payment-method.png)
+
 5. Once your new payment method is added, click `Set Default Payment Method` to your new card
 6. Optionally, you may now remove your original card that was on the account.
 
@@ -101,7 +112,7 @@ Learn how to estimate your costs, visit the [Advanced Settings](anatomy-advanced
 
 ### vCPU Pricing
 
-CPU cost are broken down into three catgories and is charged per second:
+CPU cost are broken down into three categories and is charged per second:
 
 * **Shared vCPU** - $1 USD /month
 * **Dedicated vCPU with Optimization Enabled** - $15 USD /month 

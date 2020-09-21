@@ -9,7 +9,7 @@ Sidekiq and Celery are often used as a backend worker service.
 
 ## When to use a backend worker service?
 
-If your app does not have any public API endpoints and needs to run continuously, you should consider using backend worker.
+If your app does not have any public API endpoints and needs to run continuously, you should consider using a backend worker.
 
 ## Backend worker features
 

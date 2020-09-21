@@ -20,7 +20,10 @@ Environment Variables are not available for Catalog services.
 3. Click **Create Service** at the top right.
 4. Enter in your repository information.
 5. Click the **Environment Variables** tab available within the panel.
-6. After adding your environment variables, then click **Deploy** at the top right.
+
+![Environment Variables](/img/anatomy/env-var-tab.png)
+
+6. After adding your environment variables, then click **Deploy** button at the top right.
 
 ## Edit Service Environment Variables
 
@@ -29,7 +32,7 @@ Environment Variables are not available for Catalog services.
 3. Choose the service from the services list you are interested in editing.
 4. Click **Edit Service** at the top right.
 5. Click the **Environment Variables** tab available within the panel.
-6. After making the modifications you wish to make, then click **Deploy** at the top right.
+6. After making the modifications you wish to make, then click **Deploy** button at the top right.
 
 ## View Historic Environment Variables
 
@@ -40,7 +43,7 @@ If you wish to see what environment variables you used in the past, you may look
 3. Choose the service from the services list you are interested in editing.
 4. Click on the **Releases** tab near the top left of the screen.
 5. Click the **...** on the right of the row to the specific release you are interested in viewing.
-6. Click **Edit Release**
+6. Click **Edit Release** option
 7. Click the **Environment Variables** tab available within the slide-out panel.
 
 ## Paste Environment Variables from `.env` file
@@ -63,3 +66,5 @@ DATABASE_HOST=vegeta.com
 
 1. Go to an Environment Variables tab following the instructions from above.
 2. Click the `Copy to Clipboard` button which will copy the values in `.env` file format
+
+![Copy Variables](/img/anatomy/copy-env-vars.png)

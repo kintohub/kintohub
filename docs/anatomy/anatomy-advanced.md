@@ -4,7 +4,7 @@ title: Advanced Settings
 ---
 
 Advanced settings give you full control to customize your service's resources and timeout settings.
-Once you make a change to any advance setting, you will be required to [Deploy](anatomy-deploy.md) the changes.
+Once you make a change to any advanced setting, you will be required to [Deploy](anatomy-deploy.md) the changes.
 
 ## View Advanced Settings
 
@@ -13,11 +13,18 @@ The advanced settings tab is located under the **Edit Service** slide-out menu.
 1. Login to your KintoHub account
 2. Create a new service or click on a Service in your [Environment](anatomy/anatomy-environment.md)
 3. Click on the **Edit Service** button at the top right
-4. Find the tab called **Advanced Settings** on the far right
+
+![Edit Service](/img/anatomy/edit-service.png)
+
+4. Find the tab called **Advanced** on the far right
+
+![Advanced](/img/anatomy/advanced-tab.png)
 
 ## How It Works?
 
-Unique settings will available depending on your service type.
+Unique settings will be available depending on your service type.
+
+![Advance options](/img/anatomy/advance-options.png)
 
 ### Memory
 
@@ -32,7 +39,7 @@ If you require more memory, you may [contact support](https://www.kintohub.com/c
 By default and when toggled off, the vCPU of your service is shared between KintoHub community.
 Shared vCPU may randomly affect the performance of your service and is only recommended for `dev` environments.
 
-When togged on, you will have the option to specify a guaranteed dedicated amount of vCPU for your service.
+When toggled on, you will have the option to specify a guaranteed dedicated amount of vCPU for your service.
 The lowest amount of vCPU you may use is **0.1 cores** which is 10% of a dedicated vCPU.
 The highest amount of vCPU available is **2** which guarantees **2** dedicated vCPU cores.
 

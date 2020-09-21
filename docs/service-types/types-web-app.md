@@ -11,7 +11,7 @@ Web Apps may look identical to [Backend APIs](types-backend-api.md), but will ha
 If your website requires a port and is not built into static files, you should consider using a web app.
 
 :::note
-[Static Websites](https://feedback.kintohub.com/feature-requests/p/static-website-w-optional-jam-builds) will be coming soon.
+For `Static Websites` checkout [here](../service-types/types-static-sites.md#web-app)
 :::
 
 ## Web App features

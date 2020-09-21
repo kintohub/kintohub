@@ -22,12 +22,12 @@ The following service types support **Custom domains**:
 ![Domain](/img/anatomy/domain.png)
 
 5. Enter in your domain or subdomain you wish to map to your service.
-6. Click **Add Domain**
+6. Click on the **Add Domain** button
 
 ![Add Domain](/img/anatomy/add-domain.png)
 
 7. Follow the instructions to add a **CNAME** key and value to your DNS host provider
-8. Once complete click **Verify**
+8. Once complete click on the **OK** button
 
 ## Domain Status
 
