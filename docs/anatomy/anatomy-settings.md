@@ -22,12 +22,33 @@ Public APIs are available only for [Backend Services](../service-types/types-bac
 This toggle allows you to enable or disable a secure public hostname for your service to be accessed.
 **Backend Services** by default are public.
 
-When disabled, you may only access your service from another service within the same [Enivornment](anatomy-environment.md) on KintoHub using its [internal hostname](anatomy-access.md#how-it-works).
+When disabled, you may only access your service from another service within the same [Environment](anatomy-environment.md) on KintoHub using its [internal hostname](anatomy-access.md#how-it-works).
 For example:
 
 * Service A is a **Backend Service** which is only used for internal operations.
 * Service B is a **Job** service can access it using its [internal hostname](anatomy-access.md#how-it-works).
 * Service C is a **Web App** and runs on customers' browsers **cannot** access Service A since it does not have an [external hostname](anatomy-access.md#how-it-works).
+
+## Suspend a service
+
+The Suspend service option will allow you to temporarily stop your services running on KintoHub. At any point, the stopped services can be fully resumed and redeployed.
+
+### In order to suspend services:
+1. Go to the Settings tab and then click on the **Suspend Service** button.
+
+![Suspend Service](/img/anatomy/suspend-service.png)
+
+2. Click on the **Confirm** button in the prompt displayed.
+
+![Confirm suspend](/img/anatomy/confirm-suspend-service.png)
+
+Once you confirm, the services will stop running and status will change to `Suspended`.
+
+ To resume your services, click on the **Resume** button. 
+
+![Resume](/img/anatomy/resume.png)
+
+>You can also resume your services from the [Releases](anatomy-releases.md#resume-a-release) tab.
 
 ## Delete a service
 
