@@ -10,11 +10,14 @@ title: Redis
 All Redis servers are 100% dedicated to your environment.
 
 1. Login to your KintoHub account
-2. Click **Create Service** at the top right of your environment
-3. Click the **From Catalog** tab at the top right
-4. Click the **Redis** option in the list
+2. Click on the **Create Service** at the top right of your environment
+3. Click on the **From Catalog** tab at the top right
+4. Click on the **Redis** option in the list
 5. Optionally enable auth and enter or generate your desired `Password` value
-6. Click **Deploy** at the top right and wait until the release is successful
+
+![Redis](/img/catalogs/redis.png)
+
+6. Click on the **Deploy** button at the top right and wait until the release is successful
 7. Once deployed, click on the **Access Tab** to read the access related options
 
 ## Access Your Redis Instances
@@ -22,10 +25,10 @@ All Redis servers are 100% dedicated to your environment.
 You may only access your Redis Instance from services running in the **same** environment.
 Learn more about how to connect to your Redis Instance under the [Access Tab](../anatomy/anatomy-access.md#redis).
 
-::note
+:::note
 In the near future you will be able to [Tunnel](https://feedback.kintohub.com/feature-requests/p/port-forwarding-for-debugging) from your machine to your service for easy access.
 Additionally, a feature to run commands directly to your redis instance via a [Shell](https://feedback.kintohub.com/feature-requests/p/shell-access) terminal will be available as well.
-::
+:::
 
 ## Redis Advanced Options
 
@@ -46,3 +49,5 @@ For best effort uptime, you must **disable** cost optimization.
 ### (Storage) Persistence
 
 Redis has an optional [(Storage) Persistence](../anatomy/anatomy-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
+
+![Redis Advanced](/img/catalogs/redis-advanced.png)

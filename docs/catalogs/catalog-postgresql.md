@@ -10,22 +10,24 @@ title: PostgreSQL
 All Postgres servers are 100% dedicated to your environment.
 
 1. Login to your KintoHub account
-2. Click **Create Service** at the top right of your environment
-3. Click the **From Catalog** tab at the top right
+2. Click on the **Create Service** button at the top right of your environment
+3. Click on the **From Catalog** tab at the top right
 4. Select the **Postgres** option in the list
 5. Enter or generate your desired `Username` `Password` and `Root Password` values
 6. Click **Deploy** at the top right and wait until the release is successful
 7. Once deployed, click on the **Access Tab** to read the access related information
+
+![Access tab](/img/anatomy/access-tab.png)
 
 ## Access Your Postgres Database
 
 You may only access your Postgres Instance from services running in the **same** environment.
 Learn more about how to connect to your Postgres Database under the [Access Tab](../anatomy/anatomy-access.md#postgres).
 
-::note
+:::note
 In the near future you will be able to [Tunnel](https://feedback.kintohub.com/feature-requests/p/port-forwarding-for-debugging) from your machine to your service for easy access.
 Additionally, a feature to run commands directly to your database via a [Shell](https://feedback.kintohub.com/feature-requests/p/shell-access) terminal will be available as well.
-::
+:::
 
 ## Postgres Advanced Options
 
@@ -46,3 +48,5 @@ For best effort uptime, you must **disable** cost optimization.
 ### (Storage) Persistence
 
 Postgres SQL has an optional [(Storage) Persistence](../anatomy/anatomy-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
+
+![Postgres Advanced](/img/catalogs/redis-advanced.png)

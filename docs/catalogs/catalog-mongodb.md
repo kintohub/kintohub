@@ -12,11 +12,11 @@ title: MongoDB
 All MongoDb servers are 100% dedicated to your environment.
 
 1. [Login](https://app.kintohub.com/login) or [Create](https://app.kintohub.com/sign-up) a KintoHub account
-2. Click **Create Service** at the top right of your environment
-3. Click the **From Catalog** tab at the top right
-4. Click the **MongoDB** option in the list
+2. Click on the **Create Service** button at the top right of your environment
+3. Click on the **From Catalog** tab at the top right
+4. Click on the **MongoDB** option in the list
 5. Optionally enable **Authentication** and input or generate your `Username`, `Password` and `Root Password`
-6. Click **Deploy** at the top right and wait until the release is successful
+6. Click on the **Deploy** button at the top right and wait until the release is successful
 7. Once deployed, click on the **Access Tab** to read the access related options
 
 ## Access Your MongoDB Instances
@@ -52,3 +52,5 @@ For best effort uptime, you must **disable** cost optimization.
 ### (Storage) Persistence
 
 MongoDB has an optional [(Storage) Persistence](../anatomy/anatomy-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
+
+![MongoDB Advanced](/img/catalogs/redis-advanced.png)
