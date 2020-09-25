@@ -51,6 +51,22 @@ You can do the following to view historic deploy logs:
 
 ![View-Logs](/img/anatomy/view-logs.png)
 
+### Tag a Release
+
+You can tag a release when your code is frozen or once there are no further changes to push. Kintohub provides you with an option to tag your releases deployed in it.
+
+Follow the below steps to tag your Release:
+
+1. Click on the `...` in the row of the release you wish to edit
+2. Click on the **Create Tag** option
+
+![Create Tag](/img/anatomy/create-tag.png)
+
+3. Enter the tag version in the format displayed in the prompt
+4. Click on the **Tag Release** button
+
+![Confirm Tag](/img/anatomy/confirm-tag.png)
+
 ### Abort a Release
 
 If you know something is wrong and you want to cancel it immediately, you have an option to **Abort**.
