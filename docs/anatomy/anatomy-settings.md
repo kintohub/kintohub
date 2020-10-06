@@ -35,7 +35,7 @@ For example:
 
 This is an irreversible action and your service will be shutdown immediately.
 
-1. Follow the instructions above on getting to the **Settings** tab and then click **Delete Service** button.
-2. Type in the service name in the prompt and again click on `Delete` button.
+1. Follow the instructions above on getting to the **Settings** tab and then click on the **Delete Service** button.
+2. Type in the service name in the prompt and again click on the `Delete` button.
 
 ![Delete Service](/img/anatomy/delete-service.png)

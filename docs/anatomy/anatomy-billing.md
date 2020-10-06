@@ -112,7 +112,7 @@ Learn how to estimate your costs, visit the [Advanced Settings](anatomy-advanced
 
 ### vCPU Pricing
 
-CPU cost are broken down into three categories and is charged per second:
+CPU costs are broken down into three categories and is charged per second:
 
 * **Shared vCPU** - $1 USD /month
 * **Dedicated vCPU with Optimization Enabled** - $15 USD /month 
