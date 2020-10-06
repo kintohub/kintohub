@@ -12,6 +12,8 @@ Settings allow you modify the way your service behaves and/or critical operation
 3. Choose the service from the services list you are interested in editing.
 4. Click the `Settings` at the far right.
 
+![Settings Tab](/img/anatomy/settings.png)
+
 ## CI/CD
 
 It's coming soon! Hang tight.
@@ -54,5 +56,7 @@ Once you confirm, the services will stop running and status will change to `Susp
 
 This is an irreversible action and your service will be shutdown immediately.
 
-1. Follow the instructions above on getting to the **Settings** tab and then click **Delete Service**
-2. Type in the service name in the prompt and again click `Delete`
+1. Follow the instructions above on getting to the **Settings** tab and then click **Delete Service** button.
+2. Type in the service name in the prompt and again click on `Delete` button.
+
+![Delete Service](/img/anatomy/delete-service.png)

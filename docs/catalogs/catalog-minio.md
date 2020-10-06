@@ -10,10 +10,16 @@ title: Minio
 All Minio servers are 100% dedicated to your environment.
 
 1. Login to your KintoHub account
-2. Click **Create Service** at the top right of your environment
-3. Click the **From Catalog** tab at the top right
-4. Click the **Minio** option in the list
+2. Click on the **Create Service** button at the top right of your environment
+3. Click on the **From Catalog** tab at the top right
+
+![Catalog Tab](/img/catalogs/catalog-tab.png)
+
+4. Click on the **Minio** option in the list
 5. Input or generate your `Access Key` and `Secret Key`
+
+![Minio](/img/catalogs/minio.png)
+
 6. Click **Deploy** at the top right and wait until the release is successful
 7. Once deployed, click on the **Access Tab** to read the access related options
 
@@ -45,3 +51,5 @@ For best effort uptime, you must **disable** cost optimization.
 ### (Storage) Persistence
 
 Minio has an optional [(Storage) Persistence](../anatomy/anatomy-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
+
+![Minio Advanced](/img/catalogs/redis-advanced.png)

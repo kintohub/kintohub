@@ -52,3 +52,5 @@ You may search your logs by typing in the **Search** bar at the top right of the
 The search will highlight and inform you of how many successful search results have been found.
 If you wish to see only the lines that contain the text you have input into the **Search** bar, you may click to toggle the `lines` icon to the right of the **Search** bar.
 The `lines` toggle will filter your logs to only show you what you have searched for.
+
+![Lines Toggle](/img/anatomy/lines-toggle.png)

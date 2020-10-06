@@ -26,7 +26,7 @@ A sample Flask app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/flask
+$ cd kintohub/docs/examples/flask
 ```
 
 - Build the app

@@ -27,7 +27,7 @@ A sample Go app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/go
+$ cd kintohub/docs/examples/go
 ```
 
 - Build the app

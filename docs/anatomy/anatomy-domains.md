@@ -16,19 +16,31 @@ The following service types support **Custom domains**:
 
 1. Login to KintoHub
 2. Choose your environment you are interested in deploying into at the top left.
-3. Create or select an existing a **Web App**, **Website** or **Backend API** service to edit 
+3. Create or select an existing **Web App**, **Website** or **Backend API** service to edit 
 4. Click on the **Domains** tab near the top center of the Service page.
+
+![Domain](/img/anatomy/domain.png)
+
 5. Enter in your domain or subdomain you wish to map to your service.
-6. Click **Add Domain**
+6. Click on the **Add Domain** button
+
+![Add Domain](/img/anatomy/add-domain.png)
+
 7. Follow the instructions to add a **CNAME** key and value to your DNS host provider
-8. Once complete click **Verify**
+8. Once complete click on the **OK** button
 
 ## Domain Status
 
-Let's Encrypt SSL certificate expire every few months.
+Let's Encrypt SSL certificates expire every few months.
 KintoHub will automatically renew your SSL certificate without any downtime of your service.
 Your Let's Encrypt certificate status is displayed under **SSL Status**
 
 ## Remove Domain
 
-Under the **Domains** tab click the **Delete** button in the row of the domain you wish to remove.
+1. Under the **Domains** tab click on the **Remove** button in the row of the domain you wish to remove.
+
+![Remove Domain](/img/anatomy/remove-domain.png)
+
+2. Click on the **Remove** button in the prompt displayed.
+
+![Cofirm remove domain](/img/anatomy/confirm-remove.png)

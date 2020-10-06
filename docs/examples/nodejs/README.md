@@ -27,7 +27,7 @@ A sample node service for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/nodejs
+$ cd kintohub/docs/examples/nodejs
 ```
 
 - Install the dependencies

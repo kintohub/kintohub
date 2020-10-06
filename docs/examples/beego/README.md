@@ -26,7 +26,7 @@ A sample Beego app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/beego
+$ cd kintohub/docs/examples/beego
 ```
 
 - Build the app

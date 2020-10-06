@@ -25,7 +25,7 @@ A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/examples/nextjs-apollo
+$ cd kintohub/docs/examples/nextjs-apollo
 ```
 
 - Install the dependencies
