@@ -10,7 +10,7 @@ title: Redis
 All Redis servers are 100% dedicated to your environment.
 
 1. Login to your KintoHub account
-2. Click on the **Create Service** at the top right of your environment
+2. Click on the **Create Service** button at the top right of your environment
 3. Click on the **From Catalog** tab at the top right
 4. Click on the **Redis** option in the list
 5. Optionally enable auth and enter or generate your desired `Password` value

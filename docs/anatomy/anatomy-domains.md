@@ -41,6 +41,6 @@ Your Let's Encrypt certificate status is displayed under **SSL Status**
 
 ![Remove Domain](/img/anatomy/remove-domain.png)
 
-2. Click on the **Remove** button in the prompt displayed.
+2. Click on the **Remove** button in the displayed prompt.
 
 ![Cofirm remove domain](/img/anatomy/confirm-remove.png)
