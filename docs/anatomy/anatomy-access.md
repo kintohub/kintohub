@@ -19,7 +19,7 @@ The service access tab is located in the **Service View**.
 
 1. Login to your KintoHub account
 2. Create a new service or click on a Service in your [Environment](anatomy-environment.md)
-3. Click on the **Access** tab
+3. Click on the `Access` tab
 
 ![Access](/img/anatomy/access-tab.png)
 
