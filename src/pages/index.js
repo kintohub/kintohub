@@ -15,9 +15,13 @@ function Home() {
       title={"Modern Fullstack App Platform"}
       description="KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place."
     >
-      <header className={styles.heroBanner}>
-        <h1 className={styles.heroBannerText}>{siteConfig.title}</h1>
-        <span className={styles.heroBannerSubText}>{siteConfig.tagline}</span>
+      <header>
+        <img className={styles.heroBannerLeft} src="/img/docs-left.svg"></img>
+        <img className={styles.heroBannerRight} src="/img/docs-right.svg"></img>
+        <div className={styles.heroBannerText}>
+          <h1>{siteConfig.title}</h1>
+          <span>{siteConfig.tagline}</span>
+        </div>
       </header>
       <main>
         <section className={styles.infoCardSection}>
@@ -61,7 +65,6 @@ function Home() {
                 <li>Minio</li>
                 <li>Redis</li>
                 <li>MySQL</li>
-                <li>MariaDB</li>
               </ul>
             </div>
             <div className={styles.infoCardLarge}>
@@ -77,6 +80,8 @@ function Home() {
               </ul>
             </div>
           </div>
+        </section>
+        <section className={styles.infoCardSection}>
           <div className={styles.suggestion}>
             <div className={styles.suggestionText}>
               <h3>Deploy an Existing Project with Git</h3>

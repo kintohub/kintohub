@@ -1,7 +1,7 @@
 module.exports = {
   title: "KintoHub Documentation",
   tagline:
-    "Follow out examples and guides to deploy your full stack app in no time.",
+    "Follow our examples and guides to deploy your full stack app in no time.",
   url: "https://docs.kintohub.com",
   baseUrl: "/",
   organizationName: "kintohub",
@@ -70,6 +70,10 @@ module.exports = {
             {
               label: "Contact Us",
               to: "https://www.kintohub.com/contact-us",
+            },
+            {
+              label: "Status",
+              to: "https://kintohub.statuspage.io/",
             },
           ],
         },

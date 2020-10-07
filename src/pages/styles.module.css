@@ -17,17 +17,30 @@ img {
   vertical-align: middle;
 }
 
-.heroBanner {
-  width: 100%;
+header {
   height: 312px;
   text-align: center;
-  background-image: url("/img/hero-docs.svg");
-  background-size: 100% 100%;
+  background: #06002d;
+}
+
+.heroBannerLeft {
+  height: 312px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+
+.heroBannerRight {
+  height: 312px;
+  position: absolute;
+  right: 0;
+  display: inline-block;
 }
 
 .heroBannerText {
   padding: 4rem 1rem 0.2rem 1rem;
   color: #fff;
+  z-index: 999;
 }
 
 .heroBannerSubText {
@@ -43,7 +56,7 @@ img {
 
 .pillPurple {
   width: 50px;
-  height: 5px;
+  height: 3px;
   margin: 15px 0;
   border-radius: 5px;
   background-color: #6200ee;
@@ -51,14 +64,14 @@ img {
 
 .pillBlue {
   width: 50px;
-  height: 5px;
+  height: 3px;
   margin: 15px 0;
   border-radius: 5px;
   background-color: #1ec4e9;
 }
 .pillYellow {
   width: 50px;
-  height: 5px;
+  height: 3px;
   margin: 15px 0;
   border-radius: 5px;
   background-color: #f7b500;
@@ -107,7 +120,7 @@ img {
 
 .infoCardSection {
   background-color: var(--ifm-infoCard-section-color);
-  height: 640px;
+  height: auto;
   width: 100%;
 }
 
@@ -116,9 +129,9 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: relative;
-  top: -6rem;
+  top: -5.5rem;
   z-index: 99;
 }
 
@@ -127,27 +140,36 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: relative;
-  top: -6rem;
+  top: -4rem;
   z-index: 99;
+}
+
+.suggestionText {
+  margin: 1rem 4rem;
 }
 
 .infoCardSmall {
   width: 360px;
-  height: auto;
+  height: 160px;
   min-height: 180px;
   background: var(--ifm-infoCard-background-color);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  margin: 1rem 1rem 0.5rem 1rem;
+  margin: 1rem 1rem 1.2rem 1rem;
   padding: 1.5rem;
+}
+
+.infoCardSmall:hover {
+  transform: scale(1.025);
+  transition: 400ms;
 }
 
 .infoCardLarge {
   width: 360px;
-  height: auto;
+  height: 330px;
   min-height: 320px;
   background: var(--ifm-infoCard-background-color);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -157,12 +179,24 @@ img {
   padding: 2rem 2rem 1rem 2rem;
 }
 
-.suggestionText {
-  margin: 1rem 4rem;
+@media screen and (max-width: 990px) {
+  .heroBannerRight {
+    display: none;
+  }
+
+  .infoCardsIntro {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .suggestion {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+@media screen and (max-width: 1175px) {
+  .heroBannerLeft {
+    display: none;
   }
 }
