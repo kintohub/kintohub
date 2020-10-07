@@ -2,6 +2,7 @@
 id: nextjs-example
 title: NextJS
 ---
+
 A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub
@@ -13,7 +14,7 @@ A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 - **Language version:** 13
 - **Build Command:** `npm install && npm run build`
 - **Start Command:** `npm start`
-- **Subfolder Path:** `./docs/examples/nextjs-apollo`
+- **Subfolder Path:** `./docs/examples/nextjs`
 - **Port:** 3000
 
 ## :hammer: Running locally
@@ -34,18 +35,19 @@ $ cd kintohub/docs/examples/nextjs-apollo
 $ npm install && npm run build
 ```
 
-- To start the app 
-
+- To start the app
 
 Runs production server
+
 ```
 $ npm start
 ```
+
 Run a development server
+
 ```
 $ npm run dev
 ```
-
 
 ## :ambulance: Support
 
