@@ -127,11 +127,12 @@ img {
 .startDeploying {
   padding: 4rem;
   background-color: #131720;
-  height: 290px;
+  height: auto;
   display: flex;
   color: #fff;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .infoCardSection {
