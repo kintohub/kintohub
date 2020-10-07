@@ -106,6 +106,14 @@ module.exports = {
             'examples/laravel/laravel',
           ],
       },
+      {
+        type: 'category',
+        label: 'Static Websites',
+        collapsed: false,
+        items: [
+          'examples/react/react-example',
+        ],
+    },
     ],
   },
 };
