@@ -165,11 +165,12 @@ function Home() {
         <section className={styles.startDeploying}>
           <h1>Created by fullstack developers like you.</h1>
           <p>Play around for free. No CC required. </p>
-
-          <button className={styles.button}>
-            <img src="/img/power.svg"></img>
-            Start Deploying
-          </button>
+          <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
+            <button className={styles.button}>
+              <img src="/img/power.svg"></img>
+              Start Deploying
+            </button>
+          </Link>
         </section>
       </main>
     </Layout>
