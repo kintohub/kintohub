@@ -27,9 +27,8 @@ function Home() {
         <section className={styles.infoCardSection}>
           <div className={styles.infoCardsIntro}>
             <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
               to={useBaseUrl("getting-started/introduction")}
-              className={styles.infoCardSmall}
+              className={classnames(styles.infoCardSmall, styles.link)}
             >
               <div>
                 <img className={styles.icon} src="/img/playlist-plus.svg"></img>
@@ -38,9 +37,8 @@ function Home() {
               </div>
             </Link>
             <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
               to={useBaseUrl("getting-started/fullstack-example")}
-              className={styles.infoCardSmall}
+              className={classnames(styles.infoCardSmall, styles.link)}
             >
               <div>
                 <img className={styles.icon} src="/img/code-tags.svg"></img>
@@ -49,9 +47,8 @@ function Home() {
               </div>
             </Link>
             <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
               to={useBaseUrl("https://discord.com/invite/E2CMjKP")}
-              className={styles.infoCardSmall}
+              className={classnames(styles.infoCardSmall, styles.link)}
             >
               <div>
                 <img className={styles.icon} src="/img/forum.svg"></img>
@@ -64,8 +61,7 @@ function Home() {
             <div className={styles.infoCardLarge}>
               <h3>Examples by Language</h3>
               <p>Deploy code examples in your language.</p>
-              <div className={styles.pillPurple}></div>
-
+              <div className={classnames(styles.pill, styles.purple)}></div>
               <ul className={styles.cardContentList}>
                 <li>Node</li>
                 <li>Golang</li>
@@ -76,7 +72,7 @@ function Home() {
             <div className={styles.infoCardLarge}>
               <h3>Explore Catalog</h3>
               <p>Deploy instant databases, storage, etc.</p>
-              <div className={styles.pillBlue}></div>
+              <div className={classnames(styles.pill, styles.blue)}></div>
               <ul className={styles.cardContentList}>
                 <li>MongoDB</li>
                 <li>PostgreSQL</li>
@@ -88,7 +84,7 @@ function Home() {
             <div className={styles.infoCardLarge}>
               <h3>Learn Service Types</h3>
               <p>How to choose a service type.</p>
-              <div className={styles.pillYellow}></div>
+              <div className={classnames(styles.pill, styles.yellow)}></div>
               <ul className={styles.cardContentList}>
                 <li>Static Site</li>
                 <li>Web App</li>
@@ -100,29 +96,20 @@ function Home() {
           </div>
         </section>
         <section className={styles.infoCardSection}>
-          <div className={styles.suggestion}>
+          <div className={styles.suggestionBody}>
             <div className={styles.suggestionText}>
               <h3>Deploy an Existing Project with Git</h3>
               <p>
                 Use our Git integrations with
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to={useBaseUrl("repository/github-apps")}
-                >
-                  <span className={styles.link}> GitHub,</span>
+                <Link to={useBaseUrl("repository/github-apps")}>
+                  <span className={styles.introLink}> GitHub,</span>
                 </Link>
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to={useBaseUrl("repository/import url")}
-                >
-                  <span className={styles.link}> Gitlab, </span>
+                <Link to={useBaseUrl("repository/import url")}>
+                  <span className={styles.introLink}> Gitlab, </span>
                 </Link>
                 or use an
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to={useBaseUrl("repository/import url")}
-                >
-                  <span className={styles.link}> import url.</span>
+                <Link to={useBaseUrl("repository/import url")}>
+                  <span className={styles.introLink}> import url.</span>
                 </Link>
               </p>
               <Link to={useBaseUrl("repository/github-apps")}>
@@ -150,11 +137,8 @@ function Home() {
                 Once deployed, your projects can be assigned to a custom domain.
               </p>
 
-              <Link
-                style={{ color: "inherit", textDecoration: "inherit" }}
-                to={useBaseUrl("anatomy/domains")}
-              >
-                <span className={styles.link}>
+              <Link to={useBaseUrl("anatomy/domains")}>
+                <span className={styles.introLink}>
                   Learn more
                   <img src="/img/arrow-right.svg"></img>
                 </span>

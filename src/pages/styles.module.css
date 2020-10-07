@@ -1,3 +1,13 @@
+:root {
+  --color-blue: #1ec4e9;
+  --color-yellow: #f7b500;
+  --color-purple: #6200ee;
+  --color-white: #ffffff;
+  --primary-color: #ac6bfc;
+  --primary-color-dark: #06002d;
+  --primary-color-darker: #131720;
+}
+
 p {
   color: var(--ifm-infoCard-text-color);
   font-size: 16px;
@@ -21,81 +31,85 @@ img {
 .heroBanner {
   height: 312px;
   text-align: center;
-  background: #06002d;
+  background: var(--primary-color-dark);
   position: relative;
   z-index: -99;
 }
 
 .heroBannerLeft {
-  height: 312px;
   position: absolute;
   left: 0;
-  display: inline-block;
   z-index: -1;
+  height: 312px;
 }
 
 .heroBannerRight {
-  height: 312px;
   position: absolute;
   right: 0;
-  display: inline-block;
   z-index: -1;
+  height: 312px;
 }
 
 .heroBannerText {
-  padding: 4rem 1rem 0.2rem 1rem;
-  color: #fff;
+  padding: 64px 16px 4px 16px;
+  color: var(--color-white);
   z-index: 999;
 }
 
 .heroBannerSubText {
-  color: #fff;
+  color: var(--color-white);
   font-weight: 500;
 }
 
 .icon {
   width: 40px;
   height: 40px;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
-.pillPurple {
+.pill {
   width: 50px;
-  height: 3px;
+  height: 4px;
   margin: 15px 0;
   border-radius: 5px;
-  background-color: #6200ee;
+}
+.purple {
+  background-color: var(--color-purple);
 }
 
-.pillBlue {
-  width: 50px;
-  height: 3px;
-  margin: 15px 0;
-  border-radius: 5px;
-  background-color: #1ec4e9;
+.blue {
+  background-color: var(--color-blue);
 }
-.pillYellow {
-  width: 50px;
-  height: 3px;
-  margin: 15px 0;
-  border-radius: 5px;
-  background-color: #f7b500;
+
+.yellow {
+  background-color: var(--color-yellow);
 }
+
 .cardContentList {
   list-style-type: none;
-  margin-left: -2rem;
+  margin-left: -32px;
   font-weight: 600;
 }
 
 .link {
-  color: #bb86fc;
   font-weight: 600;
+  color: var(--ifm-link-text-color);
+}
+
+.link:hover {
+  color: var(--ifm-link-text-color);
+}
+
+.introLink {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+a:hover {
   text-decoration: none;
 }
 
-.textLink {
-  color: inherit;
-  text-decoration: inherit;
+.introLink:active {
+  text-decoration: none;
 }
 
 .button {
@@ -104,32 +118,33 @@ img {
   height: 50px;
   border-radius: 4px;
   border: none;
-  margin-top: 1rem;
+  margin-top: 16px;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
-  background-color: #6200ee;
-  color: #ffffff;
+  background-color: var(--color-purple);
+  color: var(--color-white);
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: rgb(98, 0, 238, 0.8);
+  background-color: var(--color-purple);
+  opacity: 0.8;
 }
 
 .integrationIcon {
   width: 30px;
   height: 30px;
-  margin: 0rem 5px;
+  margin: 0px 5px;
   border-radius: 0px;
 }
 
 .startDeploying {
-  padding: 4rem;
-  background-color: #131720;
+  padding: 64px;
+  background-color: var(--primary-color-darker);
   height: auto;
   display: flex;
-  color: #fff;
+  color: var(--color-white);
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -148,23 +163,23 @@ img {
   align-items: center;
   flex-wrap: nowrap;
   position: relative;
-  top: -5.5rem;
+  top: -88px;
   z-index: 99;
 }
 
-.suggestion {
+.suggestionBody {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   position: relative;
-  top: -4rem;
+  top: -64px;
   z-index: 99;
 }
 
 .suggestionText {
-  margin: 1rem 4rem;
+  margin: 16px 64px;
 }
 
 .infoCardSmall {
@@ -175,8 +190,8 @@ img {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  margin: 1rem 1rem 1.2rem 1rem;
-  padding: 1.5rem;
+  margin: 16px 16px 20px 16px;
+  padding: 24px;
 }
 
 .infoCardSmall:hover {
@@ -192,8 +207,8 @@ img {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  margin: 0.5rem 1rem 1rem 1rem;
-  padding: 2rem 2rem 1rem 2rem;
+  margin: 8px 16px 16px 16px;
+  padding: 32px 32px 16px 32px;
 }
 
 @media screen and (max-width: 990px) {
@@ -206,7 +221,7 @@ img {
     flex-wrap: nowrap;
   }
 
-  .suggestion {
+  .suggestionBody {
     flex-direction: row;
     flex-wrap: wrap;
   }
