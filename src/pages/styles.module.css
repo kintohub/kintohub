@@ -17,10 +17,12 @@ img {
   vertical-align: middle;
 }
 
-header {
+.heroBanner {
   height: 312px;
   text-align: center;
   background: #06002d;
+  position: relative;
+  z-index: -99;
 }
 
 .heroBannerLeft {
@@ -28,6 +30,7 @@ header {
   position: absolute;
   left: 0;
   display: inline-block;
+  z-index: -1;
 }
 
 .heroBannerRight {
@@ -35,6 +38,7 @@ header {
   position: absolute;
   right: 0;
   display: inline-block;
+  z-index: -1;
 }
 
 .heroBannerText {
@@ -83,8 +87,14 @@ header {
 }
 
 .link {
-  color: #6200ee;
+  color: #bb86fc;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.textLink {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .button {
@@ -163,8 +173,8 @@ header {
 }
 
 .infoCardSmall:hover {
-  transform: scale(1.025);
-  transition: 400ms;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  transition: 300ms;
 }
 
 .infoCardLarge {
@@ -192,6 +202,14 @@ header {
   .suggestion {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .infoCardSmall {
+    width: 80%;
+  }
+
+  .infoCardLarge {
+    width: 80%;
   }
 }
 

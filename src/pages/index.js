@@ -15,7 +15,7 @@ function Home() {
       title={"Modern Fullstack App Platform"}
       description="KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place."
     >
-      <header>
+      <header className={styles.heroBanner}>
         <img className={styles.heroBannerLeft} src="/img/docs-left.svg"></img>
         <img className={styles.heroBannerRight} src="/img/docs-right.svg"></img>
         <div className={styles.heroBannerText}>
@@ -26,21 +26,39 @@ function Home() {
       <main>
         <section className={styles.infoCardSection}>
           <div className={styles.infoCardsIntro}>
-            <div className={styles.infoCardSmall}>
-              <img className={styles.icon} src="/img/playlist-plus.svg"></img>
-              <h3>Introduction</h3>
-              <p>Why should you use KintoHub?</p>
-            </div>
-            <div className={styles.infoCardSmall}>
-              <img className={styles.icon} src="/img/code-tags.svg"></img>
-              <h3>Try a Full Stack Example</h3>
-              <p>Deploy PostgreSQL + Hasura + React.</p>
-            </div>
-            <div className={styles.infoCardSmall}>
-              <img className={styles.icon} src="/img/forum.svg"></img>
-              <h3>Join Our Discord</h3>
-              <p>Get straight answers from our developers.</p>
-            </div>
+            <Link
+              style={{ color: "inherit", textDecoration: "inherit" }}
+              to={useBaseUrl("getting-started/introduction")}
+              className={styles.infoCardSmall}
+            >
+              <div>
+                <img className={styles.icon} src="/img/playlist-plus.svg"></img>
+                <h3>Introduction</h3>
+                <p>Why should you use KintoHub?</p>
+              </div>
+            </Link>
+            <Link
+              style={{ color: "inherit", textDecoration: "inherit" }}
+              to={useBaseUrl("getting-started/fullstack-example")}
+              className={styles.infoCardSmall}
+            >
+              <div>
+                <img className={styles.icon} src="/img/code-tags.svg"></img>
+                <h3>Try a Full Stack Example</h3>
+                <p>Deploy PostgreSQL + Hasura + React.</p>
+              </div>
+            </Link>
+            <Link
+              style={{ color: "inherit", textDecoration: "inherit" }}
+              to={useBaseUrl("https://discord.com/invite/E2CMjKP")}
+              className={styles.infoCardSmall}
+            >
+              <div>
+                <img className={styles.icon} src="/img/forum.svg"></img>
+                <h3>Join Our Discord</h3>
+                <p>Get straight answers from our developers.</p>
+              </div>
+            </Link>
           </div>
           <div className={styles.infoCardsIntro}>
             <div className={styles.infoCardLarge}>
@@ -87,20 +105,44 @@ function Home() {
               <h3>Deploy an Existing Project with Git</h3>
               <p>
                 Use our Git integrations with
-                <span className={styles.link}> GitHub, </span>{" "}
-                <span className={styles.link}> Gitlab, </span>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to={useBaseUrl("repository/github-apps")}
+                >
+                  <span className={styles.link}> GitHub,</span>
+                </Link>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to={useBaseUrl("repository/import url")}
+                >
+                  <span className={styles.link}> Gitlab, </span>
+                </Link>
                 or use an
-                <span className={styles.link}> import url.</span>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to={useBaseUrl("repository/import url")}
+                >
+                  <span className={styles.link}> import url.</span>
+                </Link>
               </p>
-              <img
-                className={styles.integrationIcon}
-                src="/img/github.svg"
-              ></img>
-              <img
-                className={styles.integrationIcon}
-                src="/img/gitlab.svg"
-              ></img>
-              <img className={styles.integrationIcon} src="/img/link.svg"></img>
+              <Link to={useBaseUrl("repository/github-apps")}>
+                <img
+                  className={styles.integrationIcon}
+                  src="/img/github.svg"
+                ></img>
+              </Link>
+              <Link to={useBaseUrl("repository/import url")}>
+                <img
+                  className={styles.integrationIcon}
+                  src="/img/gitlab.svg"
+                ></img>
+              </Link>
+              <Link to={useBaseUrl("repository/import url")}>
+                <img
+                  className={styles.integrationIcon}
+                  src="/img/link.svg"
+                ></img>
+              </Link>
             </div>
             <div className={styles.suggestionText}>
               <h3>Connect Your Custom Domains</h3>
@@ -108,7 +150,10 @@ function Home() {
                 Once deployed, your projects can be assigned to a custom domain.
               </p>
 
-              <Link to={useBaseUrl("anatomy/domains")}>
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to={useBaseUrl("anatomy/domains")}
+              >
                 <span className={styles.link}>
                   Learn more
                   <img src="/img/arrow-right.svg"></img>
