@@ -69,6 +69,10 @@ module.exports = {
             {
               label: 'Contact Us',
               to: 'https://www.kintohub.com/contact-us'
+            },
+            {
+              label: 'Status',
+              to: 'https://kintohub.statuspage.io/'
             }
           ]
         },
