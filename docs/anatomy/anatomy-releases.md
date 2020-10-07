@@ -67,6 +67,27 @@ Follow the below steps to tag your Release:
 
 ![Confirm Tag](/img/anatomy/confirm-tag.png)
 
+### Promote a Release
+
+KintoHub provides you an option to `Promote` your Releases across the different environments.
+
+You can do the following to **Promote** the release:
+
+1. Click on the `...` in the row of the `Tagged` release you wish to promote.
+2. Click on the **Promote Tag to Env** option
+
+![Promote Env](/img/anatomy/promote-env.png)
+
+3. Select the environment from the list you wish to promote the release in the prompt displayed.
+4. Click on the **Promote Release** button.
+
+![Confirm Promote](/img/anatomy/confirm-promote.png)
+
+:::note
+You cannot promote the release which is not tagged and the `Promote Tag to Env` option is disabled for the untagged releases.
+:::
+
+
 ### Abort a Release
 
 If you know something is wrong and you want to cancel it immediately, you have an option to **Abort**.
