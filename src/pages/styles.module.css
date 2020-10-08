@@ -8,7 +8,7 @@
   --primary-color-darker: #131720;
 }
 
-p {
+.subText {
   color: var(--ifm-infoCard-text-color);
   font-size: 16px;
   font-weight: 500;

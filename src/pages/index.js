@@ -33,7 +33,7 @@ function Home() {
               <div>
                 <img className={styles.icon} src="/img/playlist-plus.svg"></img>
                 <h3>Introduction</h3>
-                <p>Why should you use KintoHub?</p>
+                <p className={styles.subText}>Why should you use KintoHub?</p>
               </div>
             </Link>
             <Link
@@ -43,7 +43,9 @@ function Home() {
               <div>
                 <img className={styles.icon} src="/img/code-tags.svg"></img>
                 <h3>Try a Full Stack Example</h3>
-                <p>Deploy PostgreSQL + Hasura + React.</p>
+                <p className={styles.subText}>
+                  Deploy PostgreSQL + Hasura + React.
+                </p>
               </div>
             </Link>
             <Link
@@ -53,14 +55,18 @@ function Home() {
               <div>
                 <img className={styles.icon} src="/img/forum.svg"></img>
                 <h3>Join Our Discord</h3>
-                <p>Get straight answers from our developers.</p>
+                <p className={styles.subText}>
+                  Get straight answers from our developers.
+                </p>
               </div>
             </Link>
           </div>
           <div className={styles.infoCardsIntro}>
             <div className={styles.infoCardLarge}>
               <h3>Examples by Language</h3>
-              <p>Deploy code examples in your language.</p>
+              <p className={styles.subText}>
+                Deploy code examples in your language.
+              </p>
               <div className={classnames(styles.pill, styles.purple)}></div>
               <ul className={styles.cardContentList}>
                 <li>Node</li>
@@ -71,7 +77,9 @@ function Home() {
             </div>
             <div className={styles.infoCardLarge}>
               <h3>Explore Catalog</h3>
-              <p>Deploy instant databases, storage, etc.</p>
+              <p className={styles.subText}>
+                Deploy instant databases, storage, etc.
+              </p>
               <div className={classnames(styles.pill, styles.blue)}></div>
               <ul className={styles.cardContentList}>
                 <li>MongoDB</li>
@@ -83,7 +91,7 @@ function Home() {
             </div>
             <div className={styles.infoCardLarge}>
               <h3>Learn Service Types</h3>
-              <p>How to choose a service type.</p>
+              <p className={styles.subText}>How to choose a service type.</p>
               <div className={classnames(styles.pill, styles.yellow)}></div>
               <ul className={styles.cardContentList}>
                 <li>Static Site</li>
@@ -99,7 +107,7 @@ function Home() {
           <div className={styles.suggestionBody}>
             <div className={styles.suggestionText}>
               <h3>Deploy an Existing Project with Git</h3>
-              <p>
+              <p className={styles.subText}>
                 Use our Git integrations with
                 <Link to={useBaseUrl("repository/github-apps")}>
                   <span className={styles.introLink}> GitHub </span>
@@ -125,7 +133,7 @@ function Home() {
             </div>
             <div className={styles.suggestionText}>
               <h3>Connect Your Custom Domains</h3>
-              <p>
+              <p className={styles.subText}>
                 Once deployed, your projects can be assigned to a custom domain.
               </p>
 
@@ -140,7 +148,9 @@ function Home() {
         </section>
         <section className={styles.startDeploying}>
           <h1>Created by fullstack developers like you.</h1>
-          <p>Play around for free. No CC required. </p>
+          <p className={styles.subText}>
+            Play around for free. No CC required.{" "}
+          </p>
           <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
             <button className={styles.button}>
               <img src="/img/power.svg"></img>
