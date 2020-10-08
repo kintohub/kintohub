@@ -103,4 +103,4 @@ When complete, open the **Access** tab and open the external URL to see your Lar
 
 **Contact us:** https://www.kintohub.com/contact-us
 
-**Discord:** https://discordapp.com/invite/E2CMjKP
+**Discord:** https://kintohub.com/discord

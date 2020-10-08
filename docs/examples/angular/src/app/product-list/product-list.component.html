@@ -1,0 +1,24 @@
+<h2>Products</h2>
+<div *ngFor="let product of products">
+    <h3>
+      <a
+      [href]="'http://letmegooglethat.com/?q='+product.name"
+      [title]="product.name + ' details'"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+        {{ product.name }}
+      </a>
+    </h3>
+    <p *ngIf="product.description">
+      Description: {{ product.description }}
+    </p>
+    <button (click)="share()">
+      Share
+    </button>
+
+    <app-product-alerts
+      [product]="product"
+      (notify)="onNotify()">
+    </app-product-alerts>
+</div>

@@ -106,6 +106,20 @@ module.exports = {
             'examples/laravel/laravel',
           ],
       },
+      {
+        type: 'category',
+        label: 'Static Websites',
+        collapsed: false,
+        items: [
+          'examples/angular/angular-example',
+          'examples/docusaurus/docusaurus-example',
+          'examples/gatsby/gatsby-example',
+          'examples/ionic/ionic-example',
+          'examples/preact/preact-example',
+          'examples/react/react-example',
+          'examples/vue/vue-example',   
+        ],
+     },
     ],
   },
 };
