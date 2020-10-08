@@ -8,13 +8,12 @@ A sample rust app for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/rust
 - **Branch:** master
 - **Language:** Rust
 - **Language version:** 1
 - **Build Command:** `cargo build --release`
 - **Start Command:** `./target/release/hello-web-server`
-- **Subfolder Path:** `./docs/examples/rust`
 - **Port:** 3000
 
 When complete, open the **Access** tab and open the external URL to see your Rust example!
@@ -26,11 +25,10 @@ The **Rust** example can be deployed using `Dockerfile` on KintoHub
 ### :dolphin: Deploying with Dockerfile
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/rust
 - **Branch:** master
 - **Language:** Dockerfile
 - **Dockerfile Name:** Dockerfile
-- **Subfolder Path:** `./docs/examples/rust`
 - **Port:** 3000
 
 ## :hammer: Running locally
@@ -40,9 +38,9 @@ The **Rust** example can be deployed using `Dockerfile` on KintoHub
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/rust
 
-$ cd kintohub/docs/examples/rust
+$ cd rust
 ```
 
 - Install the dependencies

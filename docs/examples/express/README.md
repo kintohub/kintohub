@@ -8,13 +8,12 @@ A sample Express app for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/express
 - **Branch:** master
 - **Language:** NodeJS
 - **Language version:** 12
 - **Build Command:** `npm install`
 - **Start Command:** `npm start`
-- **Subfolder Path:** `./docs/examples/express`
 - **Port:** 80
 
 ## :hammer: Running locally
@@ -24,9 +23,9 @@ A sample Express app for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/express
 
-$ cd kintohub/docs/examples/express
+$ cd express
 ```
 
 - Install the dependencies

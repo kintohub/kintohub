@@ -8,12 +8,11 @@ A sample Ionic app for [KintoHub](https://kintohub.com)
 ### :rocket: Deploying on KintoHub
 
 - **Service Type:** Static Site
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/ionic
 - **Branch:** master
 - **Language:** NodeJS
 - **Version:** 10+
 - **Build:** `npm install && npm run build`
-- **Subfolder Path:** `./docs/examples/ionic`
 - **Build Output Path:** `./www`
 
 This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the Ionic App.
@@ -25,9 +24,9 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/ionic
 
-$ cd kintohub/docs/examples/ionic
+$ cd ionic
 ```
 
 - Install ionic

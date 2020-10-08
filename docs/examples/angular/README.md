@@ -8,12 +8,11 @@ A sample Angular app for [KintoHub](https://kintohub.com)
 ### :rocket: Deploying on KintoHub
 
 - **Service Type:** Static Site
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/angular
 - **Branch:** master
 - **Language:** NodeJS
 - **Version:** 13
 - **Build:** `npm install && npm run build`
-- **Subfolder Path:** `./docs/examples/angular`
 - **Build Output Path:** `dist`
 
 This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the Angular App.
@@ -25,9 +24,9 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/angular
 
-$ cd kintohub/docs/examples/angular
+$ cd angular
 ```
 
 - Install the dependencies
