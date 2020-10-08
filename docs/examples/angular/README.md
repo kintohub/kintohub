@@ -1,9 +1,9 @@
 ---
-id: react-example
-title: React
+id: angular-example
+title: Angular
 ---
 
-A sample React app for [KintoHub](https://kintohub.com)
+A sample Angular app for [KintoHub](https://kintohub.com)
 
 ### :rocket: Deploying on KintoHub
 
@@ -13,10 +13,10 @@ A sample React app for [KintoHub](https://kintohub.com)
 - **Language:** NodeJS
 - **Version:** 13
 - **Build:** `npm install && npm run build`
-- **Subfolder Path:** `./docs/examples/react`
-- **Build Output Path:** `build`
+- **Subfolder Path:** `./docs/examples/angular`
+- **Build Output Path:** `dist`
 
-This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the React App.
+This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the Angular App.
 
 ## :hammer: Running locally
 
@@ -27,7 +27,7 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/docs/examples/react
+$ cd kintohub/docs/examples/angular
 ```
 
 - Install the dependencies
@@ -42,11 +42,12 @@ $ npm install
 $ npm start
 ```
 
-- Build for production with minification
+- build for production with minification
 
 ```
 $ npm run build
 ```
+
 
 ## :ambulance: Support
 

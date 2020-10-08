@@ -112,6 +112,12 @@ module.exports = {
         collapsed: false,
         items: [
           'examples/react/react-example',
+          'examples/vue/vue-example',
+          'examples/gatsby/gatsby-example',
+          'examples/docusaurus/docusaurus-example',
+          'examples/angular/angular-example',
+          'examples/preact/preact-example',
+          'examples/ionic/ionic-example'
         ],
     },
     ],

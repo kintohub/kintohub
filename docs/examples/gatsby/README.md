@@ -1,9 +1,9 @@
 ---
-id: react-example
-title: React
+id: gatsby-example
+title: Gatsby
 ---
 
-A sample React app for [KintoHub](https://kintohub.com)
+A sample Gatsby app for [KintoHub](https://kintohub.com)
 
 ### :rocket: Deploying on KintoHub
 
@@ -13,10 +13,10 @@ A sample React app for [KintoHub](https://kintohub.com)
 - **Language:** NodeJS
 - **Version:** 13
 - **Build:** `npm install && npm run build`
-- **Subfolder Path:** `./docs/examples/react`
-- **Build Output Path:** `build`
+- **Subfolder Path:** `./docs/examples/gatsby`
+- **Build Output Path:** `public`
 
-This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the React App.
+This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the gatsby App.
 
 ## :hammer: Running locally
 
@@ -27,26 +27,27 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 ```
 $ git clone https://github.com/kintohub/kintohub
 
-$ cd kintohub/docs/examples/react
+$ cd kintohub/docs/examples/gatsby
 ```
 
-- Install the dependencies
+- Install the gatsby-cli 
 
 ```
-$ npm install
+$ npm install -g gatsby-cli
 ```
 
-- Run dev server with hot reload at localhost:3000
+- Build gatsby
 
 ```
-$ npm start
+$ gatsby build
 ```
 
-- Build for production with minification
+- To start the app
 
 ```
-$ npm run build
+$ gatsby serve
 ```
+
 
 ## :ambulance: Support
 
