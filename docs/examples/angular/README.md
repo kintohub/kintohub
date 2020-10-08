@@ -42,7 +42,7 @@ $ npm install
 $ npm start
 ```
 
-- build for production with minification
+- Build for production with minification
 
 ```
 $ npm run build
@@ -53,4 +53,4 @@ $ npm run build
 
 **Contact us:** https://www.kintohub.com/contact-us
 
-**Discord:** https://discordapp.com/invite/E2CMjKP
+**Discord:** https://kintohub.com/discord

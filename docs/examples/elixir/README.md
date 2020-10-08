@@ -67,4 +67,4 @@ After running this command, open `localhost:3000` in your browser to view the re
 
 **Contact us:** https://www.kintohub.com/contact-us
 
-**Discord:** https://discordapp.com/invite/E2CMjKP
+**Discord:** https://kintohub.com/discord

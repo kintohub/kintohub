@@ -42,6 +42,12 @@ npm install -g ionic
 $ npm install
 ```
 
+- Build the app
+
+```
+$ npm run build
+```
+
 - To start the app
 
 ```
@@ -52,4 +58,4 @@ ionic serve
 
 **Contact us:** https://www.kintohub.com/contact-us
 
-**Discord:** https://discordapp.com/invite/E2CMjKP
+**Discord:** https://kintohub.com/discord

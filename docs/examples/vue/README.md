@@ -58,4 +58,4 @@ $ npm run build --report
 
 **Contact us:** https://www.kintohub.com/contact-us
 
-**Discord:** https://discordapp.com/invite/E2CMjKP
+**Discord:** https://kintohub.com/discord
