@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="312px" width="1400px" viewBox="0 0 1400 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 2@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1400" height="312"></rect>
+        <radialGradient cx="46.3911307%" cy="65.0901357%" fx="46.3911307%" fy="65.0901357%" r="62.1193727%" id="radialGradient-3">
+            <stop stop-color="#8900FF" stop-opacity="0.0694656906" offset="0%"></stop>
+            <stop stop-color="#6200EE" stop-opacity="0.592001748" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="46.3911307%" cy="65.0901357%" fx="46.3911307%" fy="65.0901357%" r="1359.05393%" gradientTransform="translate(0.463911,0.650901),scale(1.000000,0.045082),rotate(-90.432333),translate(-0.463911,-0.650901)" id="radialGradient-4">
+            <stop stop-color="#8900FF" stop-opacity="0.0694656906" offset="0%"></stop>
+            <stop stop-color="#6200EE" stop-opacity="0.592001748" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="46.3911307%" cy="65.0901357%" fx="46.3911307%" fy="65.0901357%" r="62.1193727%" id="radialGradient-5">
+            <stop stop-color="#0053FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#3074FF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="46.3911307%" cy="65.0901357%" fx="46.3911307%" fy="65.0901357%" r="908.123557%" gradientTransform="translate(0.463911,0.650901),scale(1.000000,0.067470),rotate(-90.647016),translate(-0.463911,-0.650901)" id="radialGradient-6">
+            <stop stop-color="#0053FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#3074FF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services---Dev-Copy-3" transform="translate(0.000000, -60.000000)">
+            <g id="Group-2" transform="translate(0.000000, 60.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#131720" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-264.000000, 24.000000)">
+                        <circle id="Oval" fill="url(#radialGradient-3)" cx="1543" cy="912" r="772"></circle>
+                        <rect id="Rectangle-Copy-2" fill="url(#radialGradient-4)" transform="translate(1287.000000, 340.862352) rotate(27.000000) translate(-1287.000000, -340.862352) " x="1276" y="96.8623519" width="22" height="488"></rect>
+                        <circle id="Oval-Copy" fill="url(#radialGradient-3)" cx="457.5" cy="224.5" r="149.5"></circle>
+                        <circle id="Oval-Copy-2" fill="url(#radialGradient-5)" opacity="0.684268043" cx="1729.5" cy="302.5" r="302.5"></circle>
+                        <rect id="Rectangle" fill="url(#radialGradient-5)" opacity="0.684268043" transform="translate(331.500000, 422.500000) rotate(-75.000000) translate(-331.500000, -422.500000) " x="61" y="152" width="541" height="541"></rect>
+                        <rect id="Rectangle-Copy" fill="url(#radialGradient-6)" opacity="0.684268043" transform="translate(633.080000, 190.400000) rotate(-45.000000) translate(-633.080000, -190.400000) " x="623" y="41" width="20.16" height="298.8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
