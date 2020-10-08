@@ -7,13 +7,12 @@ A sample elixir app for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/elixir
 - **Branch:** master
 - **Language:** Elixir
 - **Language version:** 1.10
 - **Build Command:** `mix local.hex --force && mix local.rebar --force && mix deps.get --quiet && mix`
 - **Start Command:** `mix run --no-halt`
-- **Subfolder Path:** `./docs/examples/elixir`
 - **Port:** 3000
 
 When complete, open the **Access** tab and open the external URL to see your Elixir example!
@@ -25,11 +24,10 @@ An **Elixir** example can be deployed using `Dockerfile` on KintoHub
 ### :dolphin: Deploying with Dockerfile
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/elixir
 - **Branch:** master
 - **Language:** Dockerfile
 - **Dockerfile Name:** Dockerfile
-- **Subfolder Path:** `./docs/examples/elixir`
 - **Port:** 3000
 
 ## :hammer: Running locally
@@ -39,9 +37,9 @@ An **Elixir** example can be deployed using `Dockerfile` on KintoHub
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/elixir
 
-$ cd kintohub/docs/examples/elixir
+$ cd elixir
 ```
 
 - Install the dependencies

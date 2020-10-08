@@ -9,13 +9,12 @@ A sample Go app for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Web App
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/go
 - **Branch:** master
 - **Language:** Go
 - **Language version:** 1.10.0
 - **Build Command:** `go build main.go`
 - **Start Command:** `./main`
-- **Subfolder Path:** `./docs/examples/go`
 - **Port:** 80
 
 ## :hammer: Running locally
@@ -25,9 +24,9 @@ A sample Go app for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/go
 
-$ cd kintohub/docs/examples/go
+$ cd go
 ```
 
 - Build the app

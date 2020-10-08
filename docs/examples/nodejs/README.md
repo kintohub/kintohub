@@ -9,13 +9,12 @@ A sample node service for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Web App
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/nodejs
 - **Branch:** master
 - **Language:** NodeJS
 - **Language version:** 14
 - **Build Command:** `npm install`
 - **Start Command:** `npm run prod`
-- **Subfolder Path:** `./docs/examples/nodejs`
 - **Port:** 80
 
 ## :hammer: Running locally
@@ -25,9 +24,9 @@ A sample node service for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/nodejs
 
-$ cd kintohub/docs/examples/nodejs
+$ cd nodejs
 ```
 
 - Install the dependencies

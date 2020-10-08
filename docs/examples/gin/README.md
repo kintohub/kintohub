@@ -8,13 +8,12 @@ A sample Gin app for [KintoHub](https://kintohub.com)
 ## :rocket: Deploying on KintoHub
 
 - **Service Type:** Backend API
-- **Repo:** https://github.com/kintohub/kintohub
+- **Repo:** https://github.com/kintohub-examples/gin
 - **Branch:** master
 - **Language:** Go
 - **Language version:** 1.12
 - **Build Command:** `go build -o main .`
 - **Start Command:** `./main`
-- **Subfolder Path:** `./docs/examples/gin`
 - **Port:** 80
 
 ## :hammer: Running locally
@@ -24,9 +23,9 @@ A sample Gin app for [KintoHub](https://kintohub.com)
 - Clone the repository to a folder of choice.
 
 ```
-$ git clone https://github.com/kintohub/kintohub
+$ git clone https://github.com/kintohub-examples/gin
 
-$ cd kintohub/docs/examples/gin
+$ cd gin
 ```
 
 - Build the app
