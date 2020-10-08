@@ -115,12 +115,7 @@ function Home() {
                   src="/img/github.svg"
                 ></img>
               </Link>
-              <Link to={useBaseUrl("repository/import url")}>
-                <img
-                  className={styles.integrationIcon}
-                  src="/img/gitlab.svg"
-                ></img>
-              </Link>
+
               <Link to={useBaseUrl("repository/import url")}>
                 <img
                   className={styles.integrationIcon}
