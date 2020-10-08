@@ -102,10 +102,7 @@ function Home() {
               <p>
                 Use our Git integrations with
                 <Link to={useBaseUrl("repository/github-apps")}>
-                  <span className={styles.introLink}> GitHub,</span>
-                </Link>
-                <Link to={useBaseUrl("repository/import url")}>
-                  <span className={styles.introLink}> Gitlab, </span>
+                  <span className={styles.introLink}> GitHub </span>
                 </Link>
                 or use an
                 <Link to={useBaseUrl("repository/import url")}>
