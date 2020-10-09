@@ -26,9 +26,7 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 ```
 $ git clone https://github.com/kintohub-examples/docusaurus
 
-$ cd docusaurus
-
-$ cd website
+$ cd docusaurus/website
 ```
 
 - Install the dependencies
