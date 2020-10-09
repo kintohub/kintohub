@@ -28,7 +28,11 @@ function Home() {
           <div className={styles.infoCardsIntro}>
             <Link
               to={useBaseUrl("getting-started/introduction")}
-              className={classnames(styles.infoCardSmall, styles.link)}
+              className={classnames(
+                styles.infoCardSmall,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
             >
               <div>
                 <img className={styles.icon} src="/img/playlist-plus.svg"></img>
@@ -38,7 +42,11 @@ function Home() {
             </Link>
             <Link
               to={useBaseUrl("getting-started/fullstack-example")}
-              className={classnames(styles.infoCardSmall, styles.link)}
+              className={classnames(
+                styles.infoCardSmall,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
             >
               <div>
                 <img className={styles.icon} src="/img/code-tags.svg"></img>
@@ -50,7 +58,11 @@ function Home() {
             </Link>
             <Link
               to={useBaseUrl("https://discord.com/invite/E2CMjKP")}
-              className={classnames(styles.infoCardSmall, styles.link)}
+              className={classnames(
+                styles.infoCardSmall,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
             >
               <div>
                 <img className={styles.icon} src="/img/forum.svg"></img>
@@ -69,10 +81,38 @@ function Home() {
               </p>
               <div className={classnames(styles.pill, styles.purple)}></div>
               <ul className={styles.cardContentList}>
-                <li>Node</li>
-                <li>Golang</li>
-                <li>Ruby</li>
-                <li>Python</li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("examples/nodejs/nodejs-example")}
+                  >
+                    Node
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("examples/go/go-example")}
+                  >
+                    Golang
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("examples/ruby/ruby-example")}
+                  >
+                    Ruby
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("examples/django/django-example")}
+                  >
+                    Python
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className={styles.infoCardLarge}>
@@ -82,11 +122,46 @@ function Home() {
               </p>
               <div className={classnames(styles.pill, styles.blue)}></div>
               <ul className={styles.cardContentList}>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
-                <li>Minio</li>
-                <li>Redis</li>
-                <li>MySQL</li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("catalogs/mongodb")}
+                  >
+                    MongoDB
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("catalogs/postgresql")}
+                  >
+                    PostgreSQL
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("catalogs/minio")}
+                  >
+                    Minio
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("catalogs/redis")}
+                  >
+                    Redis
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("catalogs/mysql")}
+                  >
+                    MySQL
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className={styles.infoCardLarge}>
@@ -94,11 +169,46 @@ function Home() {
               <p className={styles.subText}>How to choose a service type.</p>
               <div className={classnames(styles.pill, styles.yellow)}></div>
               <ul className={styles.cardContentList}>
-                <li>Static Site</li>
-                <li>Web App</li>
-                <li>Backend API</li>
-                <li>Backend Worker</li>
-                <li>Job</li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("service-types/static-site")}
+                  >
+                    Static Site
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("service-types/web-app")}
+                  >
+                    Web App
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("service-types/backend-api")}
+                  >
+                    Backend API
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("service-types/backend-worker")}
+                  >
+                    Backend Worker
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={classnames(styles.link)}
+                    to={useBaseUrl("service-types/job")}
+                  >
+                    Job
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
