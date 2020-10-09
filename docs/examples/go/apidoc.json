@@ -1,7 +1,0 @@
-{
-  "name": "GolangBlock",
-  "version": "1.0.0",
-  "description": "apiDoc basic example",
-  "title": "Custom apiDoc browser title",
-  "url" : "https://api.github.com/v1"
-}
