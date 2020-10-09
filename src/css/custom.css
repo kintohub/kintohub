@@ -6,16 +6,18 @@
   --ifm-color-primary-light: #845cc3;
   --ifm-color-primary-lighter: #916ec9;
   --ifm-color-primary-lightest: #9f80d0;
-
+  --ifm-infoCard-background-color: #ffffff;
   --ifm-code-font-size: 95%;
   --ifm-blockquote-color: #ecf4f9;
   --ifm-blockquote-color-dark: #cbddea;
-
+  --ifm-infoCard-text-color: #868686;
+  --ifm-link-text-color: #000000;
+  --ifm-infoCard-section-color: #ffffff;
   --ifm-code-padding-vertical: 0.1rem;
   --ifm-code-padding-horizontal: 0.2rem;
 }
 
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
   --ifm-color-primary: #ba8fff;
   --ifm-color-primary-dark: #7431ca;
   --ifm-color-primary-darker: #6d1cac;
@@ -23,14 +25,12 @@
   --ifm-color-primary-light: #b97cfd;
   --ifm-color-primary-lighter: #cc8ffc;
   --ifm-color-primary-lightest: #fcf2ff;
-
+  --ifm-infoCard-background-color: #1b1b1b;
+  --ifm-infoCard-text-color: #a5a5a5;
+  --ifm-infoCard-section-color: #242526;
   --ifm-blockquote-color: #1a1d1e;
+  --ifm-link-text-color: #ffffff;
   --ifm-blockquote-color-dark: #6d1cac;
-}
-
-:root[data-theme='dark'] .hero.hero--primary {
-  --ifm-hero-background-color: #593d88;
-  --ifm-hero-text-color: #ffffff;
 }
 
 blockquote {
@@ -45,7 +45,7 @@ code {
   border-radius: 0.2rem;
 }
 
-:root[data-theme='dark'] code {
+:root[data-theme="dark"] code {
   background-color: rgb(39, 40, 34);
 }
 
@@ -123,16 +123,16 @@ a code {
 }
 
 .style-guide .priority-essential h3:after {
-  content: ' ESSENTIAL';
+  content: " ESSENTIAL";
   color: var(--ifm-color-danger);
 }
 
 .style-guide .priority-stronglyrecommended h3:after {
-  content: ' STRONGLY RECOMMENDED';
+  content: " STRONGLY RECOMMENDED";
   color: var(--ifm-color-warning);
 }
 
 .style-guide .priority-recommended h3:after {
-  content: ' RECOMMENDED';
+  content: " RECOMMENDED";
   color: var(--ifm-color-info);
 }

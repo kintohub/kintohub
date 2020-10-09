@@ -2,6 +2,7 @@
 id: nextjs-example
 title: NextJS
 ---
+
 A sample NextJS with Apollo app for [KintoHub](https://kintohub.com)
 
 ## :rocket: Deploying on KintoHub
@@ -33,18 +34,19 @@ $ cd nextjs
 $ npm install && npm run build
 ```
 
-- To start the app 
-
+- To start the app
 
 Runs production server
+
 ```
 $ npm start
 ```
+
 Run a development server
+
 ```
 $ npm run dev
 ```
-
 
 ## :ambulance: Support
 
