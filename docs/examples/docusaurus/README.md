@@ -12,7 +12,7 @@ A sample Docusaurus app for [KintoHub](https://kintohub.com)
 - **Branch:** master
 - **Language:** NodeJS
 - **Version:** 10
-- **Build:** `cd /app/website && npm install && npm run build`
+- **Build:** `cd website && npm install && npm run build`
 - **Build Output Path:** `./website/build/test-site/`
 
 This will take a few minutes to deploy. Then click on the **Access** tab and copy the `External Access` URL to see the Docusaurus App.
@@ -26,9 +26,7 @@ This will take a few minutes to deploy. Then click on the **Access** tab and cop
 ```
 $ git clone https://github.com/kintohub-examples/docusaurus
 
-$ cd docusaurus
-
-$ cd/website
+$ cd docusaurus/website
 ```
 
 - Install the dependencies
