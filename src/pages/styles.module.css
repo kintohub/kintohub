@@ -96,7 +96,7 @@ img {
   color: var(--ifm-link-text-color);
 }
 
-.link:hover {
+.linkNoHoverEffect:hover {
   color: var(--ifm-link-text-color);
 }
 
@@ -104,6 +104,7 @@ img {
   color: var(--primary-color);
   font-weight: 600;
 }
+
 a:hover {
   text-decoration: none;
 }
