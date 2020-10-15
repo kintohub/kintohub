@@ -14,7 +14,7 @@ KintoHub does not plan to charge for seats or specific features aside from the t
 :::note
 Once you have signed up for **Pay-As-You-Go** billing, you will **NOT** be charged immediately.
 All charges are made on the 1st of every month and pro-rated by the second.
-All **Pay-As-You-Go** users get **$10 USD** of usage charges waved per month
+All **Pay-As-You-Go** users get **$5 USD** of usage charges waved per month
 :::
 
 ## Free User Limitations
