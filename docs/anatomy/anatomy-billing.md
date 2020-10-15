@@ -30,7 +30,7 @@ All **Pay-As-You-Go** users get **$5 USD** of usage charges waved per month
 After entering in your credit card, all **Free User Limitations** are lifted.
 All **Pay-As-You-Go** customer's bill will have the following benefits:
  
-* The first **10 USD** of cost usage for **any** feature on the platform is waved
+* The first **5 USD** of cost usage for **any** feature on the platform is waved
 * First `3000 minutes` of build & deploy time is waived
 * First `10 Gb` of bandwidth is waived
 
