@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   organizationName: "kintohub",
   projectName: "kintohub",
-  favicon: "img/favicon.ico",
+  favicon: "favicon.ico",
   themeConfig: {
     disableDarkMode: false,
     image: "img/kintohub-og.png",
