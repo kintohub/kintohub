@@ -36,7 +36,7 @@ All **Pay-As-You-Go** customer's bill will have the following benefits:
 
 Here are some examples that can be deployed for **FREE** after becoming a **Pay-As-You-Go** user:
 
-* Deploy up to **5 services** with **512 Mb** memory each and `shared vCPU` enabled.
+* Deploy up to **4 services** with **64 Mb** memory each and `shared vCPU` enabled.
 * Deploy a free full-stack application with a **Database**, **Web App** and **Backend API**
 
 :::note
