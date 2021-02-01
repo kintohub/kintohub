@@ -240,15 +240,6 @@ h6 {
   align-items: center;
 }
 
-.suggestionBody {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  position: relative;
-  z-index: 99;
-}
 /* ----- */
 
 img {
@@ -319,16 +310,7 @@ img {
   color: var(--ifm-link-text-color);
 }
 
-.introLink {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
 a:hover {
-  text-decoration: none;
-}
-
-.introLink:active {
   text-decoration: none;
 }
 
@@ -351,37 +333,27 @@ a:hover {
   opacity: 0.8;
 }
 
-.integrationIcon {
-  width: 30px;
-  height: 30px;
-  margin: 0px 5px;
-  border-radius: 0px;
-}
-
 @media screen and (max-width: 1280px) {
   .whiteSlant {
     height: 540px;
     margin-top: -500px;
   }
-}
-
-@media screen and (max-width: 960px) {
-  .devToolsContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .devToolsFeaturesContainer {
     width: 100%;
     text-align: center;
     margin-bottom: 16px;
   }
-
+  .devToolsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
   .devToolsFeaturegrid > div {
     flex-direction: column;
     width: 100%;
   }
+}
 
+@media screen and (max-width: 960px) {
   .featureQuickStartGrid {
     flex-direction: column;
     padding: 16px 0px;
