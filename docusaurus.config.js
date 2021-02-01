@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: "Example",
-              to: "getting-started/faq",
+              to: "/getting-started/faq",
             },
           ],
         },
