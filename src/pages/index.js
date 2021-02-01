@@ -46,13 +46,39 @@ function Home() {
                 styles.linkNoHoverEffect
               )}
             >
-              <h3 className={styles.primaryText}>Frontend</h3>
-              <p className={classnames(styles.pill, styles.purple)}> </p>
-              <h5 className={styles.secondaryText}>
-                Static files, JAMStack sites, and dynamic web apps with SSR
-                enabled can all be deployed with ease.
-              </h5>
-              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+              {" "}
+              <div className={styles.frameworks}>
+                <h3 className={styles.primaryText}>Frontend</h3>
+                <div className={classnames(styles.pill, styles.purple)}></div>
+                <h5 className={styles.secondaryText}>
+                  Static files, JAMStack sites, and dynamic web apps with SSR
+                  enabled can all be deployed with ease.
+                </h5>
+              </div>
+              <p className={styles.caption}>POPULAR FRAMEWORKS</p>
+              <div className={styles.featureCardIcons}>
+                <div
+                  className={classnames(styles.gatsby, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.react, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.nextjs, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.hugo, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.vue, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.angular, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.more, styles.featureIcons)}
+                ></div>
+              </div>
             </div>
             <div
               className={classnames(
@@ -61,13 +87,39 @@ function Home() {
                 styles.linkNoHoverEffect
               )}
             >
-              <h3 className={styles.primaryText}>Backend</h3>
-              <div className={classnames(styles.pill, styles.blue)}></div>
-              <h5 className={styles.secondaryText}>
-                Scale APIs, consume messages with background workers or create
-                repeatable jobs.
-              </h5>
-              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+              <div className={styles.frameworks}>
+                <h3 className={styles.primaryText}>Backend</h3>
+                <div className={classnames(styles.pill, styles.blue)}></div>
+                <h5 className={styles.secondaryText}>
+                  Scale APIs, consume messages with background workers or create
+                  repeatable jobs.
+                </h5>
+              </div>
+
+              <p className={styles.caption}>POPULAR FRAMEWORKS</p>
+              <div className={styles.featureCardIcons}>
+                <div
+                  className={classnames(styles.docker, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.node, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.golang, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.rust, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.ruby, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.python, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.more, styles.featureIcons)}
+                ></div>
+              </div>
             </div>
             <div
               className={classnames(
@@ -76,13 +128,32 @@ function Home() {
                 styles.linkNoHoverEffect
               )}
             >
-              <h3 className={styles.primaryText}>Data & Storage</h3>
-              <div className={classnames(styles.pill, styles.yellow)}></div>
-              <h5 className={styles.secondaryText}>
-                Scalable databases, queues, image, file, and in-memory cache are
-                all possible on KintoHub. No 3rd party clouds required.
-              </h5>
-              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+              <div className={styles.frameworks}>
+                <h3 className={styles.primaryText}>Data & Storage</h3>
+                <div className={classnames(styles.pill, styles.yellow)}></div>
+                <h5 className={styles.secondaryText}>
+                  Scalable databases, queues, image, file, and in-memory cache
+                  are all possible on KintoHub. No 3rd party clouds required.
+                </h5>
+              </div>
+              <p className={styles.caption}>POPULAR FRAMEWORKS</p>
+              <div className={styles.featureCardIcons}>
+                <div
+                  className={classnames(styles.mongo, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.postgresql, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.mysql, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.redis, styles.featureIcons)}
+                ></div>
+                <div
+                  className={classnames(styles.minio, styles.featureIcons)}
+                ></div>
+              </div>
             </div>
           </div>
           <div className={styles.featureQuickStartGrid}>

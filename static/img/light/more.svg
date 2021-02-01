@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>more</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.5,16.25 L16.25,16.25 L16.25,22.5 C16.25,23.1875 15.6875,23.75 15,23.75 C14.3125,23.75 13.75,23.1875 13.75,22.5 L13.75,16.25 L7.5,16.25 C6.8125,16.25 6.25,15.6875 6.25,15 C6.25,14.3125 6.8125,13.75 7.5,13.75 L13.75,13.75 L13.75,7.5 C13.75,6.8125 14.3125,6.25 15,6.25 C15.6875,6.25 16.25,6.8125 16.25,7.5 L16.25,13.75 L22.5,13.75 C23.1875,13.75 23.75,14.3125 23.75,15 C23.75,15.6875 23.1875,16.25 22.5,16.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Marketing" transform="translate(-458.000000, -942.000000)">
+            <g id="icon/content/add_24px" transform="translate(452.235294, 936.250000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g fill-rule="nonzero"></g>
+                <g id="✱-/-Color-/-Icons-/-Black-/-Active" mask="url(#mask-2)" fill="#000000" fill-opacity="0.87" fill-rule="evenodd">
+                    <rect id="Rectangle-13" x="0" y="0" width="30" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

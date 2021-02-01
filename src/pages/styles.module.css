@@ -51,14 +51,15 @@
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 252px;
+  min-width: 300px;
+  height: 275px;
   background: var(--ifm-card-background);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   padding: 20px;
+  align-items: flex-start;
   text-align: left;
-  align-items: center;
 }
 
 .infoCardSmall {
@@ -105,6 +106,12 @@
   opacity: 60%;
 }
 
+.caption {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
 h1 {
   font-size: 60px;
   letter-spacing: -0.53px;
@@ -164,6 +171,87 @@ h6 {
   padding: 0px 20px;
   z-index: 999;
   text-align: left;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+}
+
+/* icons */
+
+.featureIcons {
+  background-size: 100%;
+  width: 32px;
+  height: 32px;
+}
+
+.featureCardIcons {
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.featureCardIcons > div {
+  margin: 0px 4px 8px 4px;
+}
+
+.angular {
+  background: var(--ifm-angular) no-repeat;
+}
+.docker {
+  background: var(--ifm-docker) no-repeat;
+}
+.gatsby {
+  background: var(--ifm-gatsby) no-repeat;
+}
+.golang {
+  background: var(--ifm-golang) no-repeat;
+}
+.hugo {
+  background: var(--ifm-hugo) no-repeat;
+}
+.minio {
+  background: var(--ifm-minio) no-repeat;
+}
+.mongo {
+  background: var(--ifm-mongo) no-repeat;
+}
+.more {
+  background: var(--ifm-more) no-repeat;
+}
+.mysql {
+  background: var(--ifm-mysql) no-repeat;
+}
+.nextjs {
+  background: var(--ifm-nextjs) no-repeat;
+}
+.node {
+  background: var(--ifm-node) no-repeat;
+}
+.postgresql {
+  background: var(--ifm-postgresql) no-repeat;
+}
+.python {
+  background: var(--ifm-python) no-repeat;
+}
+.react {
+  background: var(--ifm-react) no-repeat;
+}
+.redis {
+  background: var(--ifm-redis) no-repeat;
+}
+.ruby {
+  background: var(--ifm-ruby) no-repeat;
+}
+.rust {
+  background: var(--ifm-rust) no-repeat;
+}
+.vue {
+  background: var(--ifm-vue) no-repeat;
 }
 
 /* alert */
@@ -282,7 +370,7 @@ img {
 .pill {
   width: 50px;
   height: 4px;
-  margin: 10px 0;
+  margin: 2px 0px 12px 0px;
   border-radius: 5px;
 }
 .purple {
@@ -354,6 +442,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .frameworks {
+    height: 150px;
+  }
   .featureQuickStartGrid {
     flex-direction: column;
     padding: 16px 0px;

@@ -15,6 +15,24 @@
   --ifm-card-background: #ffffff;
   --ifm-devTools-background: #f7f9fe;
   --ifm-whiteSlant-image: url("/img/white-slant-light.svg") no-repeat;
+  --ifm-angular: url("/img/light/angular.svg");
+  --ifm-docker: url("/img/light/docker.svg");
+  --ifm-gatsby: url("/img/light/gatsby.svg");
+  --ifm-golang: url("/img/light/golang.svg");
+  --ifm-hugo: url("/img/light/hugo.svg");
+  --ifm-minio: url("/img/light/minio.svg");
+  --ifm-mongo: url("/img/light/mongo.svg");
+  --ifm-more: url("/img/light/more.svg");
+  --ifm-mysql: url("/img/light/mysql.svg");
+  --ifm-nextjs: url("/img/light/nextjs.svg");
+  --ifm-node: url("/img/light/node.svg");
+  --ifm-postgresql: url("/img/light/postgresql.svg");
+  --ifm-python: url("/img/light/python.svg");
+  --ifm-react: url("/img/light/react.svg");
+  --ifm-redis: url("/img/light/redis.svg");
+  --ifm-ruby: url("/img/light/ruby.svg");
+  --ifm-rust: url("/img/light/rust.svg");
+  --ifm-vue: url("/img/light/vue.svg");
 }
 
 :root[data-theme="dark"] {
@@ -31,6 +49,24 @@
   --ifm-card-background: #1e1e1e;
   --ifm-devTools-background: #1c1c1c;
   --ifm-whiteSlant-image: url("/img/white-slant-dark.svg") no-repeat;
+  --ifm-angular: url("/img/dark/angular.svg");
+  --ifm-docker: url("/img/dark/docker.svg");
+  --ifm-gatsby: url("/img/dark/gatsby.svg");
+  --ifm-golang: url("/img/dark/golang.svg");
+  --ifm-hugo: url("/img/dark/hugo.svg");
+  --ifm-minio: url("/img/dark/minio.svg");
+  --ifm-mongo: url("/img/dark/mongo.svg");
+  --ifm-more: url("/img/dark/more.svg");
+  --ifm-mysql: url("/img/dark/mysql.svg");
+  --ifm-nextjs: url("/img/dark/nextjs.svg");
+  --ifm-node: url("/img/dark/node.svg");
+  --ifm-postgresql: url("/img/dark/postgresql.svg");
+  --ifm-python: url("/img/dark/python.svg");
+  --ifm-react: url("/img/dark/react.svg");
+  --ifm-redis: url("/img/dark/redis.svg");
+  --ifm-ruby: url("/img/dark/ruby.svg");
+  --ifm-rust: url("/img/dark/rust.svg");
+  --ifm-vue: url("/img/dark/vue.svg");
 }
 
 blockquote {
