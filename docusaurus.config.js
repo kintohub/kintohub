@@ -8,19 +8,21 @@ module.exports = {
   projectName: "kintohub",
   favicon: "favicon.ico",
   themeConfig: {
-    disableDarkMode: false,
+    colorMode: {
+      disableSwitch: false,
+    },
     image: "img/kintohub-og.png",
     prism: {
       theme: require("./src/js/monokaiTheme.js"),
     },
     navbar: {
       title: "KintoHub Docs",
-      image: "img/redux-logo-landscape.png",
+      // image: "img/redux-logo-landscape.png",
       logo: {
         alt: "Kinto Logo",
         src: "img/kinto.svg",
       },
-      links: [
+      items: [
         {
           label: "Getting Started",
           to: "getting-started/introduction",
@@ -53,27 +55,25 @@ module.exports = {
       style: "light",
       links: [
         {
-          title: "KintoHub",
           items: [
             {
-              label: "Create Account",
+              html: `
+                  <a href="" target="_blank" rel="noreferrer noopener" >
+                    <img style="padding-bottom:12px;" src="../img/kinto-logo.svg"  />
+                  </a>
+                `,
+            },
+            {
+              label: "Installation",
               to: "https://kintohub.com/sign-up",
             },
             {
-              label: "Pricing",
+              label: "Blog",
               to: "https://www.kintohub.com/pricing",
             },
             {
-              label: "FAQ",
+              label: "Example",
               to: "getting-started/faq",
-            },
-            {
-              label: "Contact Us",
-              to: "https://www.kintohub.com/contact-us",
-            },
-            {
-              label: "Status",
-              to: "https://kintohub.statuspage.io/",
             },
           ],
         },
@@ -109,14 +109,7 @@ module.exports = {
               label: "Twitter",
               href: "http://twitter.com/kintohub",
             },
-            {
-              label: "Facebook",
-              href: "https://www.facebook.com/KintoHub/",
-            },
-            {
-              label: "YouTube",
-              href: "https://www.youtube.com/channel/UCpJJc0zcfzdHPw64BSP3GyQ",
-            },
+
             {
               label: "LinkedIn",
               href: "https://www.linkedin.com/company/kintohub/",
@@ -124,21 +117,17 @@ module.exports = {
           ],
         },
       ],
-      logo: {
-        alt: "KintoHub Logo",
-        src: "img/kinto.svg",
-        href: "https://kintohub.com/",
-      },
-      copyright: `Copyright © 2017-${new Date().getFullYear()} KintoHub Inc.`,
+
+      copyright: `<p style="text-align:left;">Open-sourced with Apache 2.0 License.</p>`,
     },
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: process.env.ALGOLIA_INDEX,
-      algoliaOptions: {},
-    },
-    googleAnalytics: {
-      trackingID: "UA-112004187-1",
-    },
+    // algolia: {
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   indexName: process.env.ALGOLIA_INDEX,
+    //   algoliaOptions: {},
+    // },
+    // googleAnalytics: {
+    //   trackingID: "UA-112004187-1",
+    // },
   },
   presets: [
     [

@@ -5,60 +5,281 @@
   --color-white: #ffffff;
   --primary-color: #ac6bfc;
   --primary-color-dark: #06002d;
-  --primary-color-darker: #131720;
+  --primary-color-darker: #242526;
+  overflow-x: hidden;
 }
 
-.subText {
-  color: var(--ifm-infoCard-text-color);
-  font-size: 16px;
+.hSpacer1 {
+  margin-top: 12px;
+}
+.hSpacer2 {
+  margin-top: 34px;
+}
+.hSpacer3 {
+  margin-top: 64px;
+}
+.hSpacer4 {
+  margin-top: 96px;
+}
+
+.hSpacer5 {
+  margin-top: 120px;
+}
+
+/* Cards */
+
+.cardItemList {
+  list-style-type: none;
+  margin-left: -32px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  gap: 20px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 252px;
+  background: var(--ifm-card-background);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  align-items: center;
+}
+
+.infoCardSmall {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 185px;
+  background: var(--ifm-card-background);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  color: var(--ifm-link-text-color);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.infoCardSmall:hover {
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  transition: 300ms;
+}
+
+.infoCardLarge {
+  width: 400px;
+  height: 330px;
+  min-height: 320px;
+  background: var(--ifm-card-background);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 32px 32px 16px 32px;
+  color: var(--ifm-link-text-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* text */
+
+.primaryText {
+  opacity: 87%;
+}
+
+.secondaryText {
+  opacity: 60%;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: -0.53px;
   font-weight: 500;
-  letter-spacing: 0.25px;
-  line-height: 20px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -0.53px;
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
   letter-spacing: 0.14px;
-  line-height: 24px;
 }
 
-img {
-  vertical-align: middle;
-  padding-right: 5px;
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-.heroBanner {
-  height: 312px;
-  text-align: center;
-  background: var(--primary-color-dark);
-  position: relative;
-  z-index: -99;
+h6 {
+  letter-spacing: 0.25px;
+  font-weight: normal;
+  font-size: 14px;
 }
 
-.heroBannerLeft {
-  position: absolute;
-  left: 0;
-  z-index: -1;
-  height: 312px;
-}
-
-.heroBannerRight {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  height: 312px;
+.heading {
+  max-width: 960px;
+  margin: 0 auto;
+  font-weight: 600;
 }
 
 .heroBannerText {
-  padding: 64px 16px 4px 16px;
+  padding: 124px 16px 4px 16px;
   color: var(--color-white);
+}
+
+.featureQuickStartGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.featureQuickStartGrid > div {
+  width: 50%;
+  padding: 0px 20px;
+  z-index: 999;
+  text-align: left;
+}
+
+/* alert */
+
+.alertContainer {
+  display: flex;
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  height: auto;
+  padding: 16px 0px 16px 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.alertLink {
+  margin-left: auto;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* section */
+
+.callToActionBg {
+  background: url("/img/call-to-action.svg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 32px;
+  height: 240px;
+}
+
+.devTools {
+  padding: 80px 20px;
+  height: auto;
+  background-color: var(--ifm-devTools-background);
+}
+
+.devToolsContainer {
+  display: flex;
+  max-width: 1230px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 84px;
+  justify-content: center;
+}
+
+.devToolsBg {
+  position: relative;
   z-index: 999;
 }
 
-.heroBannerSubText {
+.devToolsFeaturesContainer {
+  width: 50%;
+}
+
+.devToolsFeaturegrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.devToolsFeaturegrid > div {
+  width: 50%;
+  padding-right: 16px;
+}
+
+.quickStart {
+  background-color: var(--primary-color-darker);
+  height: auto;
   color: var(--color-white);
-  font-weight: 500;
+  text-align: center;
+  align-items: center;
+}
+
+.suggestionBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: 99;
+}
+/* ----- */
+
+img {
+  vertical-align: middle;
+}
+
+.heroBanner {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background: url("/img/landing.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.whiteSlant {
+  height: 500px;
+  width: 100%;
+  margin-top: -450px;
+  position: relative;
+  background: var(--ifm-whiteSlant-image);
+  background-size: cover;
+}
+
+.blackSlant {
+  height: 280px;
+  width: 102%;
+  margin-top: -320px;
+  margin-bottom: -2px;
+  position: relative;
+  background: url("/img/black-slant.svg") no-repeat;
+  background-size: cover;
 }
 
 .icon {
@@ -70,11 +291,15 @@ img {
 .pill {
   width: 50px;
   height: 4px;
-  margin: 15px 0;
+  margin: 10px 0;
   border-radius: 5px;
 }
 .purple {
   background-color: var(--color-purple);
+}
+
+.purpleText {
+  color: var(--color-purple);
 }
 
 .blue {
@@ -83,12 +308,6 @@ img {
 
 .yellow {
   background-color: var(--color-yellow);
-}
-
-.cardContentList {
-  list-style-type: none;
-  margin-left: -32px;
-  font-weight: 600;
 }
 
 .link {
@@ -114,14 +333,13 @@ a:hover {
 }
 
 .button {
-  outline: none;
-  width: 180px;
-  height: 50px;
-  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
   border: none;
-  margin-top: 16px;
-  font-size: 15px;
-  font-weight: 500;
+  margin-top: 46px;
+  font-size: 14px;
+  font-weight: 600;
   letter-spacing: 1px;
   background-color: var(--color-purple);
   color: var(--color-white);
@@ -140,86 +358,49 @@ a:hover {
   border-radius: 0px;
 }
 
-.startDeploying {
-  padding: 64px;
-  background-color: var(--primary-color-darker);
-  height: auto;
-  display: flex;
-  color: var(--color-white);
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+@media screen and (max-width: 1280px) {
+  .whiteSlant {
+    height: 540px;
+    margin-top: -500px;
+  }
 }
 
-.infoCardSection {
-  background-color: var(--ifm-infoCard-section-color);
-  height: auto;
-  width: 100%;
-}
-
-.infoCardsIntro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  position: relative;
-  top: -88px;
-  z-index: 99;
-}
-
-.suggestionBody {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  position: relative;
-  top: -64px;
-  z-index: 99;
-}
-
-.suggestionText {
-  margin: 16px 64px;
-}
-
-.infoCardSmall {
-  width: 360px;
-  height: 160px;
-  min-height: 180px;
-  background: var(--ifm-infoCard-background-color);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
-  margin: 16px 16px 20px 16px;
-  padding: 24px;
-}
-
-.infoCardSmall:hover {
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
-  transition: 300ms;
-}
-
-.infoCardLarge {
-  width: 360px;
-  height: 330px;
-  min-height: 320px;
-  background: var(--ifm-infoCard-background-color);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
-  margin: 8px 16px 16px 16px;
-  padding: 32px 32px 16px 32px;
-}
-
-@media screen and (max-width: 990px) {
-  .heroBannerRight {
-    display: none;
+@media screen and (max-width: 960px) {
+  .devToolsContainer {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .infoCardsIntro {
+  .devToolsFeaturesContainer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .devToolsFeaturegrid > div {
     flex-direction: column;
-    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .featureQuickStartGrid {
+    flex-direction: column;
+    padding: 16px 0px;
+  }
+
+  .featureQuickStartGrid > div {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .devToolsBg {
+    width: 100%;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 20px;
   }
 
   .suggestionBody {
@@ -227,17 +408,21 @@ a:hover {
     flex-wrap: wrap;
   }
 
+  .featureCard {
+    width: 100%;
+  }
+
   .infoCardSmall {
-    width: 80%;
+    width: 100%;
   }
 
   .infoCardLarge {
-    width: 80%;
+    width: 100%;
   }
-}
 
-@media screen and (max-width: 1175px) {
-  .heroBannerLeft {
-    display: none;
+  .whiteSlant {
+    height: 1000px;
+    margin-top: -1000px;
+    margin-bottom: 0px;
   }
 }

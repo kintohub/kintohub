@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1342px" height="166px" viewBox="0 0 1342 166" version="1.1">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1400 0 1400 173 0 173"/>
+        <linearGradient x1="100%" y1="41.8049014%" x2="-60.4981411%" y2="65.5512094%" id="linearGradient-3">
+            <stop stop-color="#32C5FF" offset="0%"/>
+            <stop stop-color="#B620E0" offset="51.2583893%"/>
+            <stop stop-color="#F7B500" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="-102.87452%" y1="12.5014433%" x2="100%" y2="48.6810982%" id="linearGradient-4">
+            <stop stop-color="#E02020" offset="0%"/>
+            <stop stop-color="#FA6400" offset="16.7194618%"/>
+            <stop stop-color="#F7B500" offset="33.3898731%"/>
+            <stop stop-color="#6DD400" offset="50.0513863%"/>
+            <stop stop-color="#0091FF" offset="66.5668601%"/>
+            <stop stop-color="#6236FF" offset="83.3200233%"/>
+            <stop stop-color="#B620E0" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g id="OSS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Marketing-Light" transform="translate(-29.000000, -2684.000000)">
+            <g id="Group-9" transform="translate(0.000000, 2676.250000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"/>
+                </mask>
+                <g id="Rectangle-Copy-5" transform="translate(700.000000, 86.500000) scale(-1, 1) translate(-700.000000, -86.500000) "/>
+                <g id="Group-25" mask="url(#mask-2)" opacity="0.735165551" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(0.000000, -191.250000)">
+                        <g id="Group-4-Copy-4" transform="translate(345.500000, 373.000000) scale(-1, 1) rotate(-330.000000) translate(-345.500000, -373.000000) translate(121.000000, 72.000000)">
+                            <g id="Group-6-Copy-7" transform="translate(177.386080, 300.550891) rotate(-257.000000) translate(-177.386080, -300.550891) translate(-104.113920, 184.050891)" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.247949, 0.061987)">
+                                    <path d="M47.5043,23.1577622 L346.639286,23.1577622 L346.639286,231.346474 L561.743392,231.346474" id="Path-Copy" stroke="url(#linearGradient-3)" stroke-dasharray="1" transform="translate(304.623846, 127.252118) scale(-1, -1) translate(-304.623846, -127.252118) "/>
+                                    <circle id="Oval-Copy" stroke="#5895F6" cx="23.7793326" cy="23.9652942" r="23.4770185"/>
+                                </g>
+                            </g>
+                            <g id="Group-6-Copy-9" transform="translate(331.701501, 209.724790) rotate(-257.000000) translate(-331.701501, -209.724790) translate(145.201501, 132.724790)" opacity="0.595168341" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.163880, 0.040970)">
+                                    <path d="M31.3976918,15.3059888 L229.109228,15.3059888 L229.109228,152.907111 L371.28104,152.907111" id="Path-Copy" stroke="url(#linearGradient-4)" stroke-dasharray="1" transform="translate(201.339366, 84.106550) scale(-1, -1) translate(-201.339366, -84.106550) "/>
+                                    <circle id="Oval-Copy" stroke="#C602FF" cx="15.7168121" cy="15.8397224" r="15.5169994"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-4-Copy-5" transform="translate(499.077297, 306.486607) scale(-1, 1) rotate(-330.000000) translate(-499.077297, -306.486607) translate(381.577297, 106.486607)">
+                            <g id="Group-6-Copy-9" transform="translate(117.775934, 199.959890) rotate(-257.000000) translate(-117.775934, -199.959890) translate(-68.724066, 122.959890)" opacity="0.595168341" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.163880, 0.040970)">
+                                    <path d="M31.3976918,15.3059888 L229.109228,15.3059888 L229.109228,152.907111 L371.28104,152.907111" id="Path-Copy" stroke="url(#linearGradient-4)" stroke-dasharray="1" transform="translate(201.339366, 84.106550) scale(-1, -1) translate(-201.339366, -84.106550) "/>
+                                    <circle id="Oval-Copy" stroke="#C602FF" cx="15.7168121" cy="15.8397224" r="15.5169994"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-24" mask="url(#mask-2)" opacity="0.735165551" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(1049.500000, 181.750000) scale(-1, 1) translate(-1049.500000, -181.750000) translate(699.000000, -191.250000)">
+                        <g id="Group-4-Copy-6" transform="translate(345.500000, 373.000000) scale(-1, 1) rotate(-330.000000) translate(-345.500000, -373.000000) translate(121.000000, 72.000000)">
+                            <g id="Group-6-Copy-7" transform="translate(177.386080, 300.550891) rotate(-257.000000) translate(-177.386080, -300.550891) translate(-104.113920, 184.050891)" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.247949, 0.061987)">
+                                    <path d="M47.5043,23.1577622 L346.639286,23.1577622 L346.639286,231.346474 L561.743392,231.346474" id="Path-Copy" stroke="url(#linearGradient-3)" stroke-dasharray="1" transform="translate(304.623846, 127.252118) scale(-1, -1) translate(-304.623846, -127.252118) "/>
+                                    <circle id="Oval-Copy" stroke="#5895F6" cx="23.7793326" cy="23.9652942" r="23.4770185"/>
+                                </g>
+                            </g>
+                            <g id="Group-6-Copy-9" transform="translate(331.701501, 209.724790) rotate(-257.000000) translate(-331.701501, -209.724790) translate(145.201501, 132.724790)" opacity="0.595168341" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.163880, 0.040970)">
+                                    <path d="M31.3976918,15.3059888 L229.109228,15.3059888 L229.109228,152.907111 L371.28104,152.907111" id="Path-Copy" stroke="url(#linearGradient-4)" stroke-dasharray="1" transform="translate(201.339366, 84.106550) scale(-1, -1) translate(-201.339366, -84.106550) "/>
+                                    <circle id="Oval-Copy" stroke="#C602FF" cx="15.7168121" cy="15.8397224" r="15.5169994"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-4-Copy-7" transform="translate(499.077297, 306.486607) scale(-1, 1) rotate(-330.000000) translate(-499.077297, -306.486607) translate(381.577297, 106.486607)">
+                            <g id="Group-6-Copy-9" transform="translate(117.775934, 199.959890) rotate(-257.000000) translate(-117.775934, -199.959890) translate(-68.724066, 122.959890)" opacity="0.595168341" stroke-width="2">
+                                <g id="Group-2" transform="translate(0.163880, 0.040970)">
+                                    <path d="M31.3976918,15.3059888 L229.109228,15.3059888 L229.109228,152.907111 L371.28104,152.907111" id="Path-Copy" stroke="url(#linearGradient-4)" stroke-dasharray="1" transform="translate(201.339366, 84.106550) scale(-1, -1) translate(-201.339366, -84.106550) "/>
+                                    <circle id="Oval-Copy" stroke="#C602FF" cx="15.7168121" cy="15.8397224" r="15.5169994"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

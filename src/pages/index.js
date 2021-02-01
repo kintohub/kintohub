@@ -15,72 +15,224 @@ function Home() {
       title={"Modern Fullstack App Platform"}
       description="KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place."
     >
-      <header className={styles.heroBanner}>
-        <img className={styles.heroBannerLeft} src="/img/docs-left.svg"></img>
-        <img className={styles.heroBannerRight} src="/img/docs-right.svg"></img>
-        <div className={styles.heroBannerText}>
-          <h1>{siteConfig.title}</h1>
-          <span>{siteConfig.tagline}</span>
-        </div>
-      </header>
       <main>
-        <section className={styles.infoCardSection}>
-          <div className={styles.infoCardsIntro}>
-            <Link
-              to={useBaseUrl("getting-started/introduction")}
-              className={classnames(
-                styles.infoCardSmall,
-                styles.link,
-                styles.linkNoHoverEffect
-              )}
-            >
-              <div>
-                <img className={styles.icon} src="/img/playlist-plus.svg"></img>
-                <h3>Introduction</h3>
-                <p className={styles.subText}>Why should you use KintoHub?</p>
-              </div>
-            </Link>
-            <Link
-              to={useBaseUrl("getting-started/fullstack-example")}
-              className={classnames(
-                styles.infoCardSmall,
-                styles.link,
-                styles.linkNoHoverEffect
-              )}
-            >
-              <div>
-                <img className={styles.icon} src="/img/code-tags.svg"></img>
-                <h3>Try a Full Stack Example</h3>
-                <p className={styles.subText}>
-                  Deploy PostgreSQL + Hasura + React.
-                </p>
-              </div>
-            </Link>
-            <Link
-              to={useBaseUrl("https://discord.com/invite/E2CMjKP")}
-              className={classnames(
-                styles.infoCardSmall,
-                styles.link,
-                styles.linkNoHoverEffect
-              )}
-            >
-              <div>
-                <img className={styles.icon} src="/img/forum.svg"></img>
-                <h3>Join Our Discord</h3>
-                <p className={styles.subText}>
-                  Get straight answers from our developers.
-                </p>
-              </div>
-            </Link>
+        <header className={styles.alertContainer}>
+          <div className={styles.alertBanner}>
+            KintoHub is now open-source software. A big announcement for
+            later...
           </div>
-          <div className={styles.infoCardsIntro}>
+          <div className={styles.alertLink}>LEARN MORE</div>
+        </header>
+        <section className={styles.heroBanner}>
+          <div className={styles.heroBannerText}>
+            <h1 className={styles.heading}>Heroku Your Kubernetes</h1>
+            <button className={styles.button}>
+              <img src="/img/power.svg"></img> Get Started
+            </button>
+            <h5 className={(styles.primaryText, styles.hSpacer5)}>
+              KintoHub is an open source build and deployment platform designed
+              with a developer-friendly interface for Kubernetes.
+            </h5>
+            <h5 className={(styles.primaryText, styles.hSpacer4)}>
+              ALL YOUR FULL STACK NEEDS ON KUBERNETES
+            </h5>
+          </div>
+          <div className={styles.hSpacer4}></div>
+          <div className={styles.cardContainer}>
+            <div
+              className={classnames(
+                styles.featureCard,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
+            >
+              <h3 className={styles.primaryText}>Frontend</h3>
+              <p className={classnames(styles.pill, styles.purple)}> </p>
+              <h5 className={styles.secondaryText}>
+                Static files, JAMStack sites, and dynamic web apps with SSR
+                enabled can all be deployed with ease.
+              </h5>
+              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+            </div>
+            <div
+              className={classnames(
+                styles.featureCard,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
+            >
+              <h3 className={styles.primaryText}>Backend</h3>
+              <div className={classnames(styles.pill, styles.blue)}></div>
+              <h5 className={styles.secondaryText}>
+                Scale APIs, consume messages with background workers or create
+                repeatable jobs.
+              </h5>
+              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+            </div>
+            <div
+              className={classnames(
+                styles.featureCard,
+                styles.link,
+                styles.linkNoHoverEffect
+              )}
+            >
+              <h3 className={styles.primaryText}>Data & Storage</h3>
+              <div className={classnames(styles.pill, styles.yellow)}></div>
+              <h5 className={styles.secondaryText}>
+                Scalable databases, queues, image, file, and in-memory cache are
+                all possible on KintoHub. No 3rd party clouds required.
+              </h5>
+              <p className={styles.secondaryText}>POPULAR FRAMEWORKS</p>
+            </div>
+          </div>
+          <div className={styles.featureQuickStartGrid}>
+            <div>
+              <h4>Build and Deploy any Github Repository</h4>
+              <h5 className={styles.primaryText}>
+                Use the{" "}
+                <Link
+                  to={useBaseUrl("getting-started/introduction")}
+                  className={classnames(styles.purpleText, styles.primaryText)}
+                >
+                  import URL
+                </Link>{" "}
+                to connect any public or private git repo
+              </h5>
+            </div>
+
+            <div>
+              <h4>Custom Domains with Let's Encrypt</h4>
+              <h5 className={styles.primaryText}>
+                Once deployed, your projects can be assigned to a{" "}
+                <Link
+                  to={useBaseUrl("getting-started/introduction")}
+                  className={styles.purpleText}
+                >
+                  custom domain.
+                </Link>
+              </h5>
+            </div>
+          </div>
+        </section>
+        <section className={styles.whiteSlant}></section>
+
+        <section className={styles.devTools}>
+          <div className={styles.devToolsContainer}>
+            <div className={styles.devToolsFeaturesContainer}>
+              <h5 className={styles.purpleText}>DESIGNED BY DEVELOPERS</h5>
+              <h2 className={styles.primaryText}>
+                Powerful developer tools with a simple user-experience
+              </h2>
+              <div className={styles.hSpacer2}></div>
+              <div className={styles.devToolsFeaturegrid}>
+                <div>
+                  <h5 className={styles.primaryText}>
+                    Easy Build & Deployment
+                  </h5>
+                  <h6 className={styles.secondaryText}>
+                    Simply connect your repo and you're off! KintoHub can build
+                    and deploy your code as-is.
+                  </h6>
+                </div>
+                <div>
+                  <h5 className={styles.primaryText}>
+                    Advanced Configurations
+                  </h5>
+                  <h6 className={styles.secondaryText}>
+                    Click your way to cost effective dev or scalable prod
+                    environments.
+                  </h6>
+                </div>
+                <div>
+                  <h5 className={styles.primaryText}>Logs</h5>
+                  <h6 className={styles.secondaryText}>
+                    Drill down and debug your issues with real time logs.
+                  </h6>
+                </div>
+                <div>
+                  <h5 className={styles.primaryText}>
+                    Command Line Interface (CLI)
+                  </h5>
+                  <h6 className={styles.secondaryText}>
+                    Use our CLI tools to connect tunnel to your secure
+                    databases.
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className={styles.devToolsBg} src="/img/dev-tools.svg"></img>
+            </div>
+          </div>
+        </section>
+        <section className={styles.blackSlant}></section>
+
+        <section className={styles.quickStart}>
+          <h2 className={styles.primaryText}>
+            Read our in-depth documentation
+          </h2>
+          <h5 className={styles.primaryText}>
+            Follow our examples and guides to run KintoHub on Kubernetes in no
+            time.
+          </h5>
+          <div className={styles.hSpacer3}></div>
+          <div className={styles.cardContainer}>
+            <div className={styles.infoCardSmall}>
+              <Link
+                to={useBaseUrl("getting-started/introduction")}
+                className={classnames(styles.link, styles.linkNoHoverEffect)}
+              >
+                <div>
+                  <img
+                    className={styles.icon}
+                    src="/img/playlist-plus.svg"
+                  ></img>
+                  <h4 className={styles.primaryText}>Installation Guide</h4>
+                  <h5 className={styles.secondaryText}>
+                    Why should you use KintoHub?
+                  </h5>
+                </div>
+              </Link>
+            </div>
+
+            <div className={styles.infoCardSmall}>
+              <Link
+                to={useBaseUrl("getting-started/fullstack-example")}
+                className={classnames(styles.link, styles.linkNoHoverEffect)}
+              >
+                <div>
+                  <img className={styles.icon} src="/img/code-tags.svg"></img>
+                  <h4 className={styles.primaryText}>Deploy an Example App</h4>
+                  <h5 className={styles.secondaryText}>
+                    Deploy PostgreSQL + Hasura + React.
+                  </h5>
+                </div>
+              </Link>
+            </div>
+
+            <div className={styles.infoCardSmall}>
+              <Link
+                to={useBaseUrl("https://discord.com/invite/E2CMjKP")}
+                className={classnames(styles.link, styles.linkNoHoverEffect)}
+              >
+                <div>
+                  <img className={styles.icon} src="/img/forum.svg"></img>
+                  <h4 className={styles.primaryText}>Join Our Discord</h4>
+                  <h5 className={styles.secondaryText}>
+                    Get straight answers from our developers.
+                  </h5>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.cardContainer}>
             <div className={styles.infoCardLarge}>
-              <h3>Examples by Language</h3>
-              <p className={styles.subText}>
+              <h4>Examples by Language</h4>
+              <h5 className={styles.secondaryText}>
                 Deploy code examples in your language.
-              </p>
+              </h5>
               <div className={classnames(styles.pill, styles.purple)}></div>
-              <ul className={styles.cardContentList}>
+              <ul className={styles.cardItemList}>
                 <li>
                   <Link
                     className={classnames(styles.link)}
@@ -116,12 +268,12 @@ function Home() {
               </ul>
             </div>
             <div className={styles.infoCardLarge}>
-              <h3>Explore Catalog</h3>
-              <p className={styles.subText}>
+              <h4>Explore Catalog</h4>
+              <h5 className={styles.secondaryText}>
                 Deploy instant databases, storage, etc.
-              </p>
+              </h5>
               <div className={classnames(styles.pill, styles.blue)}></div>
-              <ul className={styles.cardContentList}>
+              <ul className={styles.cardItemList}>
                 <li>
                   <Link
                     className={classnames(styles.link)}
@@ -165,10 +317,12 @@ function Home() {
               </ul>
             </div>
             <div className={styles.infoCardLarge}>
-              <h3>Learn Service Types</h3>
-              <p className={styles.subText}>How to choose a service type.</p>
+              <h4>Learn Service Types</h4>
+              <h5 className={styles.secondaryText}>
+                How to choose a service type.
+              </h5>
               <div className={classnames(styles.pill, styles.yellow)}></div>
-              <ul className={styles.cardContentList}>
+              <ul className={styles.cardItemList}>
                 <li>
                   <Link
                     className={classnames(styles.link)}
@@ -212,61 +366,14 @@ function Home() {
               </ul>
             </div>
           </div>
-        </section>
-        <section className={styles.infoCardSection}>
-          <div className={styles.suggestionBody}>
-            <div className={styles.suggestionText}>
-              <h3>Deploy an Existing Project with Git</h3>
-              <p className={styles.subText}>
-                Use our Git integrations with
-                <Link to={useBaseUrl("repository/github-apps")}>
-                  <span className={styles.introLink}> GitHub </span>
-                </Link>
-                or use an
-                <Link to={useBaseUrl("repository/import url")}>
-                  <span className={styles.introLink}> import url.</span>
-                </Link>
-              </p>
-              <Link to={useBaseUrl("repository/github-apps")}>
-                <img
-                  className={styles.integrationIcon}
-                  src="/img/github.svg"
-                ></img>
-              </Link>
 
-              <Link to={useBaseUrl("repository/import url")}>
-                <img
-                  className={styles.integrationIcon}
-                  src="/img/link.svg"
-                ></img>
-              </Link>
-            </div>
-            <div className={styles.suggestionText}>
-              <h3>Connect Your Custom Domains</h3>
-              <p className={styles.subText}>
-                Once deployed, your projects can be assigned to a custom domain.
-              </p>
-
-              <Link to={useBaseUrl("anatomy/domains")}>
-                <span className={styles.introLink}>
-                  Learn more
-                  <img src="/img/arrow-right.svg"></img>
-                </span>
-              </Link>
-            </div>
-          </div>
-        </section>
-        <section className={styles.startDeploying}>
-          <h1>Created by fullstack developers like you.</h1>
-          <p className={styles.subText}>
-            Play around for free. No CC required.{" "}
-          </p>
           <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
             <button className={styles.button}>
               <img src="/img/power.svg"></img>
-              Start Deploying
+              Get Started
             </button>
           </Link>
+          <div className={styles.callToActionBg}></div>
         </section>
       </main>
     </Layout>
