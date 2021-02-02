@@ -231,6 +231,10 @@ function Home() {
                   </h6>
                 </div>
               </div>
+              <button className={styles.button}>
+                <img src="/img/power.svg"></img> Get Started
+              </button>
+              <div className={styles.hSpacer2}></div>
             </div>
             <div>
               <img className={styles.devToolsBg} src="/img/dev-tools.svg"></img>
