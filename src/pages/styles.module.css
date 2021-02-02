@@ -92,6 +92,7 @@
   color: var(--ifm-link-text-color);
   border-radius: 8px;
   display: flex;
+  text-align: left;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -359,7 +360,7 @@ img {
 
 .blackSlant {
   height: 280px;
-  width: 102%;
+  width: 100%;
   margin-top: -320px;
   margin-bottom: -2px;
   position: relative;
