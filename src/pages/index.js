@@ -29,7 +29,8 @@ function Home() {
             <button className={styles.button}>
               <img src="/img/power.svg"></img> Get Started
             </button>
-            <h5 className={(styles.primaryText, styles.hSpacer5)}>
+            <div className={styles.hSpacer5}></div>
+            <h5 className={(styles.primaryText, styles.subheading)}>
               KintoHub is an open source build and deployment platform designed
               with a developer-friendly interface for Kubernetes.
             </h5>

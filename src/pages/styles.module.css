@@ -99,11 +99,11 @@
 /* text */
 
 .primaryText {
-  opacity: 87%;
+  opacity: 0.87;
 }
 
 .secondaryText {
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .caption {
@@ -153,6 +153,12 @@ h6 {
   font-weight: 600;
 }
 
+.subheading {
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 28px;
+}
+
 .heroBannerText {
   padding: 124px 16px 4px 16px;
   color: var(--color-white);
@@ -164,12 +170,12 @@ h6 {
   flex-wrap: wrap;
   max-width: 1230px;
   margin: 0 auto;
+  padding-top: 16px;
 }
 
 .featureQuickStartGrid > div {
   width: 50%;
-  padding: 0px 20px;
-  z-index: 999;
+  z-index: 9;
   text-align: left;
 }
 
@@ -302,7 +308,7 @@ h6 {
 
 .devToolsBg {
   position: relative;
-  z-index: 999;
+  z-index: 9;
 }
 
 .devToolsFeaturesContainer {
@@ -438,6 +444,10 @@ a:hover {
   .devToolsFeaturegrid > div {
     flex-direction: column;
     width: 100%;
+  }
+
+  .featureQuickStartGrid {
+    padding: 0 20px;
   }
 }
 

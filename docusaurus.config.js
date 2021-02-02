@@ -59,7 +59,7 @@ module.exports = {
             {
               html: `
                   <a href="" target="_blank" rel="noreferrer noopener" >
-                    <img style="padding-bottom:14px;" src="../img/kinto-logo.svg"  />
+                    <div class="footerLogo"></div>
                   </a>
                 `,
             },
