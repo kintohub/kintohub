@@ -1,10 +1,9 @@
 ---
 id: fullstack-example
 title: Full Stack Example
-
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 This example will walk through putting together a full stack app on KintoHub from the ground up and will take about 15 minutes.
 If you are interested in a quick single service, check out our list of [examples](https://docs.kintohub.com/examples/nodejs/nodejs-example).
@@ -55,16 +54,19 @@ You can deploy it with the following steps:
 10. Add the **key** `HASURA_GRAPHQL_ENABLE_CONSOLE` and enter the value `true`
 11. Click on the **Deploy** button at the top right
 
-<img alt="Hasura Environment Variables" src={useBaseUrl('img/fullstack-example/hasura-env-vars.png')} />
-
-
+<img
+  alt="Hasura Environment Variables"
+  src={useBaseUrl("img/fullstack-example/hasura-env-vars.png")}
+/>
 
 This will take around **30 Seconds** to complete.
 Once complete, you can click the link to the right of **Public API access via**
 You will now see Hasura's dashboard and can copy the **GraphQL Endpoint URL**
 
-<img alt="Hasura Console" src={useBaseUrl('img/fullstack-example/hasura-console.png')} />
-
+<img
+  alt="Hasura Console"
+  src={useBaseUrl("img/fullstack-example/hasura-console.png")}
+/>
 
 ## Setup React Web App
 
@@ -82,7 +84,10 @@ You can deploy it with the following steps:
 9. Add the **key** `REACT_APP_SERVER_URL` and paste the **GraphQL Endpoint URL** from the previous step as the **value**
 10. Click on the **Deploy** button
 
-<img alt="React Webapp Environment Variables" src={useBaseUrl('img/fullstack-example/react-webapp-env-vars.png')} />
+<img
+  alt="React Webapp Environment Variables"
+  src={useBaseUrl("img/fullstack-example/react-webapp-env-vars.png")}
+/>
 
 This will take around **3 Minutes** to complete.
 Once complete, you can click the link to the right of **Public API access via**
@@ -94,7 +99,6 @@ Once complete, you can click the link to the right of **Public API access via**
 If you are on a paid account and have already used your monthly free credits, the total cost of this environment can be optimized to a max cost of **$4.34** USD per month.
 To do this, update your services with the following:
 
-* Lower the [memory](../anatomy/anatomy-advanced.md#memory) of **todo-hasura** from `256` to `128` MB of memory
-* Lower the [memory](../anatomy/anatomy-advanced.md#memory) of **postgres** from `256` to `128` MB of memory
-* Lower the [memory](../anatomy/anatomy-advanced.md#memory) of **todo-react** from `256` to `32` MB of memory 
-
+- Lower the [memory](../features/features-advanced.md#memory) of **todo-hasura** from `256` to `128` MB of memory
+- Lower the [memory](../features/features-advanced.md#memory) of **postgres** from `256` to `128` MB of memory
+- Lower the [memory](../features/features-advanced.md#memory) of **todo-react** from `256` to `32` MB of memory

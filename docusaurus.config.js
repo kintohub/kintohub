@@ -24,13 +24,13 @@ module.exports = {
       },
       items: [
         {
-          label: "Getting Started",
+          label: "Get Started",
           to: "getting-started/introduction",
           position: "right",
         },
         {
-          label: "Anatomy",
-          to: "anatomy/environment",
+          label: "Features",
+          to: "features/environment",
           position: "right",
         },
         {
@@ -38,17 +38,13 @@ module.exports = {
           to: "examples/nodejs/nodejs-example",
           position: "right",
         },
-        //{ label: 'FAQ', to: 'getting-started/faq', position: 'right' },
-        {
-          label: "Need help?",
-          to: "https://www.kintohub.com/contact-us",
-          position: "right",
-        },
+        { label: "Blog", to: "blog", position: "right" },
         {
           label: "Login",
           to: "https://kintohub.com/login",
           position: "right",
         },
+        //{ label: 'FAQ', to: 'getting-started/faq', position: 'right' },
       ],
     },
     footer: {

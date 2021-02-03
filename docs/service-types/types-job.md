@@ -13,9 +13,9 @@ If your app requires manual invocation or to run on a scheduled time and does no
 
 ## Job features
 
-* Advance [Build](../anatomy/anatomy-build-settings.md) and [Deploy](../anatomy/anatomy-deploy.md) Settings
-    * 1st Class Languages Build and Deploy support
-    * Single and Multi-Stage Dockerfile Build and Deploy support
-* [Metrics](../anatomy/anatomy-metrics.md)
-* [Job History](../anatomy/anatomy-job-history.md)
-* [Environment Variables](../anatomy/anatomy-environment-variables.md)
+- Advance [Build](../features/features-build-settings.md) and [Deploy](../features/features-deploy.md) Settings
+  - 1st Class Languages Build and Deploy support
+  - Single and Multi-Stage Dockerfile Build and Deploy support
+- [Metrics](../features/features-metrics.md)
+- [Job History](../features/features-job-history.md)
+- [Environment Variables](../features/features-environment-variables.md)

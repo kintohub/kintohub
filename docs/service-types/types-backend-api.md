@@ -11,27 +11,27 @@ Usually, backend APIs perform business logic such as registering or authenticati
 
 If your app is serving the following protocols, you should consider using a Backend API Service:
 
-* HTTP
-* TCP
-* Websocket endpoint
+- HTTP
+- TCP
+- Websocket endpoint
 
 :::note
 The following protocols have not been tested.
 
-* HTTP/2
-* gRPC
-* TCP
-* UDP
-:::
+- HTTP/2
+- gRPC
+- TCP
+- UDP
+  :::
 
 ## Backend API features
 
-* Advance [Build](../anatomy/anatomy-build-settings.md) and [Deploy](../anatomy/anatomy-deploy.md) Settings
-    * 1st Class Languages Build and Deploy support
-    * Single and Multi-Stage Dockerfile Build and Deploy support
-    * Ability to service an API through a port
-    * Auto scaling
-* [Metrics](../anatomy/anatomy-metrics.md)
-* [Custom Domains](../anatomy/anatomy-domains.md)
-* [Environment Variables](../anatomy/anatomy-environment-variables.md)
-* [Public API Toggle](../anatomy/anatomy-settings.md#public-api) protects your service to be accessed internally only or enables external access.
+- Advance [Build](../features/features-build-settings.md) and [Deploy](../features/features-deploy.md) Settings
+  - 1st Class Languages Build and Deploy support
+  - Single and Multi-Stage Dockerfile Build and Deploy support
+  - Ability to service an API through a port
+  - Auto scaling
+- [Metrics](../features/features-metrics.md)
+- [Custom Domains](../features/features-domains.md)
+- [Environment Variables](../features/features-environment-variables.md)
+- [Public API Toggle](../features/features-settings.md#public-api) protects your service to be accessed internally only or enables external access.

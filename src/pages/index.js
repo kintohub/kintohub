@@ -21,7 +21,15 @@ function Home() {
             KintoHub is now open-source software. A big announcement for
             later...
           </div>
-          <div className={styles.alertLink}>LEARN MORE</div>
+
+        
+            <Link
+              to={useBaseUrl("blog")}
+              className={classnames(styles.alertLink, styles.linkNoHoverEffect)}
+            >
+              LEARN MORE
+            </Link>
+        
         </header>
         <section className={styles.heroBanner}>
           <div className={styles.heroBannerText}>

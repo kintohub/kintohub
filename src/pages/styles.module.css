@@ -271,14 +271,16 @@ h6 {
   padding: 16px 0px 16px 16px;
   font-size: 16px;
   font-weight: 500;
+  
 }
 
 .alertLink {
   margin-left: auto;
+  padding: 0px 16px 0px 8px;
   font-weight: 600;
-  letter-spacing: 1px;
-  margin-right: 12px;
+  letter-spacing: .5px;
   cursor: pointer;
+  color: var(--color-white);
 }
 
 /* section */
@@ -453,6 +455,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .alertContainer{
+
+  }
   .frameworks {
     height: 150px;
   }

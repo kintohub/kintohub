@@ -9,22 +9,22 @@ Every **Custom Domain** on KintoHub gets a **FREE** Let's Encrypt SSL certificat
 
 The following service types support **Custom domains**:
 
-* Web Apps
-* Backend APIs
+- Web Apps
+- Backend APIs
 
 ## Setting up a Domain
 
 1. Login to KintoHub
 2. Choose your environment you are interested in deploying into at the top left.
-3. Create or select an existing **Web App**, **Website** or **Backend API** service to edit 
+3. Create or select an existing **Web App**, **Website** or **Backend API** service to edit
 4. Click on the **Domains** tab near the top center of the Service page.
 
-![Domain](/img/anatomy/domain.png)
+![Domain](/img/features/domain.png)
 
 5. Enter in your domain or subdomain you wish to map to your service.
 6. Click on the **Add Domain** button
 
-![Add Domain](/img/anatomy/add-domain.png)
+![Add Domain](/img/features/add-domain.png)
 
 7. Follow the instructions to add a **CNAME** key and value to your DNS host provider
 8. Once complete click on the **OK** button
@@ -39,8 +39,8 @@ Your Let's Encrypt certificate status is displayed under **SSL Status**
 
 1. Under the **Domains** tab click on the **Remove** button in the row of the domain you wish to remove.
 
-![Remove Domain](/img/anatomy/remove-domain.png)
+![Remove Domain](/img/features/remove-domain.png)
 
 2. Click on the **Remove** button in the displayed prompt.
 
-![Cofirm remove domain](/img/anatomy/confirm-remove.png)
+![Cofirm remove domain](/img/features/confirm-remove.png)

@@ -13,9 +13,9 @@ If your app does not have any public API endpoints and needs to run continuously
 
 ## Backend worker features
 
-* Advance [Build](../anatomy/anatomy-build-settings.md) and [Deploy](../anatomy/anatomy-deploy.md) Settings
-    * 1st Class Languages Build and Deploy support
-    * Single and Multi-Stage Dockerfile Build and Deploy support
-    * Auto scaling
-* [Metrics](../anatomy/anatomy-metrics.md)
-* [Environment Variables](../anatomy/anatomy-environment-variables.md)
+- Advance [Build](../features/features-build-settings.md) and [Deploy](../features/features-deploy.md) Settings
+  - 1st Class Languages Build and Deploy support
+  - Single and Multi-Stage Dockerfile Build and Deploy support
+  - Auto scaling
+- [Metrics](../features/features-metrics.md)
+- [Environment Variables](../features/features-environment-variables.md)

@@ -4,32 +4,32 @@ title: Advanced Settings
 ---
 
 Advanced settings give you full control to customize your service's resources and timeout settings.
-Once you make a change to any advanced setting, you will be required to [Deploy](anatomy-deploy.md) the changes.
+Once you make a change to any advanced setting, you will be required to [Deploy](features-deploy.md) the changes.
 
 ## View Advanced Settings
 
 The advanced settings tab is located under the **Edit Service** slide-out menu.
 
 1. Login to your KintoHub account
-2. Create a new service or click on a Service in your [Environment](anatomy/anatomy-environment.md)
+2. Create a new service or click on a Service in your [Environment](features-environment.md)
 3. Click on the **Edit Service** button at the top right
 
-![Edit Service](/img/anatomy/edit-service.png)
+![Edit Service](/img/features/edit-service.png)
 
 4. Find the tab called **Advanced** on the far right
 
-![Advanced](/img/anatomy/advanced-tab.png)
+![Advanced](/img/features/advanced-tab.png)
 
 ## How It Works?
 
 Unique settings will be available depending on your service type.
 
-![Advance options](/img/anatomy/advance-options.png)
+![Advance options](/img/features/advance-options.png)
 
 ### Memory
 
 The amount of memory your application has guaranteed access to at all times.
-Using [Metric](anatomy-metrics.md) tab, you see the actual memory usage of your service and fine-tune the amount of memory you want to allocate to your service over time.
+Using [Metric](features-metrics.md) tab, you see the actual memory usage of your service and fine-tune the amount of memory you want to allocate to your service over time.
 The lowest value of memory you may use is **32 Mb** and the highest value is **4 Gb**.
 
 If you require more memory, you may [contact support](https://www.kintohub.com/contact-us).
@@ -52,8 +52,8 @@ When enabled, you will be able to set the **Min Instances** and **Max Instances*
 This is known as **Horizontal Scaling** and is best used for **Stateless** services.
 The maximum number of instances you may scale to is **10**.
 
-* **Min Instances** is the number of instances running at all times. Your environment may require **High Availability** which can be achieved by setting **Min Instances** to the number of instances you wish to have running at all times.
-* **Max Instances** is the maximum number of instances you will allow your service to scale to. When your service sustains **70%** CPU usage for a short period, KintoHub will spawn another instance for you. When your service no longer is using a high amount of load, KintoHub will scale down your instances back down to your **Min Instances** value.
+- **Min Instances** is the number of instances running at all times. Your environment may require **High Availability** which can be achieved by setting **Min Instances** to the number of instances you wish to have running at all times.
+- **Max Instances** is the maximum number of instances you will allow your service to scale to. When your service sustains **70%** CPU usage for a short period, KintoHub will spawn another instance for you. When your service no longer is using a high amount of load, KintoHub will scale down your instances back down to your **Min Instances** value.
 
 :::note
 An **instance** is a single running version of your application or service. When multiple instances are running, KintoHub balances the API request load between your service instances.
@@ -64,10 +64,10 @@ An **instance** is a single running version of your application or service. When
 When enabled, KintoHub will deploy your service instances on discounted vCPU and Memory resources.
 Discounted instances uptime **are not** guaranteed, and you may incur some downtime if you do not set up at least **2 min instances** for your service.
 Today, it is not recommended to use **Cost Optimization** for Production environments, but the team is working hard on building more confidence in providing a cost-effective production version of **Cost Optimization** in the future.
-Price differences between Cost Optimization versus Standard pricing are described in [Billing](anatomy-billing.md).
+Price differences between Cost Optimization versus Standard pricing are described in [Billing](features-billing.md).
 
 ### Storage (Persistence)
-    
+
 Catalog related services may optionally enable or disable **Persistent Volumes**. When **Persistent Volumes** are disabled and your instance restarts for any reason, **your data WILL be lost**.
 It is not recommended to disable persistence unless you plan to do a quick test or use a Catalog service for caching such as Redis.
 
@@ -75,7 +75,7 @@ The minimum value of storage you may select is **1 Gb** and the maximum is **200
 
 Catalog Services that support Persistent Storage:
 
-* Postgres
+- Postgres
 
 :::note
 It is currently **NOT** possible to increase your Storage amount. Vote on the feature [here](https://feedback.kintohub.com/feature-requests/p/increase-persistent-storage-disk-size).

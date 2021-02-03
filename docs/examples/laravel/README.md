@@ -9,11 +9,11 @@ Additionally, this guide can be used to quickly set up Laravel locally on your m
 
 ## Directory Structure
 
-* `/laravel` - Generic installation of Laravel
-* `/nginx` - Configuration files for nginx to serve PHP
-* `laravel.dockerfile` - Dockerfile to bootstrap Laravel app
-* `nginx.dockerfile` - Dockerfile to serve nginx website
-* `docker-compose.yaml` - Composition of nginx + laravel + postgres to work together
+- `/laravel` - Generic installation of Laravel
+- `/nginx` - Configuration files for nginx to serve PHP
+- `laravel.dockerfile` - Dockerfile to bootstrap Laravel app
+- `nginx.dockerfile` - Dockerfile to serve nginx website
+- `docker-compose.yaml` - Composition of nginx + laravel + postgres to work together
 
 ## Running locally
 
@@ -95,7 +95,7 @@ We need to deploy a web host proxy to serve the php app on KintoHub.
 
 When complete, open the **Access** tab and open the external URL to see your Laravel app!
 
-![Laravel](/img/anatomy/laravel.png)
+![Laravel](/img/features/laravel.png)
 
 ## :ambulance: Support
 

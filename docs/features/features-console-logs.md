@@ -14,7 +14,7 @@ We are looking into storing historic logs for you. Vote for the feature [here](h
 
 :::tip
 Use 3rd party services like Datadog to capture your logs for long term storage and analysis.
-::: 
+:::
 
 ## View Console
 
@@ -23,7 +23,7 @@ Use 3rd party services like Datadog to capture your logs for long term storage a
 3. Choose the service from the services list you are interested in editing.
 4. Click on the **Console** tab in the upper center of the screen.
 
-![console](/img/anatomy/console.png)
+![console](/img/features/console.png)
 
 ## Console Log Format
 
@@ -53,4 +53,4 @@ The search will highlight and inform you of how many successful search results h
 If you wish to see only the lines that contain the text you have input into the **Search** bar, you may click to toggle the `lines` icon to the right of the **Search** bar.
 The `lines` toggle will filter your logs to only show you what you have searched for.
 
-![Lines Toggle](/img/anatomy/lines-toggle.png)
+![Lines Toggle](/img/features/lines-toggle.png)
