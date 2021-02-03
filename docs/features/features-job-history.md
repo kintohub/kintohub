@@ -3,7 +3,7 @@ id: job-history
 title: Job Activity
 ---
 
-Job activity is a feature only for the [Job](../service-types/types-job.md) service type.
+Job activity is a feature only for the [Job](/service-types/types-job.md) service type.
 This feature allows you to see the last **10** jobs that have run and their results.
 This is useful to see if any issues have occurred for your job and are able to review and debug their logs.
 

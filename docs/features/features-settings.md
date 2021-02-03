@@ -20,7 +20,7 @@ It's coming soon! Hang tight.
 
 ## Public API
 
-Public APIs are available only for [Backend Services](../service-types/types-backend-api.md).
+Public APIs are available only for [Backend Services](/service-types/types-backend-api.md).
 This toggle allows you to enable or disable a secure public hostname for your service to be accessed.
 **Backend Services** by default are public.
 

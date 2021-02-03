@@ -26,12 +26,12 @@ The following protocols have not been tested.
 
 ## Backend API features
 
-- Advance [Build](../features/features-build-settings.md) and [Deploy](../features/features-deploy.md) Settings
+- Advance [Build](/features/features-build-settings.md) and [Deploy](/features/features-deploy.md) Settings
   - 1st Class Languages Build and Deploy support
   - Single and Multi-Stage Dockerfile Build and Deploy support
   - Ability to service an API through a port
   - Auto scaling
-- [Metrics](../features/features-metrics.md)
-- [Custom Domains](../features/features-domains.md)
-- [Environment Variables](../features/features-environment-variables.md)
-- [Public API Toggle](../features/features-settings.md#public-api) protects your service to be accessed internally only or enables external access.
+- [Metrics](/features/features-metrics.md)
+- [Custom Domains](/features/features-domains.md)
+- [Environment Variables](/features/features-environment-variables.md)
+- [Public API Toggle](/features/features-settings.md#public-api) protects your service to be accessed internally only or enables external access.

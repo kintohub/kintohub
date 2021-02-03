@@ -26,7 +26,7 @@ All Minio servers are 100% dedicated to your environment.
 ## Access Your Minio Instances
 
 You may only access your Minio Instance from services running in the **same** environment.
-Learn more about how to connect to your Minio Instance under the [Access Tab](../features/features-access.md#minio).
+Learn more about how to connect to your Minio Instance under the [Access Tab](/features/features-access.md#minio).
 
 ::note
 In the near future you will be able to [Tunnel](https://feedback.kintohub.com/feature-requests/p/port-forwarding-for-debugging) from your machine to your service for easy access.
@@ -44,12 +44,12 @@ Read more about minio highly available distributed mode [here](https://docs.min.
 
 ### Cost Optimization
 
-Enabling [Cost Optimization](../features/features-advanced.md#cost-optimization) is **not recommended** for `production` environments.
+Enabling [Cost Optimization](/features/features-advanced.md#cost-optimization) is **not recommended** for `production` environments.
 Cost optimization places your instances on Spot or Pre-emptible cloud instances which can incur random downtime.
 For best effort uptime, you must **disable** cost optimization.
 
 ### (Storage) Persistence
 
-Minio has an optional [(Storage) Persistence](../features/features-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
+Minio has an optional [(Storage) Persistence](/features/features-advanced.md#storage-persistence) and **Volume Size** options available under the **Advanced Options** Tab.
 
 ![Minio Advanced](/img/catalogs/redis-advanced.png)

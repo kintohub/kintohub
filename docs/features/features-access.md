@@ -7,7 +7,7 @@ When developing your app, you may have one or many services speaking to each oth
 
 ## View Access Information
 
-Not all services can be accessed. [Jobs](../service-types/types-job.md) and [Background Workers](../service-types/types-backend-worker.md) do not have any accessible endpoints.
+Not all services can be accessed. [Jobs](/service-types/types-job.md) and [Background Workers](/service-types/types-backend-worker.md) do not have any accessible endpoints.
 
 The following service types will have an **Access Tab** available
 

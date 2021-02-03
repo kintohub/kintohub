@@ -11,16 +11,16 @@ Web Apps may look identical to [Backend APIs](types-backend-api.md), but will ha
 If your website requires a port and is not built into static files, you should consider using a web app.
 
 :::note
-For `Static Websites` checkout [here](../service-types/types-static-site.md#web-app)
+For `Static Websites` checkout [here](/service-types/types-static-site.md#web-app)
 :::
 
 ## Web App features
 
-- Advance [Build](../features/features-build-settings.md) and [Deploy](../features/features-deploy.md) Settings
+- Advance [Build](/features/features-build-settings.md) and [Deploy](/features/features-deploy.md) Settings
   - 1st Class Languages Build and Deploy support
   - Single and Multi-Stage Dockerfile Build and Deploy support
   - Ability to service an API through a port
   - Auto scaling
-- [Metrics](../features/features-metrics.md)
-- [Custom Domains](../features/features-domains.md)
-- [Environment Variables](../features/features-environment-variables.md)
+- [Metrics](/features/features-metrics.md)
+- [Custom Domains](/features/features-domains.md)
+- [Environment Variables](/features/features-environment-variables.md)
