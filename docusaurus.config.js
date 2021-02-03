@@ -116,14 +116,14 @@ module.exports = {
 
       copyright: `<p style="text-align:left;">Open-sourced with Apache 2.0 License.</p>`,
     },
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: process.env.ALGOLIA_INDEX,
-      algoliaOptions: {},
-    },
-    googleAnalytics: {
-      trackingID: "UA-112004187-1",
-    },
+    // algolia: {
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   indexName: process.env.ALGOLIA_INDEX,
+    //   algoliaOptions: {},
+    // },
+    // googleAnalytics: {
+    //   trackingID: "UA-112004187-1",
+    // },
   },
   presets: [
     [
