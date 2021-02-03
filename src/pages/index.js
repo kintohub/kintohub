@@ -32,9 +32,11 @@ function Home() {
         <section className={styles.heroBanner}>
           <div className={styles.heroBannerText}>
             <h1 className={styles.heading}>Heroku Your Kubernetes</h1>
-            <button className={styles.button}>
-              <img src="/img/power-btn.svg"></img> Get Started
-            </button>
+            <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
+              <button className={styles.button}>
+                <img src="/img/power-btn.svg"></img> Get Started
+              </button>
+            </Link>
             <div className={styles.hSpacer5}></div>
             <h5 className={(styles.primaryText, styles.subheading)}>
               KintoHub is an open source build and deployment platform designed
