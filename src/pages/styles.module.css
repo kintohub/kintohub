@@ -271,14 +271,13 @@ h6 {
   padding: 16px 0px 16px 16px;
   font-size: 16px;
   font-weight: 500;
-  
 }
 
 .alertLink {
   margin-left: auto;
   padding: 0px 16px 0px 8px;
   font-weight: 600;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   cursor: pointer;
   color: var(--color-white);
 }
@@ -368,6 +367,7 @@ img {
   position: relative;
   background: url("/img/black-slant.svg") no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .icon {
@@ -423,6 +423,7 @@ a:hover {
   background-color: var(--color-purple);
   color: var(--color-white);
   cursor: pointer;
+  z-index: 99;
 }
 
 .button:hover {
@@ -455,8 +456,7 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
-  .alertContainer{
-
+  .alertContainer {
   }
   .frameworks {
     height: 150px;

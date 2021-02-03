@@ -22,20 +22,18 @@ function Home() {
             later...
           </div>
 
-        
-            <Link
-              to={useBaseUrl("blog")}
-              className={classnames(styles.alertLink, styles.linkNoHoverEffect)}
-            >
-              LEARN MORE
-            </Link>
-        
+          <Link
+            to={useBaseUrl("blog")}
+            className={classnames(styles.alertLink, styles.linkNoHoverEffect)}
+          >
+            LEARN MORE
+          </Link>
         </header>
         <section className={styles.heroBanner}>
           <div className={styles.heroBannerText}>
             <h1 className={styles.heading}>Heroku Your Kubernetes</h1>
             <button className={styles.button}>
-              <img src="/img/power.svg"></img> Get Started
+              <img src="/img/power-btn.svg"></img> Get Started
             </button>
             <div className={styles.hSpacer5}></div>
             <h5 className={(styles.primaryText, styles.subheading)}>
@@ -176,7 +174,7 @@ function Home() {
                 >
                   import URL
                 </Link>{" "}
-                to connect any public or private git repo
+                to connect any public or private git repo.
               </h5>
             </div>
 
@@ -239,9 +237,11 @@ function Home() {
                   </h6>
                 </div>
               </div>
-              <button className={styles.button}>
-                <img src="/img/power.svg"></img> Get Started
-              </button>
+              <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
+                <button className={styles.button}>
+                  <img src="/img/power-btn.svg"></img> Get Started
+                </button>
+              </Link>
               <div className={styles.hSpacer2}></div>
             </div>
             <div>
@@ -267,10 +267,7 @@ function Home() {
                 className={classnames(styles.link, styles.linkNoHoverEffect)}
               >
                 <div>
-                  <img
-                    className={styles.icon}
-                    src="/img/playlist-plus.svg"
-                  ></img>
+                  <img className={styles.icon} src="/img/power.svg"></img>
                   <h4 className={styles.primaryText}>Installation Guide</h4>
                   <h5 className={styles.secondaryText}>
                     Why should you use KintoHub?
@@ -453,8 +450,7 @@ function Home() {
 
           <Link to={useBaseUrl("https://app.kintohub.com/auth/sign-up")}>
             <button className={styles.button}>
-              <img src="/img/power.svg"></img>
-              Get Started
+              <img src="/img/power-btn.svg"></img> Get Started
             </button>
           </Link>
           <div className={styles.callToActionBg}></div>
